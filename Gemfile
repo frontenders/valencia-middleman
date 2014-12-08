@@ -2,8 +2,6 @@
 # the following line to use "https"
 source 'http://rubygems.org'
 
-ruby "2.1.0"
-
 gem "middleman", "~>3.2.2"
 
 # Live-reloading plugin
@@ -13,4 +11,7 @@ gem "middleman-livereload", "~> 3.1.0"
 gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
 
 gem "rack-contrib"
-gem "puma"
+
+group :development do
+	gem 'unicorn'
+end 
