@@ -1,0 +1,32 @@
+// _varables.scss
+
+//// Basic Colors
+
+  $white: #fff;
+
+  $gray: #53585e; /* text */
+  $gray_light: #f5f5f5; /* background */
+  $gray_lighter: rgba(161, 161, 161, 0.5);
+
+  $orange: #e67e22;
+  $orange_light: rgba(243, 156, 18, 1.0);
+  $orange_dark: rgba(211, 84, 0, 0.5);
+
+  $blue: #1ea0ce;
+  $blue_light: #339ACC;
+
+
+//// Background Colors
+
+  $body_background: $gray_light;
+  $header_background: $orange;
+  $button_background: $orange_dark;
+  $button_hover_background: $orange_light;
+
+//// Text Colors
+
+  $text_body_color: $gray;
+  $text_header_color: $white;
+  $text_heading_color: $orange;
+  $text_link_color: $blue;
+  $text_link_hover_color: $blue_light;
