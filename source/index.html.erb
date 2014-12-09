@@ -1,6 +1,15 @@
 ---
 title: a meetup for Frontend & UI Developers, UX & Web Designers
+ready: true
 ---
+
+<% 
+  if current_page.data.ready 
+    homepage = data.new.meetup 
+  else
+    homepage = data.default.meetup
+  end 
+%>
 
 <div id="main" role="main" class="clearfix">
 
@@ -9,13 +18,15 @@ title: a meetup for Frontend & UI Developers, UX & Web Designers
           Nos encontramos regularmente el segundo jueves de cada mes en el espacio de coworking <a target="_blank"  href="http://geekshubs.com/es/?utm_source=comunidades&utm_medium=web&utm_campaign=frontenders"  title="Comunidad Geek y Emprendedores techies">GeeksHubs</a>, en Avenida Cataluña, 11 (Valencia). <a href="frontenders.html">¿Quieres saber más?</a>
       </p>
 
-        <h2 class="centered orange scream">Próximo meetup: <span>jueves 9 mayo 2013, 19:00h</span></h2>
+      <h2 class="centered orange scream">Próximo meetup: <span>jueves 9 mayo 2013, 19:00h</span></h2>
 
-      <% data.index.talks.each do |f| %>
-	      <section class="content first_box undefined">
-	        <h2><%= f[:title] %></h2>
-	        <p><%= f[:text_1] %></p>
-	        <p><%= f[:text_2] %></p>
-	      </section>
-	     <% end %>
+      <% homepage.talks.each do |f| %>
+        <section class="content first_box undefined">
+          <h2><%= f[:title] %></h2>
+          <% f.text.each do |t| %>
+            <p><%= t %></p>
+          <% end %>
+        </section>
+      <% end %>
+
     </div>
