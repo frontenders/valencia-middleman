@@ -6,400 +6,54 @@ title: Los eventos anteriores
 
       <h2 class="centered orange scream margin_top_0">Meetups anteriores</h2>
 
-      <h3 class="centered past">
-        jueves 13 noviembre 2014, 19:00h
-        <a href="https://plus.google.com/u/0/events/c43la6lak11lgpo6g7q6bgumfpc" target="_blank" class="ir hangout">Hangout On Air</a>
-      </h3>
+        <% data.archive.meetups.each do |m| %>
+
+        <h2 class="centered past">
+        jueves <%= m[:date] %>
+        <% if m[:hangout_url] %>
+          see on
+          <%= link_to m[:hangout_url], m[:hangout_url], :class=> "ico hangout", :target=> "_blank"  %>
+        <% end %>
+        </h2>
+
+        <section class="<%= m[:type] %>">
+          <% m.talks.each do |f| %>
+            <article class="content first_box undefined">
+              
+              <h2><%= f[:title] %></h2>
+              
+              <% f.text.each do |t| %>
+                <p><%= t %></p>
+              <% end %>
+              
+              <% f.author.each do |t| %>
+                <p>
+                  <%= t[:name] %>
+                  <%= link_to "@"+t[:twitter], "https://twitter.com/"+t[:twitter], :target=> "_blank"  %>
+                  <%= t[:bio] %>
+                </p>
+              <% end %>
+
+              <% if f.links %>
+                <% f.links.each do |t| %>
+                  <p>
+                    <%= link_to t[:label], t[:url], :target=> "_blank"  %>
+                  </p>
+                <% end %>
+              <% end %>          
+            </article>
+          <% end %>
+
+          <% if m.sponsor %>
+            <section>
+              <h2>Patrocinador</h2>
+              <%= link_to image_tag(m.sponsor[:image]), m.sponsor[:url], :title => m.sponsor[:name], :target=> "_blank"  %>
+            </section>
+          <% end %>
+
+          </section>      
+        <% end %>
 
-      <div class="clearfix">
-        <section class="content first_box">
-
-          <h2>¿Comprar online es una experiencia? UX para ecommerce</h2>
-
-          <p>El comercio online es un mercado durísimo donde las empresas invierten multitud de recursos para crear experiencias seductoras que les diferencien de la competencia.</p>
-
-          <p>En esta charla aprenderemos los secretos para crear experiencias enfocadas en el usuario de ecommerce, y sacarles provecho para convertirlas en propuestas de valor que ayuden a alcanzar el objetivo de cualquier negocio online: vender más.
-          <a class="block" target="_blank"  href="/slides/Dani_Frontenders_UX_ecommerce.pdf">slides &raquo;</a>
-          </p>
-
-          <p>Dani Catalan (<a target="_blank" href="https://twitter.com/dani_catalan">@dani_catalan</a>) es Desarrollador Frontend en @kuombo, agencia especializada en el desarrollo del negocio de tiendas online.</p>
-
-        </section>
-
-        <section class="content second_box">
-          <h2>Maquetación con Flexbox</h2>
-
-          <p>CSS empezó con mal pie cuando nos dio el "float" como medio de distribución de elementos y luego lo intentó arreglar con "display: table".</p>
-
-          <p>Pero ahora tenemos el módulo de Flexbox, con el que podemos maquetar con propiedades simples e intuitivas (o no) alterando los espacios entre objetos y el tamaño de los objetos en si. Vamos a dar un paseo por sus posibilidades y sintaxis. 
-          <a class="block" target="_blank"  href="/slides/Wakkos_Frontenders_Flexbox.pdf">slides &raquo;</a>
-          </p>
-
-          <p>Daniel Martínez (<a target="_blank" href="https://twitter.com/Wakkos">@Wakkos</a>) es Frontend y tutor/profesor de Arquitectura CSS y responsive design en @EscuelaIt y @vadeclases.</p>
-        </section>
-      </div>
-
-      <h3 class="centered past">
-        jueves 11 septiembre 2014, 19:00h
-        <a href="https://plus.google.com/events/cp3jjqh3uo7a33e684u5938olik" target="_blank" class="ir hangout">Hangout On Air</a>
-      </h3>
-
-      <div class="clearfix">
-        <section class="content single_box">
-          <h2>Angularjs y su magia</h2>
-          <p>Esta charla va a contener dos partes enlazadas en las que explicaremos qué es Angularjs y cuáles son sus bases y principios sobre los que se apoya. La idea está especialmente recomendada a gente poca experiencia o que quiera comenzar en breve. Aquí aprenderemos tips & tricks sobre cómo funciona y cómo utilizarla mejor.</p>
-
-          <p>
-            En la segunda parte subiremos un poco el nivel y la orientaremos más a gente con experiencia en angular, aunque los más neófitos podrán ver qué pueden conseguir. En ella entraremos a ver la potencia que proporciona Angularjs y mostraremos un ejemplo de una aplicación web empresarial con muy pocas líneas de javascript, ¿o conseguiremos no escribir ninguna? Todo un reto :-)
-            <a class="block" target="_blank"  href="http://www.slideshare.net/pedrohurtadocandel/angularjs-36566730">slides &raquo;</a>
-          </p>
-
-
-          <p class="margin_top_20">Pedro Hurtado Candel (<a target="_blank" href="https://twitter.com/@_PedroHurtado">@_PedroHurtado</a>) es un truhan y un señor. Trabaja en .Net y últimamente en JavaScript y Angularjs. Administrador del foro de c# de msdn.</p>
-
-          <p class="margin_top_20">Xavier Jorge Cerdá (<a target="_blank" href="https://twitter.com/@XaviPaper">@XaviPaper</a>)  es Ingeniero Informático por la UPV y  CTO de Ami2. Vinculado a proyectos de I+D+i con universidades, trabaja .Net y últimamente en Angularjs.</p>
-        </section>
-      </div>
-
-      <section class="full_box centered sponsor home">
-        <h3>Patrocinador</h3>
-        <a class="ir block momentum" target="_blank"  href="http://allstartup.es/" title="ALL STARTUP | El evento de selección de emprendedores de momentum">ALL STARTUP | El evento de selección de emprendedores de momentum</a>
-      </section>
-
-
-      <h3 class="centered past">
-        jueves 12 junio 2014, 19:00h
-        <a href="https://plus.google.com/u/0/events/cctu9mgtopkatcah0cskpe7l9i8" target="_blank" class="ir hangout">Hangout On Air</a>
-      </h3>
-
-      <div class="clearfix">
-        <section class="content first_box">
-          <h2>Desarrollo de cuentos interactivos para tablets con Cordova</h2>
-          <p>En la presentación veremos cómo comenzar a crear apps móviles con Cordova / Phonegap y lo sencillo que resulta para los frontenders.</p>
-          <p>
-            También trataremos cómo Javi y Cris lo han utilizado en su proyecto paralelo Oniric.co para desarrollar cuentos infantiles interactivos y las diferencias de desarrollar este tipo de apps comparado con el desarrollo de webs tradicionales.
-            <a class="block" target="_blank"  href="http://jacarma.github.io/alicetutorial/#1">slides &raquo;</a>
-          </p>
-
-          <p>Cris y Javi forman <a target="_blank" href="https://twitter.com/oniricco">@oniricco</a> por puro placer</p>
-        </section>
-
-        <section class="content second_box">
-          <h2>Arquitectura front-end CSS para proyectos a gran escala</h2>
-          <p>Los proyectos de gran envergadura tienen requisitos particulares: la prioridad en la facilidad de mantenimiento, la modularización de las partes del proyecto y la gestión de la especificidad de selectores.</p>
-
-          <p>
-            Esta charla versará sobre cómo aplicar y combinar diferentes metodologías de desarrollo CSS en nuestro beneficio. Veremos cómo nombrar usando BEM, cómo crear módulos y aplicar herencia basada en SMACSS, cómo reutilizar nuestros componentes con OOCSS y cómo aplicar frameworks como inuitcss o suitcss a nuestros proyectos.
-            <a class="block" target="_blank"  href="http://www.slideshare.net/RobertoLuchaSedeo/arquitectura-frontend-con-bem-y-sass">slides &raquo;</a>
-          </p>
-
-          <p>Roberto Lucha Sedeño (<a target="_blank" href="https://twitter.com/rlucha">@rlucha</a>) es Front-End Developer en all4Business creando UX para ecommerces Magento, Prestashop y desarrollos internos.</p>
-        </section>
-      </div>
-
-      <section class="full_box centered sponsor home">
-        <h3>Patrocinador</h3>
-        <a class="ir block vbote" target="_blank"  href="http://www.vbote.com/" title="vBote, el centro de formación en tecnología móvil">vBote, el centro de formación en tecnología móvil</a>
-      </section>
-
-      <h3 class="centered past">
-        jueves 8 mayo 2014, 19:00h
-        <a href="https://plus.google.com/u/2/events/cm3parlf18t379br8jp2m85hehc" target="_blank" class="ir hangout">Hangout On Air</a>
-      </h3>
-
-
-      <div class="clearfix">
-        <section class="content single_box">
-          <h2>Workshop: Sublime Workflow</h2>
-          <p>Sin duda Sublime Text es el editor de código más cool del momento y una de las herramientas más utilizadas para el desarrollo front-end. En este taller verás cómo configurar, personalizar y aprender a sacarle todo el partido a Sublime Text. En menos de una hora tendrás la información suficiente como para crear tu propio Sublime Workflow.</p>
-          <p class="margin_bottom_0">¿Qué necesitas?</p>
-          <p class="margin_top_0">
-            Un portátil (da igual el SO) con Sublime Text instalado. Hay repositorios y paquetes para todas las distribuciones mayoritarias de Linux, así como MacOS y Windows.
-            <a class="block" target="_blank"  href="https://app.simplenote.com/publish/mWKpZB">resources &raquo;</a>
-          </p>
-          <p class="margin_top_20">Juan Andrés Núñez (<a target="_blank" href="https://twitter.com/juanwmedia">@juanwmedia</a>) es Desarrollador Interactivo, colabora con varias agencias y estudios de la Comunidad Valenciana y le entusiasma estar siempre aprendiendo algo nuevo.</p>
-        </section>
-      </div>
-
-      <h3 class="centered past">
-        jueves 10 abril 2014, 19:00h
-        <a href="https://plus.google.com/u/0/events/cr3ouutmmsm8k2fng3f7e666g70" target="_blank" class="ir hangout">Hangout On Air</a>
-      </h3>
-
-      <div class="clearfix">
-        <section class="content first_box">
-          <h2>Cómo inspeccionar Sass en Chrome usando su Workspace</h2>
-          <p>
-            Veremos cómo usar el Workspace de Chrome Dev Tools para guardar al vuelo los cambios mientras inspeccionamos el DOM y para los que usamos un preoprocesador CSS, modificar el archivo fuente y guardar los cambios para refrescarlos en pantalla automáticamente.
-            <a class="block" target="_blank"  href="/slides/JoseViChromeSassApr2014.rar">slides &raquo;</a>
-          </p>
-          <p>Jose Vicente Belenguer (<a target="_blank" href="https://twitter.com/josevibp">@josevibp</a>) es Diseñador Web Freelance y colaborador en Artvisual.net como Front-End Developer.</p>
-        </section>
-
-        <section class="content second_box">
-          <h2>CSS Técnicas avanzadas</h2>
-          <p>Es una exposición de problemas de diseño que pueden resolverse fácilmente con CSS, sin uso de JS. Veremos ejemplos prácticos de menor a mayor complejidad, además de un repaso sobre cómo personalizar elementos de formulario.</p>
-          <p>
-            Finalmente se hará un pequeño resumen sobre propiedades no muy conocidas de CSS.
-            <a class="block" target="_blank"  href="https://github.com/meetsapp/talks/">slides & resources &raquo;</a>
-          </p>
-          <p>Ismael González (<a target="_blank" href="https://twitter.com/@basiclines">@basiclines</a>) hace diseño y front-end en meets (@meetsapp).</p>
-        </section>
-      </div>
-
-      <section class="full_box centered sponsor home">
-        <h3>Patrocinador</h3>
-        <a class="ir block singularu" target="_blank"  href="http://singularu.com/blog/developer-se-busca/" title="Singularu :: Encarga Piezas Únicas A Los Mejores Artesanos De España">Singularu :: Encarga Piezas Únicas A Los Mejores Artesanos De España</a>
-      </section>
-
-
-
-
-
-      <h3 class="centered past">
-        jueves 13 marzo 2014
-        <a href="https://plus.google.com/u/0/events/c9m0s9v7jhj0of5v61bt54b8h6k" target="_blank" class="ir hangout">Hangout On Air</a>
-
-      </h3>
-      <div class="clearfix">
-        <section class="content first_box">
-          <h2>Carruseles Animados con Caroufredsel</h2>
-          <p>Write less, do more... escribir menos y hacer más... Eso es lo que logras cuando utilizas jQuery y sus extensiones.</p>
-          <p>Si te interesa aprender un poco sobre caroufredesel, cómo cofigurarlo y ver varias demostraciones en vivo, ésto es para ti!
-          <a class="block" target="_blank"  href="http://luisarraez.com/frontenders/">slides &raquo;</a>
-          </p>
-          <p><a target="_blank" href="http://luisarraez.com">Luis A. Arraez Dominguez</a> (<a target="_blank" href="https://twitter.com/luisarraezd">@luisarraezd</a>)  es Desarollador Web y Móvil.</p>
-        </section>
-
-        <section class="content second_box">
-          <h2>Diseño en Wikipedia</h2>
-          <p>Wikipedia es una referencia para millones de usuarios. Diseñar una solución usable para seleccionar entre sus más de 300 idiomas es todo un desafío.</p>
-          <p>Esta charla aborda el caso del selector de idiomas para ilustrar el proceso de diseño y presentar técnicas útiles para todo tipo de proyectos.
-          <a class="block" target="_blank"  href="https://speakerdeck.com/pauginer/diseno-en-wikipedia">slides &raquo;</a>
-          </p>
-          <p>Pau Giner (<a target="_blank" href="https://twitter.com/pauginer">@pauginer</a>) es UX Designer en la Wikimedia Foundation.</p>
-        </section>
-      </div>
-
-
-      <h3 class="centered past">jueves 13 febrero 2014</h3>
-
-      <div class="clearfix">
-        <section class="content first_box">
-          <h2>Buscando la inspiración. La herramienta no es lo más importante.</h2>
-          <p>
-            Nos enseñan a "diseñar" usando una herramienta, pero ¿qué es realmente el diseño? y ¿cómo encontrar la inspiración?. A lo largo de esta charla veremos técnicas y otros trucos que nos ayudarán a conseguirlo.
-            <a class="block" target="_blank"  href="/slides/EsterBuscandolainspiracionFrontendersFeb2014.pdf">slides &raquo;</a>
-            <a class="block" target="_blank"  href="http://www.youtube.com/watch?v=i25Mm9bbsWE">video &raquo;</a>
-          </p>
-          <p>Ester Cañizares (<a target="_blank" href="https://twitter.com/EsterCanizares">@EsterCanizares</a>)  es UX and Designer.</p>
-        </section>
-
-        <section class="content second_box">
-          <h2>Mudando a Ajax sin morir en el intento, un caso práctico.</h2>
-          <p>
-            No siempre es fácil crear una nueva interfaz reutilizando un proyecto anterior totalmente estático, veremos un caso práctico, os explicaré algunas alternativas al flow tradicional de algunos frameworks mvc en javascript  y veremos cómo hacer webs dinámicas aptas para SEO sin complicaciones con esta metodología.
-            <a class="block" target="_blank"  href="http://www.slideshare.net/IvnGarcaVillar/mudate-a-ajax-sin-morir-en-el-intento">slides &raquo;</a>
-          </p>
-          <p><a target="_blank" href=" http://pickevent.com/IvanGV">Iván García Villar</a> es Software developer @ Pickevent.</p>
-        </section>
-      </div>
-
-      <h3 class="centered past">jueves 12 diciembre 2013</h3>
-
-      <div class="clearfix">
-        <section class="content first_box">
-          <h2>COMPASS, al rescate de CSS</h2>
-          <p>Comenzaremos analizando los problemas que solemos encontrar en la maquetación de interfaces web con el uso de CSS, malas practicas u otras limitaciones. Y después veremos como mejorar nuestras prestaciones y productividad utilizando la herramienta COMPASS.</p>
-          <p>
-            En resumen, una pequeña introducción para aquellos interesados en abandonar el spaghetti code y tomar el verdadero sendero hacia la iluminación.
-            <a class="block" target="_blank"  href="/slides/VicenteCompassDic2013.pdf">slides &raquo;</a>
-            <a class="block" target="_blank"  href="/slides/VicenteCompassFrontendersDic2013.tar.gz">resources &raquo;</a>
-           </p>
-          <p>Vicente Pons (<a target="_blank" href="https://twitter.com/gponsu">@gponsu</a>) es es Ing. Informático, especialmente interesado en la gestión de proyectos y el desarrollo de interfaces web.</p>
-        </section>
-
-        <section class="content second_box">
-          <h2>Prototipos interactivos con FramerJS</h2>
-          <p>Cada vez es más necesario poder crear prototipos navegables para móvil que nos ayuden a validar y testear las decisiones que tomamos cuando elegimos una interacción o animación concreta. Para ello explicaremos cómo usar FramerJS y qué ventajas nos aporta, aprenderemos a crear un prototipo básico y veremos el ejemplo de alguno más avanzado.</p>
-          <p>
-            No es necesario conocer profundamente JS, con tener algunas nociones básicas es suficiente. Incluso si no sabes usar JS, esta charla ayudará a conocer los aspectos básicos.
-            <a class="block" target="_blank"  href="http://meetsapp.com/talks/framerjs/talk.zip">slides &raquo;</a>
-          </p>
-          <p>Ismael González (<a target="_blank" href="https://twitter.com/basiclines">@basiclines</a>) hace diseño y front-end en meets (@meetsapp) start-up acelerada por @PlugandPlayES</p>
-        </section>
-      </div>
-
-      <section class="full_box centered sponsor home">
-        <h3>Patrocinador</h3>
-        <a class="ir block emergia" target="_blank"  href="http://www.emergia.net/ofertas" title="Emergia - desarrollamos comunidades y redes sociales verticales">Emergia - desarrollamos comunidades y redes sociales verticales</a>
-      </section>
-
-
-      <h3 class="centered past">jueves 14 noviembre 2013</h3>
-
-      <div class="clearfix">
-        <section class="content first_box">
-          <h2>UX en 30 minutos</h2>
-          <p>Un viaje rápido por el mundo del UX. Todos sabemos qué significa User Experience, pero ¿de verdad sabemos qué quiere decir UX a la hora de crear un proyecto?</p>
-          <p>Intentaremos explicar la esencia, algunas técnicas aplicadas al diseño/estructura (cosas que se mueven y hacen cosas... para no aburrirnos) y cómo presentar un proyecto que haga uso de UX.
-            <a class="block" target="_blank"  href="http://andreo.li/download/FRONTENDERSNOV2013.pdf">slides &raquo;</a>
-          </p>
-          <p>Stefano Andreoli (<a target="_blank" href="https://twitter.com/helloandreoli">@helloandreoli</a>) es Creative Director @ <a target="_blank" href="http://www.andreo.li/">Andreo.li Interactive Design Studio</a>.</p>
-        </section>
-
-        <section class="content second_box">
-          <h2>Lean Design</h2>
-          <p>En esta charla empezaremos a definir el perfil de diseñador dentro del mundo de las Startups tecnológicas, cual es su papel y sus objetivos.</p>
-          <p>Después nos centraremos en metodología de trabajo a la hora de afrontar un proyecto interactivo. Planteando las fases y procesos que intervienen desde la definición de la idea hasta su lanzamiento, y poniendo hincapié en los planteamientos, la organización y la experiencia de usuario.</p>
-          <p>Todo ello introduciendo algunas bases de la metodología Lean Startup aplicadas al diseño, que nos permitirán validar nuestro proyecto y asegurar la acogida y posible éxito del producto final.
-          <a class="block" target="_blank"  href="/slides/FlanFrontendersNov2013.pdf">slides &raquo;</a>
-          </p>
-          <p>Flan (<a target="_blank" href="https://twitter.com/flanlog">@flanlog</a> | <a target="_blank" href="http://flan.cat">flan.cat</a>) es Director Creativo en weplaysweet y Advisor/Mentor especializado en diseño y UX en momentum.do.</p>
-        </section>
-      </div>
-      <section class="full_box centered sponsor home">
-        <h3>Patrocinador</h3>
-        <a class="ir block vstartups" target="_blank"  href="http://www.meetup.com/Valencia-Startups/" title="Valencia Startups">Valencia Startups</a>
-      </section>
-
-      <h3 class="centered past">jueves 10 octubre 2013</h3>
-
-      <div class="clearfix">
-        <section class="content first_box">
-          <h2>Responsive Images: problemas y soluciones actuales</h2>
-          <p>Analizaremos los problemas actuales con las imágenes en nuestra web: velocidad de conexión, dispositivos con retina display y sus posibles soluciones - hasta que la W3C nos ofrezca una solución.</p>
-          <p>Daniel Martínez (<a target="_blank" href="https://twitter.com/Wakkos">@Wakkos</a>) es Consultor y Instructor Web alrededor del mundo.</p>
-        </section>
-
-        <section class="content second_box">
-          <h2>Aprendiendo y experimentando para enderezar lo que se tuerce</h2>
-          <p> Hablaremos de aprender a equivocarse y de cómo la verdad flota a partir de ejemplos de nuestra nueva web, de la experiencia de los 5 años de Estudio Menta y de cómo funcionamos como interfaz humana entre el front y el back, cómo desde un estudio de diseño gráfico llevamos el proceso de diseño sin perder de vista el desarrollo. Una charla interactiva que irá derivando según la participación de los asistentes.
-          <a class="block" target="_blank"  href="/slides/EstudioMentaFrontendersOct2013.pdf">slides &raquo;</a>
-          </p>
-          <p>Xavi Calvo y Raül Climent
-            son Diseñadores y Socios @ <a target="_blank" href="http://estudiomenta.com/">Estudio Menta</a> (<a target="_blank" href="https://twitter.com/estudioMenta">@estudioMenta</a>).
-          </p>
-
-        </section>
-      </div>
-
-      <section class="full_box centered sponsor home">
-        <h3>Patrocinador</h3>
-        <a class="ir block onbile" target="_blank"  href="http://job-onbile.zeendo.com/" title="Onbile - Create your mobile website with premium templates.">Onbile - Create your mobile website with premium templates.</a>
-      </section>
-
-      <h3 class="centered past">jueves 12 septiembre 2013</h3>
-
-        <section class="content first_box">
-          <h2>Diseño gráfico para no-diseñadores</h2>
-          <p>En algún momento de nuestras vidas todos hemos tenido que diseñar algo: un documento, unas transparencias, una tarjeta de felicitación, una página web... La reacción de un diseñador profesional suele <a href="http://i.imgur.com/71tEcdh.gif" target="_blank">ser algo así</a>.</p>
-          <p>En esta breve charla hablaremos de "Lo mínimo que todo el mundo debería saber sobre diseño gráfico"&#8482; y veremos recursos de diseño para principiantes. Todo esto con la sana intención de mejorar las relaciones bilaterales entre diseñadores y programadores.
-          <a class="block" target="_blank"  href="http://www.slideshare.net/sezarg/charla-frontenders-diseno">slides &raquo;</a>
-          </p>
-          <p>César (<a target="_blank" href="https://twitter.com/interruptme">@interruptme</a>) es Chico de los Cafés @ robotito.es </p>
-        </section>
-
-        <section class="content second_box">
-          <h2>The mobile web - At a snail‘s pace</h2>
-          <p>Let‘s face it, although we have widespread coverage of 3G in our cities, the mobile web still tends to be terribly slow sometimes.
-          And we as website creators with our cutting edge responsive techniques in our toolbox think that we only have to add some media queries to make our sites mobile friendly.
-          But that isn't the whole picture.</p>
-          <p>This presentation is going to reveal some of the most essential performance implications of the mobile web.
-          Mastering these techniques and embracing the constraints of mobile can help today‘s webmakers to design more responsibly for devices with limited bandwidth, thus making the overall experience for people on-the-go faster.
-          This results in happier end users, more customers and higher search rankings, which eventually leads to more money.</p>
-          <p>... does your mobile site still load at a snail‘s pace?
-          <a class="block" target="_blank"  href="http://de.slideshare.net/MarcelKalveram/the-mobilewebatasnailspace">slides &raquo;</a>
-          </p>
-          <p>Marcel Kalveram (<a target="_blank" href="https://twitter.com/marcelkalveram">@marcelkalveram</a>) is responsible for the technical side of things @ digital agency JUNGMUT from Cologne/Germany</p>
-        </section>
-
-
-
-      <h3 class="centered past">jueves 13 junio 2013</h3>
-
-       <section class="content first_box">
-        <h2>Tendencias en el Diseño Web</h2>
-        <p>
-          El diseño web no es sólo dejar un sitio bonito y apañado. Sin duda, la estética de un sitio es más que importante pero el diseño implica muchos más conceptos, como usabilidad, experiencia de usuario, interfaz amigable, interactividad... En la era de la imagen en la que vivimos cuidarlo es fundamental para el éxito del proyecto. Introduciremos las tendencias actuales del diseño en la Web y hablaremos sobre todo lo referente al front-end de las mismas: tecnologías, técnicas, innovación, estilo e interfaces.
-          <a class="block" target="_blank"  href="http://www.alexos.es/fe/#/">slides &raquo;</a>
-        </p>
-        <p>Alex Olmos (<a target="_blank" href="https://twitter.com/alexolmos/">@alexolmos</a>) es Diseñador Gráfico y Web @ <a target="_blank" href="http://www.alexos.es/">alexos</a></p>
-
-      </section>
-
-
-       <section class="content second_box">
-        <h2>Rapid UI development for web apps</h2>
-        <p>
-          We'll talk about how we design complex websites using an iterative and transparent process with our clients, and how we use rapid prototyping to build quicker, and get better results. We'll discuss the design process and winning client approval, and also some of the tools we use to build the sites.
-          <a class="block" target="_blank"  href="http://slid.es/jonlay/rapid-ui-development-for-web-apps">slides &raquo;</a>
-        </p>
-        <p>Jon Lay (<a target="_blank" href="https://twitter.com/jon_lay/">@jon_lay</a>) is Frontend Developer and Strategist @ Hanno</p>
-        <p>Matthew Lenzi (<a target="_blank" href="https://twitter.com/mrteoboat/">@mrteoboat</a>) is a Strategist and Project Manager @ Hanno</p>
-      </section>
-
-      <section class="full_box centered sponsor home">
-        <h3>Patrocinador</h3>
-        <a class="ir block turia" target="_blank"  href="http://www.facebook.com/CervezaTuria" title="Turia Marzen La auténtica cerveza de Valencia.">Turia Marzen La auténtica cerveza de Valencia.</a>
-      </section>
-
-      <h3 class="centered past">Jueves 9 mayo 2013</h3>
-
-      <section class="centered margin_bottom_20">
-        <h2>Especial <img class="max_width" src="img/AngularJS.png" title="AngularJS"></h2>
-      </section>
-
-
-      <section class="content first_box">
-        <h2>Angular JS: Introducción</h2>
-        <p>
-          En el primer bloque vamos a ver qué es Angular JS, algo de su historia y las diferencias con otros frameworks Javascript. Además veremos cómo crear una aplicación simple desde cero viendo cada una de las características que nos ofrece.
-          <a class="block" target="_blank"  href="https://speakerdeck.com/jacarui/angularjs-frontenders-vlc">slides &raquo;</a>
-        </p>
-        <p>Javier Casal (<a target="_blank" href="https://twitter.com/jcasalruiz/">@jcasalruiz</a>) es Developer @ Moneymate</p>
-      </section>
-
-      <section class="content second_box">
-        <h2>Angular JS: Avanzado</h2>
-        <p>En esta segunda parte veremos aspectos más avanzados de Angular JS como la creación de directivas y diversas integraciones con otros frameworks, los cuales nos permiten testear nuestra aplicación o la creación desde cero de la estructura de la misma.</p>
-        <p>Javier Carrasco (<a target="_blank" href="https://twitter.com/jacarma/">@jacarma</a>) es Developer @ Moneymate</p>
-      </section>
-
-      <section class="full_box centered sponsor">
-        <h3>Patrocinador</h3>
-        <a class="ir block ombushop first_image" target="_blank"  href="http://www.ombushop.com/partners?utm_source=frontenders" title="  Programa de Partners: Gana Recomendando a Ombu Shop!  | OmbuShop">OmbuShop</a>
-      </section>
-
-      <h3 class="centered past margin_top_40">Jueves 11 abril 2013</h3>
-
-      <section class="content first_box">
-        <h2>Responsive Web Design</h2>
-        <p>
-          En esta primera charla Javi nos dará algunos consejos y trucos prácticos para desarrollar un proyecto "responsive", ya sea empezando de cero, o adaptando uno existente. Hablaremos de media queries, flexible media, responsive frameworks y mucho más, y todo ello aplicándolo a un proyecto real, en vivo y en directo.
-          <a class="block" target="_blank"  href="http://www.slideshare.net/JavierArquesHernndez/responsive-web-design-18574084">slides &raquo;</a>
-        </p>
-        <p>Javier Arques (<a target="_blank" href="https://twitter.com/javiarques/">@javiarques</a>) es Frontend Developer @ Artvisual</p>
-      </section>
-
-      <section class="content second_box">
-        <h2>Asset Packaging</h2>
-        <p>
-          El asset packaging es un conjunto de técnicas que se aplican ya en casi todos los proyectos web, y que permite, entre otras cosas, mejorar el rendimiento cuando hay una gran cantidad de recursos que servir. Esta charla será una introducción a estas técnicas y sus ventajas, y discutiremos distintas formas de implementarlas.
-          <a class="block" target="_blank"  href="http://miguelonrails.com/assetpackaging-slides/#/">slides &raquo;</a>
-        </p>
-        <p>Miguel Angel Fernandez (<a target="_blank" href="https://twitter.com/elmendalerenda/">@elmendalerenda</a>) es Developer @ beCode</p>
-      </section>
-
-
-      <section class="full_box">
-        En este primer meetup, habrá también una pequeña presentación del evento por Tony Camaiani (<a target="_blank" href="https://twitter.com/tonycamaiani/">@tonycamaiani</a>), Frontend Developer @ peerTransfer
-      </section>
-
-      <section class="full_box centered sponsor">
-        <h3>Patrocinador</h3>
-        <a class="ir block qikker first_image" target="_blank"  href="http://www.qikkeronline.nl/searching-freelance-developers-valencia-spain/" title="Qikker Online is looking for Freelance Developers in Valencia, Spain">Qikker Online</a>
-      </section>
 
 
 

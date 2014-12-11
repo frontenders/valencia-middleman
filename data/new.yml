@@ -1,5 +1,6 @@
 meetup:
-  double: "true"
+  date: "8 enero 2015"
+  type: "double"
   talks: 
   - title: Nombre Apelliso
     text:
@@ -7,7 +8,20 @@ meetup:
       - Envíanos un correo a <a href="mailto:frontendersvalencia@gmail.com">frontendersvalencia@gmail.com</a> o contáctanos por <a target="_blank" href="https://twitter.com/frontendersVLC">twitter</a>
       - ¿Tienes algo interesante que contar sobre temas de desarrollo frontend, diseño web, UI y UX y te gustaría compartirlo con nosotros?</p>
       - ¿Tienes algo interesante que contar sobre temas de desarrollo frontend, diseño web, UI y UX y te gustaría compartirlo con nosotros?</p>
+    author:
+    - name: Name
+      twitter: twitter
+      bio: es esto, esto y este altro 
+    links:
+    - url: www.tonycamaiani.it
+      label: "[slides]"
+    - url: www.tonycamaiani.it
+      label: "[slides due]"
   - title: Otro Nombre Apellido
     text:
       - ¿Tienes algo interesante que contar sobre temas de desarrollo frontend, diseño web, UI y UX y te gustaría compartirlo con nosotros?</p>
       - Envíanos un correo a <a href="mailto:frontendersvalencia@gmail.com">frontendersvalencia@gmail.com</a> o contáctanos por <a target="_blank" href="https://twitter.com/frontendersVLC">twitter</a>
+    author:
+    - name: OtherName
+      twitter: Othertwitter
+      bio: other es esto, esto y este altro 

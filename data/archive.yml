@@ -1,0 +1,72 @@
+meetups:
+  - meetup:
+    date: 11 abril 2013
+    hangout_url: no_hangout
+    type: double
+    talks: 
+    - title: Responsive Web Design
+      text:
+        - En esta primera charla Javi nos dará algunos consejos y trucos prácticos para desarrollar un proyecto "responsive", ya sea empezando de cero, o adaptando uno existente. Hablaremos de media queries, flexible media, responsive frameworks y mucho más, y todo ello aplicándolo a un proyecto real, en vivo y en directo.
+      links:
+      - url: http://www.slideshare.net/JavierArquesHernndez/responsive-web-design-18574084
+        label: slides &raquo;
+      author:
+      - name: Name
+        twitter: javiarques
+        bio: es Frontend Developer @ Artvisual
+    - title: Asset Packaging
+      text:
+        - El asset packaging es un conjunto de técnicas que se aplican ya en casi todos los proyectos web, y que permite, entre otras cosas, mejorar el rendimiento cuando hay una gran cantidad de recursos que servir. Esta charla será una introducción a estas técnicas y sus ventajas, y discutiremos distintas formas de implementarlas.
+      links:
+      - url: http://miguelonrails.com/assetpackaging-slides/#/
+        label: slides &raquo;
+      author:
+      - name: Miguel Angel Fernandez
+        twitter: elmendalerenda
+        bio: es Developer @ beCode
+    sponsor:
+      name: Qikker Online
+      url: http://www.qikkeronline.nl/searching-freelance-developers-valencia-spain/
+      image: image.jpg
+
+  - meetup:
+    date: "9 enero 2015"
+    hangout_url: www.hangout.com/primero
+    type: "double"
+    talks: 
+    - title: Nombre Apelliso
+      text:
+        - ¿Tienes algo interesante que contar sobre temas de desarrollo frontend, diseño web, UI y UX y te gustaría compartirlo con nosotros?</p>
+        - Envíanos un correo a <a href="mailto:frontendersvalencia@gmail.com">frontendersvalencia@gmail.com</a> o contáctanos por <a target="_blank" href="https://twitter.com/frontendersVLC">twitter</a>
+        - ¿Tienes algo interesante que contar sobre temas de desarrollo frontend, diseño web, UI y UX y te gustaría compartirlo con nosotros?</p>
+        - ¿Tienes algo interesante que contar sobre temas de desarrollo frontend, diseño web, UI y UX y te gustaría compartirlo con nosotros?</p>
+      author:
+      - name: Name
+        twitter: twitter
+        bio: es esto, esto y este altro 
+      links:
+      - url: www.tonycamaiani.it
+        label: "[slides]"
+      - url: www.tonycamaiani.it
+        label: "[slides due]"
+
+  - meetup:
+    date: "10 enero 2015"
+    hangout_url: www.hangout.com/primero
+    type: "double"
+    talks: 
+    - title: Nombre Apelliso
+      text:
+        - ¿Tienes algo interesante que contar sobre temas de desarrollo frontend, diseño web, UI y UX y te gustaría compartirlo con nosotros?</p>
+        - Envíanos un correo a <a href="mailto:frontendersvalencia@gmail.com">frontendersvalencia@gmail.com</a> o contáctanos por <a target="_blank" href="https://twitter.com/frontendersVLC">twitter</a>
+        - ¿Tienes algo interesante que contar sobre temas de desarrollo frontend, diseño web, UI y UX y te gustaría compartirlo con nosotros?</p>
+        - ¿Tienes algo interesante que contar sobre temas de desarrollo frontend, diseño web, UI y UX y te gustaría compartirlo con nosotros?</p>
+      author:
+      - name: Name
+        twitter: twitter
+        bio: es esto, esto y este altro 
+      links:
+      - url: www.tonycamaiani.it
+        label: "[slides]"
+      - url: www.tonycamaiani.it
+        label: "[slides due]"

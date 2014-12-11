@@ -1,5 +1,6 @@
 meetup:
-  double: "true"
+  date: "8 enero 2015"
+  type: "double"
   talks: 
   - title: Espacio libre
     text:

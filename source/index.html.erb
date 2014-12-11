@@ -6,8 +6,12 @@ ready: true
 <% 
   if current_page.data.ready 
     homepage = data.new.meetup 
+    date = data.new.meetup.date 
+    type = data.new.meetup.type 
   else
     homepage = data.default.meetup
+    date = data.new.default.date 
+    type = data.new.default.type
   end 
 %>
 
@@ -18,15 +22,41 @@ ready: true
           Nos encontramos regularmente el segundo jueves de cada mes en el espacio de coworking <a target="_blank"  href="http://geekshubs.com/es/?utm_source=comunidades&utm_medium=web&utm_campaign=frontenders"  title="Comunidad Geek y Emprendedores techies">GeeksHubs</a>, en Avenida Cataluña, 11 (Valencia). <a href="frontenders.html">¿Quieres saber más?</a>
       </p>
 
-      <h2 class="centered orange scream">Próximo meetup: <span>jueves 9 mayo 2013, 19:00h</span></h2>
-
+      <h2 class="centered orange scream">Próximo meetup: <span>jueves <%= date %>, 19:00h</span></h2>
+      
+      <section class="<%= type %>">
       <% homepage.talks.each do |f| %>
-        <section class="content first_box undefined">
+        <article class="content first_box undefined">
+          
           <h2><%= f[:title] %></h2>
+          
           <% f.text.each do |t| %>
             <p><%= t %></p>
           <% end %>
-        </section>
-      <% end %>
+          
+          <% if current_page.data.ready %>
+            <% f.author.each do |t| %>
+              <p>
+                <%= t[:name] %>
+                <a target="_blank" href="https://twitter.com/<%= t[:twitter] %>">@<%= t[:twitter] %></a> 
+                <%= t[:bio] %>
+              </p>
+            <% end %>
+          <% end %>
 
-    </div>
+          <% if f.links %>
+            <% f.links.each do |t| %>
+              <p>
+                <a target="_blank" href="<%= t[:url] %>"
+                  ><%= t[:label] %>
+                </a> 
+              </p>
+            <% end %>
+          <% end %>          
+
+
+        </article>
+      <% end %>
+      </section>
+
+</div>
