@@ -2,61 +2,63 @@
 title: a meetup for Frontend & UI Developers, UX & Web Designers
 ready: true
 ---
-
 <% 
-  if current_page.data.ready 
+  active = current_page.data.ready
+
+  if active
     homepage = data.new.meetup 
-    date = data.new.meetup.date 
-    type = data.new.meetup.type 
   else
     homepage = data.default.meetup
-    date = data.new.default.date 
-    type = data.new.default.type
   end 
+  
+  date = homepage.date 
+  type = homepage.type 
+  
 %>
 
-<div id="main" role="main" class="clearfix">
+<main role="main">
 
-        <p class="eyelet margin_top_0">
-          Frontenders es una reunión mensual centrada en temas de desarrollo frontend, diseño web, UI y UX.
-          Nos encontramos regularmente el segundo jueves de cada mes en el espacio de coworking <a target="_blank"  href="http://geekshubs.com/es/?utm_source=comunidades&utm_medium=web&utm_campaign=frontenders"  title="Comunidad Geek y Emprendedores techies">GeeksHubs</a>, en Avenida Cataluña, 11 (Valencia). <a href="frontenders.html">¿Quieres saber más?</a>
-      </p>
+  <p>
+    Frontenders es una reunión mensual centrada en temas de desarrollo frontend, diseño web, UI y UX.
+    Nos encontramos regularmente el segundo jueves de cada mes en el espacio de coworking 
+    <%= link_to "GeeksHubs", "http://geekshubs.com/es/?utm_source=comunidades&utm_medium=web&utm_campaign=frontenders", :title => "Comunidad Geek y Emprendedores techies", :target=> "_blank"  %>
+    , en Avenida Cataluña, 11 (Valencia). 
+    <%= link_to "¿Quieres saber más?", "frontenders.html" %>
+  </p>
 
-      <h2 class="centered orange scream">Próximo meetup: <span>jueves <%= date %>, 19:00h</span></h2>
+  <h2>Próximo meetup: <time>jueves <%= date %>, 19:00h</time></h2>
       
-      <section class="<%= type %>">
-      <% homepage.talks.each do |f| %>
-        <article class="content first_box undefined">
+  <section class="<%= type %>">
+    <% homepage.talks.each do |f| %>
+      <article>  
+        <h3><%= f[:title] %></h3>
           
-          <h2><%= f[:title] %></h2>
+        <% f.text.each do |t| %>
+          <p><%= t %></p>
+        <% end %>
           
-          <% f.text.each do |t| %>
-            <p><%= t %></p>
+        <% if active %>
+          <% f.author.each do |t| %>
+            <p>
+              <%= t[:name] %>
+              <%= link_to "@"+t[:twitter], "https://twitter.com/"+t[:twitter], :target=> "_blank"  %> 
+              <%= t[:bio] %>
+            </p>
           <% end %>
+        <% end %>
           
-          <% if current_page.data.ready %>
-            <% f.author.each do |t| %>
-              <p>
-                <%= t[:name] %>
-                <a target="_blank" href="https://twitter.com/<%= t[:twitter] %>">@<%= t[:twitter] %></a> 
-                <%= t[:bio] %>
-              </p>
-            <% end %>
-          <% end %>
-
-          <% if f.links %>
-            <% f.links.each do |t| %>
-              <p>
-                <a target="_blank" href="<%= t[:url] %>"
-                  ><%= t[:label] %>
-                </a> 
-              </p>
-            <% end %>
-          <% end %>          
-
-
-        </article>
+      </article>
+    <% end %>
+    <% if homepage.sponsor %>
+            <section>
+              <h2>Patrocinador</h2>
+              <%= link_to image_tag(homepage.sponsor[:image]), homepage.sponsor[:url], :title => homepage.sponsor[:name], :target=> "_blank"  %>
+            </section>
       <% end %>
-      </section>
 
-</div>
+      <% if active %>
+        <%= link_to "Asistiré al Frontenders Valencia", homepage[:eventbrite], :target=> "_blank"  %>
+        <small class="block small_caption">Por cuestiones de aforo nos gustaría saber el numero de asistentes.</small>
+      <% end %>    
+  </section>
+</main>

@@ -1,27 +1,27 @@
 meetup:
   date: "8 enero 2015"
   type: "double"
+  eventbrite: http://frontenders-nov-2014.eventbrite.es
   talks: 
-  - title: Nombre Apelliso
+  - title: Diseña y venderás.
     text:
-      - ¿Tienes algo interesante que contar sobre temas de desarrollo frontend, diseño web, UI y UX y te gustaría compartirlo con nosotros?</p>
-      - Envíanos un correo a <a href="mailto:frontendersvalencia@gmail.com">frontendersvalencia@gmail.com</a> o contáctanos por <a target="_blank" href="https://twitter.com/frontendersVLC">twitter</a>
-      - ¿Tienes algo interesante que contar sobre temas de desarrollo frontend, diseño web, UI y UX y te gustaría compartirlo con nosotros?</p>
-      - ¿Tienes algo interesante que contar sobre temas de desarrollo frontend, diseño web, UI y UX y te gustaría compartirlo con nosotros?</p>
+      - ¿Por qué un usuario entra a mi web y no sabe a donde ir? ¿Cómo consigo dar confianza a mis usuarios en una compra online? ¿Como escribo un texto persuasivo?
+      - Un buen diseño puede ser la clave para conseguir tu objetivo en Internet, pero no la única. Hoy hablaremos de diseño, pero también de usabilidad, de marketing y de experiencias, para responder a estas preguntas.
     author:
-    - name: Name
-      twitter: twitter
-      bio: es esto, esto y este altro 
-    links:
-    - url: www.tonycamaiani.it
-      label: "[slides]"
-    - url: www.tonycamaiani.it
-      label: "[slides due]"
-  - title: Otro Nombre Apellido
+    - name: Juanma Martínez
+      twitter: juanmamartinez
+      bio: es Web Designer & UX en @Increnta, agencia especializada en Inbound Marketing y Marketing Digital.
+
+  - title: Middleman
     text:
       - ¿Tienes algo interesante que contar sobre temas de desarrollo frontend, diseño web, UI y UX y te gustaría compartirlo con nosotros?</p>
       - Envíanos un correo a <a href="mailto:frontendersvalencia@gmail.com">frontendersvalencia@gmail.com</a> o contáctanos por <a target="_blank" href="https://twitter.com/frontendersVLC">twitter</a>
     author:
-    - name: OtherName
-      twitter: Othertwitter
-      bio: other es esto, esto y este altro 
+    - name: Tony Camaiani
+      twitter: tonycamaiani
+      bio: es Frontend Developer en @peerTransfer
+  sponsor:
+    name: Kuombo
+    url: http://tony.camaiani.me
+    image: image.jpg
+
