@@ -32,8 +32,8 @@ title: Los eventos anteriores
               %p
                 = link_to t[:label], t[:url], :target=> "_blank"
 
-          - if m.sponsor
-            %div
-              %h3 Patrocinador
-              = link_to image_tag(m.sponsor[:image]), m.sponsor[:url], :title => m.sponsor[:name], :target=> "_blank"
+      - if m.sponsor
+        %div
+          %h3 Patrocinador
+          = link_to image_tag("sponsors/"+m.sponsor[:image]), m.sponsor[:url], :title => m.sponsor[:name], :target=> "_blank"
 
