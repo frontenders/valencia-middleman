@@ -1,0 +1,28 @@
+!!!
+%html
+  %head
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible"}/
+    %link{:href => "/favicon.ico", :rel => "shortcut icon"}/
+    %title
+      \<frontenders/> Valencia: #{current_page.data.title}
+    %meta{:content => "Frontenders Valencia es una reunión mensual centrada en temas de desarrollo frontend, diseño web, UI y UX.", :name => "description"}/
+    %meta{:content => "Tony Camaiani http://tony.camaiani.it", :name => "author"}/
+    %meta{:content => "width=device-width", :name => "viewport"}/
+    %meta{:content => "http://valencia.frontenders.me/", :property => "og:url"}/
+    %meta{:content => "<frontenders/> Valencia: a meetup for Frontend & UI Developers, UX & Web Designers.", :property => "og:title"}/
+    %meta{:content => "http://valencia.frontenders.me/img/logo_frontenders.png", :property => "og:image"}/
+    %meta{:content => "Frontenders es una reunión mensual centrada en temas de desarrollo frontend, diseño web, UI y UX.", :property => "og:description"}/
+    %link{:href => "http://fonts.googleapis.com/css?family=Rambla:400,700", :rel => "stylesheet", :type => "text/css"}/
+    = stylesheet_link_tag "normalize", "all"
+    = javascript_include_tag  "libs/modernizr"
+
+  %body
+    = partial 'partials/header'
+    = yield
+    = partial 'partials/footer'
+    :javascript
+      var _gaq=[['_setAccount','UA-39434678-1'],['_trackPageview']];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));

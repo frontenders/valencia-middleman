@@ -1,0 +1,50 @@
+---
+title: a meetup for Frontend  UI Developers, UX  Web Designers
+ready: false
+---
+- active = current_page.data.ready
+
+- if active
+  - homepage = data.new.meetup
+- else
+  - homepage = data.default.meetup
+
+- date = homepage.date
+- type = homepage.type
+
+%main{:role => "main"}
+  %p
+    Frontenders es una reunión mensual centrada en temas de desarrollo frontend, diseño web, UI y UX.
+    Nos encontramos regularmente el segundo jueves de cada mes en el espacio de coworking
+    = link_to "GeeksHubs", "http://geekshubs.com/es/?utm_source=comunidades&utm_medium=web&utm_campaign=frontenders", :title => "Comunidad Geek y Emprendedores techies", :target=> "_blank"
+    , en Avenida Cataluña, 11 (Valencia).
+    = link_to "¿Quieres saber más?", "frontenders.html"
+
+  %h2
+    Próximo meetup:
+    %time
+      jueves #{date}, 19:00h
+
+  %section{:id => "#{type}"}
+
+    - homepage.talks.each do |f|
+      %article
+        %h3= f[:title]
+        - f.text.each do |t|
+          %p= t
+        - if active
+          - f.author.each do |t|
+            %p
+              = t[:name]
+              = link_to "@"+t[:twitter], "https://twitter.com/"+t[:twitter], :target => "_blank"
+              = t[:bio]
+
+    - if homepage.sponsor
+      %div
+        %h3 Patrocinador
+        = link_to image_tag(homepage.sponsor[:image]), homepage.sponsor[:url], :title => homepage.sponsor[:name], :target => "_blank"
+
+    - if active
+      %div
+        = link_to "Asistiré al Frontenders Valencia", homepage[:eventbrite], :target => "_blank"
+        %small Por cuestiones de aforo nos gustaría saber el numero de asistentes.

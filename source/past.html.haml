@@ -1,0 +1,39 @@
+---
+title: Los eventos anteriores
+---
+
+%main{:role => "main"}
+  %h2 Meetups anteriores
+
+  - data.archive.meetups.each do |m|
+    %h2
+      jueves
+      - m[:date]
+
+      - if m[:hangout_url]
+        see on
+        = link_to m[:hangout_url], m[:hangout_url], :class=> "ico hangout", :target=> "_blank"
+
+    %section{:id => "#{m.type}"}
+      - m.talks.each do |f|
+        %article
+          %h3= f[:title]
+          - f.text.each do |t|
+            %p= t
+
+          - f.author.each do |t|
+            %p
+              = t[:name]
+              = link_to "@"+t[:twitter], "https://twitter.com/"+t[:twitter], :target => "_blank"
+              = t[:bio]
+
+          - if f.links
+            - f.links.each do |t|
+              %p
+                = link_to t[:label], t[:url], :target=> "_blank"
+
+          - if m.sponsor
+            %div
+              %h3 Patrocinador
+              = link_to image_tag(m.sponsor[:image]), m.sponsor[:url], :title => m.sponsor[:name], :target=> "_blank"
+
