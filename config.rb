@@ -39,11 +39,15 @@
 activate :livereload
 
 # Methods defined in the helpers block are available in templates
-# helpers do
+helpers do
+  def is_page_selected(page)
+    current_page.url == page ? "selected" : ''
+  end
+
 #   def some_helper
 #     "Helping"
 #   end
-# end
+end
 
 set :css_dir, 'stylesheets'
 
