@@ -3,15 +3,14 @@ title: Los eventos anteriores
 ---
 
 %main{:role => "main"}
-  %h2 Meetups anteriores
+  %h2.title Meetups anteriores
 
   - data.archive.meetups.each do |m|
     %h2
       jueves
-      - m[:date]
+      = m[:date]
 
       - if m[:hangout_url]
-        see on
         = link_to m[:hangout_url], m[:hangout_url], :class=> "ico hangout", :target=> "_blank"
 
     %section{:id => "#{m.type}"}

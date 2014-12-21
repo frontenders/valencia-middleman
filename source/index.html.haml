@@ -1,6 +1,6 @@
 ---
 title: a meetup for Frontend  UI Developers, UX  Web Designers
-ready: false
+ready: true
 ---
 - active = current_page.data.ready
 
@@ -13,14 +13,14 @@ ready: false
 - type = homepage.type
 
 %main{:role => "main"}
-  %p
+  %p.main_paragraph
     Frontenders es una reunión mensual centrada en temas de desarrollo frontend, diseño web, UI y UX.
     Nos encontramos regularmente el segundo jueves de cada mes en el espacio de coworking
     = link_to "GeeksHubs", "http://geekshubs.com/es/?utm_source=comunidades&utm_medium=web&utm_campaign=frontenders", :title => "Comunidad Geek y Emprendedores techies", :target=> "_blank"
     , en Avenida Cataluña, 11 (Valencia).
     = link_to "¿Quieres saber más?", "frontenders.html"
 
-  %h2
+  %h2.title
     Próximo meetup:
     %time
       jueves #{date}, 19:00h
@@ -46,5 +46,5 @@ ready: false
 
     - if active
       %div
-        = link_to "Asistiré al Frontenders Valencia", homepage[:eventbrite], :target => "_blank"
-        %small Por cuestiones de aforo nos gustaría saber el numero de asistentes.
+        = link_to "Asistiré al Frontenders Valencia", homepage[:eventbrite], :class => "button", :target => "_blank"
+        %small.caption Por cuestiones de aforo nos gustaría saber el numero de asistentes.

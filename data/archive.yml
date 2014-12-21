@@ -11,7 +11,7 @@ meetups:
       - url: http://www.slideshare.net/JavierArquesHernndez/responsive-web-design-18574084
         label: slides &raquo;
       author:
-      - name: Name
+      - name: Javier Arques
         twitter: javiarques
         bio: es Frontend Developer @ Artvisual
     - title: Asset Packaging
@@ -28,8 +28,6 @@ meetups:
       name: Qikker Online
       url: http://www.qikkeronline.nl/searching-freelance-developers-valencia-spain/
       image: qikker_logo.png
-
-
 
 
 
