@@ -8,25 +8,38 @@
   $gray_light: #f5f5f5; /* background */
   $gray_lighter: rgba(161, 161, 161, 0.5);
 
-  $orange: #e67e22;
-  $orange_light: rgba(243, 156, 18, 1.0);
+  $orange: rgb(230, 126, 34);
+  $orange_light: rgb(243, 156, 18);
   $orange_dark: rgba(211, 84, 0, 0.5);
+  $orange_darker: rgb(220, 105, 17);
 
   $blue: #1ea0ce;
   $blue_light: #339ACC;
 
+  //// Background Colors
 
-//// Background Colors
+    $body_background: $gray_light;
+    $header_background: $orange;
+    $button_background: $orange_light;
+    $button_hover_background: $orange_dark;
 
-  $body_background: $gray_light;
-  $header_background: $orange;
-  $button_background: $orange_dark;
-  $button_hover_background: $orange_light;
+  //// Text Colors
 
-//// Text Colors
+    $text_body_color: $gray;
+    $text_header_color: $white;
+    $text_heading_color: $orange;
+    $text_link_color: $blue;
+    $text_link_hover_color: $blue_light;
+    $text_selection_color: $blue;
+    $text_selection_background: $blue;
 
-  $text_body_color: $gray;
-  $text_header_color: $white;
-  $text_heading_color: $orange;
-  $text_link_color: $blue;
-  $text_link_hover_color: $blue_light;
+    $text_button_color: $white;
+    $text_button_background: $orange;
+    $text_button_hover_background: $orange_darker;
+
+/// General Variables
+
+$font_family: 'Rambla', sans-serif;
+
+
+

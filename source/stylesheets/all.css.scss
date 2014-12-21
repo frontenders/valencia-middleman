@@ -1,38 +1,183 @@
 /* all.scss */
-
+@import 'normalize';
 @import 'variables';
+@import 'mixins';
 
 @charset "utf-8";
 
-body {  font-size: 1em; line-height: 1.4; }
+//// General styles
+
+body {
+	font-family: $font_family;
+	background: $body_background;
+	font-size: 1em;
+	line-height: 1.4;
+  }
+
 html { overflow-y: scroll; }
-html, body, button, input, select, textarea { color: #53585e; }
+html, body, button, input, select, textarea { color: $text_body_color; }
 
-::-moz-selection { background: #1ea0ce; color: #fff; text-shadow: none; }
-::selection { background: #1ea0ce; color: #fff; text-shadow: none; }
+::-moz-selection { background: $text_selection_background; color: $text_selection_color; text-shadow: none; }
+::selection { background: $text_selection_background; color: $text_selection_color; text-shadow: none; }
 
-a { color: #1ea0ce; text-decoration: none; }
-a:visited { color: #1ea0ce; }
-a:hover { color: #339ACC; text-decoration: underline;}
+a { color: $text_link_color; text-decoration: none; }
+a:visited { color: $text_link_color; }
+a:hover { color: $text_link_hover_color; text-decoration: underline;}
 
+h1 { font-size: 46px; }
+h2 { font-size: 24px; }
+h3 { font-size: 22px; font-weight: 400; }
 
 hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
 img { vertical-align: middle; }
-fieldset { border: 0; margin: 0; padding: 0; }
-textarea { resize: vertical; }
 
-.chromeframe { margin: 0.2em 0; background: #ccc; color: #000; padding: 0.2em 0; }
+//// Frontenders Theme
 
-
-body {
-  font-family: 'Rambla', sans-serif;
-  background: #f5f5f5;
+main, footer, header {
+  padding: 10px 20px;
 }
 
 header {
-  background: #e67e22;
-  -moz-box-shadow: 0px 2px 10px rgba( 161, 161, 161, 0.5);
-  -webkit-box-shadow: 0px 2px 10px rgba( 161, 161, 161, 0.5);
-  box-shadow: 0px 2px 10px rgba( 161, 161, 161, 0.5);
+  background: $header_background;
+  @include box-shadow(0px, 2px, 10px, $gray_lighter);
   padding-bottom: 5px;
-}
+
+  h1 {
+	  width: 300px;
+	  line-height: 46px;
+	  color: $text_header_color;
+	  margin: 10px auto 5px;
+	  background: url(/images/frontenders_logo_small.png) top center no-repeat;
+	  padding: 56px 0 0;
+
+    a, a:hover, a:visited { color: $text_header_color; text-decoration: none; }
+    span {
+      font-size: 20px;
+      line-height: 20px;
+      color: $text_header_color;
+      text-transform: uppercase;
+      font-weight: 400;
+      margin: 0 0 0 170px;
+      display: block;
+    }
+	} // h1
+
+  h2 {
+    font-weight: 400;
+    line-height: 26px;
+    color: $text_header_color;
+    text-align: center;
+    margin: 30px 0 30px;
+
+    span { display: block; }
+  } // h2
+
+
+  nav {
+    text-align: center;
+
+
+
+    ul {
+      margin: 0 0 10px 0;
+      padding: 0;
+
+      li {
+        display: inline-block;
+        margin: 0 5px;
+
+        a,
+        a:visited {
+          color: $text_header_color;
+          background-color: $button_background;
+          font-size: 18px;
+          letter-spacing: 1px;
+          line-height: 26px;
+          padding: 5px 12px;
+          @include rounded(5px);
+
+          &:hover, &.selected {
+            color: $text_header_color;
+            background-color: $button_hover_background;
+            text-decoration: none;
+          }
+        } // a
+      } // li
+    } // ul
+  } // nav
+} // header
+
+
+main {
+  margin-top: 25px;
+
+  h2 { text-align: center; }
+
+  .title {
+    font-size: 26px;
+
+    color: $text_heading_color;
+    time { display: block;}
+  } // title
+
+  .main_paragraph {
+    font-size: 18px;
+    b { display: block; }
+    cite { font-size: 16px; display: block; }
+  }
+
+  article {
+    padding: 10px 15px;
+    border: 2px solid #fff;
+    margin: 0 auto 30px;
+    @include box-shadow (0px, 0px, 3px, $gray_lighter);
+    @include rounded(10px);
+
+    h3 { margin-top: 0; }
+    p { font-size: 16px; }
+  } // article
+
+  div {
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 15px;
+  }
+
+  a.button,
+  a.button:visited {
+    font-size: 18px;
+    color: #fff;
+    height: 26px;
+    line-height: 26px;
+    padding: 5px 12px;
+    letter-spacing: 1px;
+    display: inline-block;
+    letter-spacing: 1px;
+
+    background-color: $text_button_background;
+
+    @include rounded(5px);
+
+    &:hover {
+      color: #fff;
+      background-color: $text_button_background;;
+      text-decoration: none;
+    }
+  }
+  .caption { display: block; line-height: 14px; margin-top: 5px;}
+
+} // main
+
+
+footer {
+  padding: 25px;
+  font-size: 16px;
+
+  div {
+    margin: 0 0 25px;
+    text-align: center;
+
+    h3 { margin: 0 0 3px 0; }
+  } // div
+} // footer
+
