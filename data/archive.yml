@@ -1,33 +1,95 @@
 meetups:
+
+
   - meetup:
-    date: 11 abril 2013
-    hangout_url: no_hangout
+    date: "13 junio 2013"
+    hangout_url: false
     type: double
     talks:
-    - title: Responsive Web Design
+    - title: "Tendencias en el Diseño Web"
       text:
-        - En esta primera charla Javi nos dará algunos consejos y trucos prácticos para desarrollar un proyecto "responsive", ya sea empezando de cero, o adaptando uno existente. Hablaremos de media queries, flexible media, responsive frameworks y mucho más, y todo ello aplicándolo a un proyecto real, en vivo y en directo.
+        - "El diseño web no es sólo dejar un sitio bonito y apañado. Sin duda, la estética de un sitio es más que importante pero el diseño implica muchos más conceptos, como usabilidad, experiencia de usuario, interfaz amigable, interactividad... En la era de la imagen en la que vivimos cuidarlo es fundamental para el éxito del proyecto. Introduciremos las tendencias actuales del diseño en la Web y hablaremos sobre todo lo referente al front-end de las mismas: tecnologías, técnicas, innovación, estilo e interfaces."
       links:
-      - url: http://www.slideshare.net/JavierArquesHernndez/responsive-web-design-18574084
-        label: slides &raquo;
+      - url: "http://www.alexos.es/fe/#/"
+        label: "slides &raquo;"
       author:
-      - name: Javier Arques
-        twitter: javiarques
-        bio: es Frontend Developer @ Artvisual
-    - title: Asset Packaging
+      - name: "Alex Olmos"
+        twitter: "alexolmos"
+        bio: "es Diseñador Gráfico y Web @ <a target='_blank' href='http://www.alexos.es/'>alexos</a></p>"
+    - title: "Rapid UI development for web apps"
       text:
-        - El asset packaging es un conjunto de técnicas que se aplican ya en casi todos los proyectos web, y que permite, entre otras cosas, mejorar el rendimiento cuando hay una gran cantidad de recursos que servir. Esta charla será una introducción a estas técnicas y sus ventajas, y discutiremos distintas formas de implementarlas.
+        - "We'll talk about how we design complex websites using an iterative and transparent process with our clients, and how we use rapid prototyping to build quicker, and get better results. We'll discuss the design process and winning client approval, and also some of the tools we use to build the sites."
       links:
-      - url: http://miguelonrails.com/assetpackaging-slides/#/
-        label: slides &raquo;
+      - url: "http://slid.es/jonlay/rapid-ui-development-for-web-apps"
+        label: "slides &raquo;"
       author:
-      - name: Miguel Angel Fernandez
-        twitter: elmendalerenda
-        bio: es Developer @ beCode
+      - name: "Jon Lay"
+        twitter: "jon_lay"
+        bio: "is Frontend Developer and Strategist @ Hanno"
+      - name: "Matthew Lenzi"
+        twitter: "mrteoboat"
+        bio: "is a Strategist and Project Manager @ Hanno"
     sponsor:
-      name: Qikker Online
-      url: http://www.qikkeronline.nl/searching-freelance-developers-valencia-spain/
-      image: qikker_logo.png
+      name: "Turia Marzen La auténtica cerveza de Valencia."
+      url: "http://www.facebook.com/CervezaTuria"
+      image: "image.png"
 
+  - meetup:
+    date: "9 mayo 2013"
+    hangout_url: false
+    type: "double"
+    talks:
+    - title: "Angular JS: Introducción"
+      text:
+        - "En el primer bloque vamos a ver qué es Angular JS, algo de su historia y las diferencias con otros frameworks Javascript. Además veremos cómo crear una aplicación simple desde cero viendo cada una de las características que nos ofrece."
+      links:
+      - url: https://speakerdeck.com/jacarui/angularjs-frontenders-vlc
+        label: "slides &raquo;"
+      author:
+      - name: "Javier Casal"
+        twitter: "jcasalruiz"
+        bio: "es Developer @ Moneymate"
+    - title: "Angular JS: Avanzado"
+      text:
+        - "En esta segunda parte veremos aspectos más avanzados de Angular JS como la creación de directivas y diversas integraciones con otros frameworks, los cuales nos permiten testear nuestra aplicación o la creación desde cero de la estructura de la misma."
+      links:
+      - url:
+        label: "slides &raquo;"
+      author:
+      - name: "Javier Carrasco"
+        twitter: "jacarma"
+        bio: "es Developer @ Moneymate"
+    sponsor:
+      name: "OmbuShop"
+      url: "http://www.ombushop.com/partners?utm_source=frontenders"
+      image: "image.png"
 
-
+  - meetup:
+    date: "11 abril 2013"
+    hangout_url: false
+    type: "double"
+    talks:
+    - title: "Responsive Web Design"
+      text:
+        - "En esta primera charla Javi nos dará algunos consejos y trucos prácticos para desarrollar un proyecto &quot; responsive &quot;, ya sea empezando de cero, o adaptando uno existente. Hablaremos de media queries, flexible media, responsive frameworks y mucho más, y todo ello aplicándolo a un proyecto real, en vivo y en directo."
+      links:
+      - url: "http://www.slideshare.net/JavierArquesHernndez/responsive-web-design-18574084"
+        label: "slides &raquo;"
+      author:
+      - name: "Javier Arques"
+        twitter: "javiarques"
+        bio: "es Frontend Developer @ Artvisual"
+    - title: "Asset Packaging"
+      text:
+        - "El asset packaging es un conjunto de técnicas que se aplican ya en casi todos los proyectos web, y que permite, entre otras cosas, mejorar el rendimiento cuando hay una gran cantidad de recursos que servir. Esta charla será una introducción a estas técnicas y sus ventajas, y discutiremos distintas formas de implementarlas."
+      links:
+      - url: "http://miguelonrails.com/assetpackaging-slides/#/"
+        label: "slides &raquo;"
+      author:
+      - name: "Miguel Angel Fernandez"
+        twitter: "elmendalerenda"
+        bio: "es Developer @ beCode"
+    sponsor:
+      name: "Qikker Online"
+      url: "http://www.qikkeronline.nl/searching-freelance-developers-valencia-spain/"
+      image: "qikker_logo.png"

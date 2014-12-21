@@ -1,97 +1,33 @@
----
-title: Los eventos anteriores
----
+13 noviembre 2014
+https://plus.google.com/u/0/events/c43la6lak11lgpo6g7q6bgumfpc
 
-    <div id="main" role="main" class="clearfix">
+¿Comprar online es una experiencia? UX para ecommerce</h2>
 
-      <h2 class="centered orange scream margin_top_0">Meetups anteriores</h2>
+El comercio online es un mercado durísimo donde las empresas invierten multitud de recursos para crear experiencias seductoras que les diferencien de la competencia.
 
-        <% data.archive.meetups.each do |m| %>
+En esta charla aprenderemos los secretos para crear experiencias enfocadas en el usuario de ecommerce, y sacarles provecho para convertirlas en propuestas de valor que ayuden a alcanzar el objetivo de cualquier negocio online: vender más.
 
-        <h2 class="centered past">
-        jueves <%= m[:date] %>
-        <% if m[:hangout_url] %>
-          see on
-          <%= link_to m[:hangout_url], m[:hangout_url], :class=> "ico hangout", :target=> "_blank"  %>
-        <% end %>
-        </h2>
+/slides/Dani_Frontenders_UX_ecommerce.pdf
 
-        <section class="<%= m[:type] %>">
-          <% m.talks.each do |f| %>
-            <article class="content first_box undefined">
-              
-              <h2><%= f[:title] %></h2>
-              
-              <% f.text.each do |t| %>
-                <p><%= t %></p>
-              <% end %>
-              
-              <% f.author.each do |t| %>
-                <p>
-                  <%= t[:name] %>
-                  <%= link_to "@"+t[:twitter], "https://twitter.com/"+t[:twitter], :target=> "_blank"  %>
-                  <%= t[:bio] %>
-                </p>
-              <% end %>
-
-              <% if f.links %>
-                <% f.links.each do |t| %>
-                  <p>
-                    <%= link_to t[:label], t[:url], :target=> "_blank"  %>
-                  </p>
-                <% end %>
-              <% end %>          
-            </article>
-          <% end %>
-
-          <% if m.sponsor %>
-            <section>
-              <h2>Patrocinador</h2>
-              <%= link_to image_tag(m.sponsor[:image]), m.sponsor[:url], :title => m.sponsor[:name], :target=> "_blank"  %>
-            </section>
-          <% end %>
-
-          </section>      
-        <% end %>
+Dani Catalan
+dani_catalan
+es Desarrollador Frontend en @kuombo, agencia especializada en el desarrollo del negocio de tiendas online.
 
 
+Maquetación con Flexbox
+
+CSS empezó con mal pie cuando nos dio el "float" como medio de distribución de elementos y luego lo intentó arreglar con "display: table".
+
+Pero ahora tenemos el módulo de Flexbox, con el que podemos maquetar con propiedades simples e intuitivas (o no) alterando los espacios entre objetos y el tamaño de los objetos en si. Vamos a dar un paseo por sus posibilidades y sintaxis.
+
+/slides/Wakkos_Frontenders_Flexbox.pdf
+
+Daniel Martínez
+Wakkos
+es Frontend y tutor/profesor de Arquitectura CSS y responsive design en @EscuelaIt y @vadeclases.
 
 
-      <h3 class="centered past">
-        jueves 13 noviembre 2014, 19:00h
-        <a href="https://plus.google.com/u/0/events/c43la6lak11lgpo6g7q6bgumfpc" target="_blank" class="ir hangout">Hangout On Air</a>
-      </h3>
-
-      <div class="clearfix">
-        <section class="content first_box">
-
-          <h2>¿Comprar online es una experiencia? UX para ecommerce</h2>
-
-          <p>El comercio online es un mercado durísimo donde las empresas invierten multitud de recursos para crear experiencias seductoras que les diferencien de la competencia.</p>
-
-          <p>En esta charla aprenderemos los secretos para crear experiencias enfocadas en el usuario de ecommerce, y sacarles provecho para convertirlas en propuestas de valor que ayuden a alcanzar el objetivo de cualquier negocio online: vender más.
-          <a class="block" target="_blank"  href="/slides/Dani_Frontenders_UX_ecommerce.pdf">slides &raquo;</a>
-          </p>
-
-          <p>Dani Catalan (<a target="_blank" href="https://twitter.com/dani_catalan">@dani_catalan</a>) es Desarrollador Frontend en @kuombo, agencia especializada en el desarrollo del negocio de tiendas online.</p>
-
-        </section>
-
-        <section class="content second_box">
-          <h2>Maquetación con Flexbox</h2>
-
-          <p>CSS empezó con mal pie cuando nos dio el "float" como medio de distribución de elementos y luego lo intentó arreglar con "display: table".</p>
-
-          <p>Pero ahora tenemos el módulo de Flexbox, con el que podemos maquetar con propiedades simples e intuitivas (o no) alterando los espacios entre objetos y el tamaño de los objetos en si. Vamos a dar un paseo por sus posibilidades y sintaxis. 
-          <a class="block" target="_blank"  href="/slides/Wakkos_Frontenders_Flexbox.pdf">slides &raquo;</a>
-          </p>
-
-          <p>Daniel Martínez (<a target="_blank" href="https://twitter.com/Wakkos">@Wakkos</a>) es Frontend y tutor/profesor de Arquitectura CSS y responsive design en @EscuelaIt y @vadeclases.</p>
-        </section>
-      </div>
-
-      <h3 class="centered past">
-        jueves 11 septiembre 2014, 19:00h
+11 septiembre 2014
         <a href="https://plus.google.com/events/cp3jjqh3uo7a33e684u5938olik" target="_blank" class="ir hangout">Hangout On Air</a>
       </h3>
 
@@ -340,119 +276,31 @@ title: Los eventos anteriores
         <a class="ir block onbile" target="_blank"  href="http://job-onbile.zeendo.com/" title="Onbile - Create your mobile website with premium templates.">Onbile - Create your mobile website with premium templates.</a>
       </section>
 
-      <h3 class="centered past">jueves 12 septiembre 2013</h3>
-
-        <section class="content first_box">
-          <h2>Diseño gráfico para no-diseñadores</h2>
-          <p>En algún momento de nuestras vidas todos hemos tenido que diseñar algo: un documento, unas transparencias, una tarjeta de felicitación, una página web... La reacción de un diseñador profesional suele <a href="http://i.imgur.com/71tEcdh.gif" target="_blank">ser algo así</a>.</p>
-          <p>En esta breve charla hablaremos de "Lo mínimo que todo el mundo debería saber sobre diseño gráfico"&#8482; y veremos recursos de diseño para principiantes. Todo esto con la sana intención de mejorar las relaciones bilaterales entre diseñadores y programadores.
-          <a class="block" target="_blank"  href="http://www.slideshare.net/sezarg/charla-frontenders-diseno">slides &raquo;</a>
-          </p>
-          <p>César (<a target="_blank" href="https://twitter.com/interruptme">@interruptme</a>) es Chico de los Cafés @ robotito.es </p>
-        </section>
-
-        <section class="content second_box">
-          <h2>The mobile web - At a snail‘s pace</h2>
-          <p>Let‘s face it, although we have widespread coverage of 3G in our cities, the mobile web still tends to be terribly slow sometimes.
-          And we as website creators with our cutting edge responsive techniques in our toolbox think that we only have to add some media queries to make our sites mobile friendly.
-          But that isn't the whole picture.</p>
-          <p>This presentation is going to reveal some of the most essential performance implications of the mobile web.
-          Mastering these techniques and embracing the constraints of mobile can help today‘s webmakers to design more responsibly for devices with limited bandwidth, thus making the overall experience for people on-the-go faster.
-          This results in happier end users, more customers and higher search rankings, which eventually leads to more money.</p>
-          <p>... does your mobile site still load at a snail‘s pace?
-          <a class="block" target="_blank"  href="http://de.slideshare.net/MarcelKalveram/the-mobilewebatasnailspace">slides &raquo;</a>
-          </p>
-          <p>Marcel Kalveram (<a target="_blank" href="https://twitter.com/marcelkalveram">@marcelkalveram</a>) is responsible for the technical side of things @ digital agency JUNGMUT from Cologne/Germany</p>
-        </section>
 
 
+12 septiembre 2013
 
-      <h3 class="centered past">jueves 13 junio 2013</h3>
+Diseño gráfico para no-diseñadores
 
-       <section class="content first_box">
-        <h2>Tendencias en el Diseño Web</h2>
-        <p>
-          El diseño web no es sólo dejar un sitio bonito y apañado. Sin duda, la estética de un sitio es más que importante pero el diseño implica muchos más conceptos, como usabilidad, experiencia de usuario, interfaz amigable, interactividad... En la era de la imagen en la que vivimos cuidarlo es fundamental para el éxito del proyecto. Introduciremos las tendencias actuales del diseño en la Web y hablaremos sobre todo lo referente al front-end de las mismas: tecnologías, técnicas, innovación, estilo e interfaces.
-          <a class="block" target="_blank"  href="http://www.alexos.es/fe/#/">slides &raquo;</a>
-        </p>
-        <p>Alex Olmos (<a target="_blank" href="https://twitter.com/alexolmos/">@alexolmos</a>) es Diseñador Gráfico y Web @ <a target="_blank" href="http://www.alexos.es/">alexos</a></p>
+En algún momento de nuestras vidas todos hemos tenido que diseñar algo: un documento, unas transparencias, una tarjeta de felicitación, una página web... La reacción de un diseñador profesional suele <a href="http://i.imgur.com/71tEcdh.gif" target="_blank">ser algo así</a>.</p>
 
-      </section>
+En esta breve charla hablaremos de "Lo mínimo que todo el mundo debería saber sobre diseño gráfico"&#8482; y veremos recursos de diseño para principiantes. Todo esto con la sana intención de mejorar las relaciones bilaterales entre diseñadores y programadores.
 
+http://www.slideshare.net/sezarg/charla-frontenders-diseno
+César
+interruptme
+es Chico de los Cafés @ robotito.es
 
-       <section class="content second_box">
-        <h2>Rapid UI development for web apps</h2>
-        <p>
-          We'll talk about how we design complex websites using an iterative and transparent process with our clients, and how we use rapid prototyping to build quicker, and get better results. We'll discuss the design process and winning client approval, and also some of the tools we use to build the sites.
-          <a class="block" target="_blank"  href="http://slid.es/jonlay/rapid-ui-development-for-web-apps">slides &raquo;</a>
-        </p>
-        <p>Jon Lay (<a target="_blank" href="https://twitter.com/jon_lay/">@jon_lay</a>) is Frontend Developer and Strategist @ Hanno</p>
-        <p>Matthew Lenzi (<a target="_blank" href="https://twitter.com/mrteoboat/">@mrteoboat</a>) is a Strategist and Project Manager @ Hanno</p>
-      </section>
+The mobile web - At a snail‘s pace
 
-      <section class="full_box centered sponsor home">
-        <h3>Patrocinador</h3>
-        <a class="ir block turia" target="_blank"  href="http://www.facebook.com/CervezaTuria" title="Turia Marzen La auténtica cerveza de Valencia.">Turia Marzen La auténtica cerveza de Valencia.</a>
-      </section>
+Let‘s face it, although we have widespread coverage of 3G in our cities, the mobile web still tends to be terribly slow sometimes. And we as website creators with our cutting edge responsive techniques in our toolbox think that we only have to add some media queries to make our sites mobile friendly. But that isn't the whole picture.
 
-      <h3 class="centered past">Jueves 9 mayo 2013</h3>
+This presentation is going to reveal some of the most essential performance implications of the mobile web. Mastering these techniques and embracing the constraints of mobile can help today‘s webmakers to design more responsibly for devices with limited bandwidth, thus making the overall experience for people on-the-go faster. This results in happier end users, more customers and higher search rankings, which eventually leads to more money.
+... does your mobile site still load at a snail‘s pace?
 
-      <section class="centered margin_bottom_20">
-        <h2>Especial <img class="max_width" src="img/AngularJS.png" title="AngularJS"></h2>
-      </section>
+http://de.slideshare.net/MarcelKalveram/the-mobilewebatasnailspace
 
+Marcel Kalveram
+marcelkalveram
+is responsible for the technical side of things @ digital agency JUNGMUT from Cologne/Germany
 
-      <section class="content first_box">
-        <h2>Angular JS: Introducción</h2>
-        <p>
-          En el primer bloque vamos a ver qué es Angular JS, algo de su historia y las diferencias con otros frameworks Javascript. Además veremos cómo crear una aplicación simple desde cero viendo cada una de las características que nos ofrece.
-          <a class="block" target="_blank"  href="https://speakerdeck.com/jacarui/angularjs-frontenders-vlc">slides &raquo;</a>
-        </p>
-        <p>Javier Casal (<a target="_blank" href="https://twitter.com/jcasalruiz/">@jcasalruiz</a>) es Developer @ Moneymate</p>
-      </section>
-
-      <section class="content second_box">
-        <h2>Angular JS: Avanzado</h2>
-        <p>En esta segunda parte veremos aspectos más avanzados de Angular JS como la creación de directivas y diversas integraciones con otros frameworks, los cuales nos permiten testear nuestra aplicación o la creación desde cero de la estructura de la misma.</p>
-        <p>Javier Carrasco (<a target="_blank" href="https://twitter.com/jacarma/">@jacarma</a>) es Developer @ Moneymate</p>
-      </section>
-
-      <section class="full_box centered sponsor">
-        <h3>Patrocinador</h3>
-        <a class="ir block ombushop first_image" target="_blank"  href="http://www.ombushop.com/partners?utm_source=frontenders" title="  Programa de Partners: Gana Recomendando a Ombu Shop!  | OmbuShop">OmbuShop</a>
-      </section>
-
-      <h3 class="centered past margin_top_40">Jueves 11 abril 2013</h3>
-
-      <section class="content first_box">
-        <h2>Responsive Web Design</h2>
-        <p>
-          En esta primera charla Javi nos dará algunos consejos y trucos prácticos para desarrollar un proyecto "responsive", ya sea empezando de cero, o adaptando uno existente. Hablaremos de media queries, flexible media, responsive frameworks y mucho más, y todo ello aplicándolo a un proyecto real, en vivo y en directo.
-          <a class="block" target="_blank"  href="http://www.slideshare.net/JavierArquesHernndez/responsive-web-design-18574084">slides &raquo;</a>
-        </p>
-        <p>Javier Arques (<a target="_blank" href="https://twitter.com/javiarques/">@javiarques</a>) es Frontend Developer @ Artvisual</p>
-      </section>
-
-      <section class="content second_box">
-        <h2>Asset Packaging</h2>
-        <p>
-          El asset packaging es un conjunto de técnicas que se aplican ya en casi todos los proyectos web, y que permite, entre otras cosas, mejorar el rendimiento cuando hay una gran cantidad de recursos que servir. Esta charla será una introducción a estas técnicas y sus ventajas, y discutiremos distintas formas de implementarlas.
-          <a class="block" target="_blank"  href="http://miguelonrails.com/assetpackaging-slides/#/">slides &raquo;</a>
-        </p>
-        <p>Miguel Angel Fernandez (<a target="_blank" href="https://twitter.com/elmendalerenda/">@elmendalerenda</a>) es Developer @ beCode</p>
-      </section>
-
-
-      <section class="full_box">
-        En este primer meetup, habrá también una pequeña presentación del evento por Tony Camaiani (<a target="_blank" href="https://twitter.com/tonycamaiani/">@tonycamaiani</a>), Frontend Developer @ peerTransfer
-      </section>
-
-      <section class="full_box centered sponsor">
-        <h3>Patrocinador</h3>
-        <a class="ir block qikker first_image" target="_blank"  href="http://www.qikkeronline.nl/searching-freelance-developers-valencia-spain/" title="Qikker Online is looking for Freelance Developers in Valencia, Spain">Qikker Online</a>
-      </section>
-
-
-
-    </div>
-  

@@ -17,14 +17,12 @@ title: Los eventos anteriores
       - m.talks.each do |f|
         %article
           %h3= f[:title]
+          - f.author.each do |t|
+            = t[:name]
+            = link_to "@"+t[:twitter], "https://twitter.com/"+t[:twitter], :target => "_blank"
+
           - f.text.each do |t|
             %p= t
-
-          - f.author.each do |t|
-            %p
-              = t[:name]
-              = link_to "@"+t[:twitter], "https://twitter.com/"+t[:twitter], :target => "_blank"
-              = t[:bio]
 
           - if f.links
             - f.links.each do |t|

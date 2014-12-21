@@ -1,0 +1,31 @@
+  - meetup:
+    date: ""
+    hangout_url: false
+    type: double
+    talks:
+    - title: ""
+      text: 
+        - ""
+      links:
+      - url: ""
+        label: "slides &raquo;"
+      author: 
+      - name: ""
+        twitter: ""
+        bio: ""
+    - title: ""
+      text:
+        - ""
+      links:
+      - url: ""
+        label: "slides &raquo;"
+      author: 
+      - name: ""
+        twitter: ""
+        bio: ""
+    sponsor:
+      name: ""
+      url: ""
+      image: ""
+
+
