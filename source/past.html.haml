@@ -19,7 +19,7 @@ title: Los eventos anteriores
           %h3= f[:title]
           - f.author.each do |t|
             = t[:name]
-            = link_to "@"+t[:twitter], "https://twitter.com/"+t[:twitter], :target => "_blank"
+            = = twitter_url(t[:twitter])
 
           - f.text.each do |t|
             %p= t

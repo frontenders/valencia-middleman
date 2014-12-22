@@ -36,7 +36,7 @@ ready: true
           - f.author.each do |t|
             %p
               = t[:name]
-              = link_to "@"+t[:twitter], "https://twitter.com/"+t[:twitter], :target => "_blank"
+              = twitter_url(t[:twitter])
               = t[:bio]
 
     - if homepage.sponsor

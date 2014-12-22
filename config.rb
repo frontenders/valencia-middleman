@@ -44,6 +44,10 @@ helpers do
     current_page.url == page ? "selected" : ''
   end
 
+  def twitter_url(username)
+    "<a target='_blank' href='https://twitter.com/#{username}'>@#{username}</a>"
+  end
+
 #   def some_helper
 #     "Helping"
 #   end
