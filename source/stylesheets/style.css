@@ -1,0 +1,536 @@
+
+  a.geekshubs {
+    background: url(../img/geekshubs_logo_small.png) no-repeat top left;
+    width: 115px;
+    height: 150px;
+    margin: 0 auto;
+  }
+
+  a.hangout {
+    background: url(../img/hangout.png) no-repeat top left;
+    width: 40px;
+    height: 36px;
+    display: inline-block;
+  }
+
+  a.sponsor_work {
+    margin: 20px auto 30px;
+  }
+
+  a.qikker {
+    background: url(../img/qikker_logo_medium.png) no-repeat top left;
+    width: 155px;
+    height: 45px;
+  }
+
+  a.ombushop {
+    background: url(../img/ombushop_logo_medium.png) no-repeat top left;
+    width: 155px;
+    height: 45px;
+  }
+
+a.turia {
+    background: url(../img/logo_turia_150.png) no-repeat top left;
+    width: 150px;
+    height: 125px;
+  }
+
+a.onbile {
+    background: url(../img/onbile_logo.png) no-repeat top left;
+    width: 155px;
+    height: 69px;
+  }
+
+a.vstartups {
+    background: url(../img/valenciastartups_120.png) no-repeat top left;
+    width: 120px;
+    height: 120px;
+  }
+
+a.emergia {
+    background: url(../img/emergia_logo.png) no-repeat top left;
+    width: 254px;
+    height: 50px;
+  }
+
+a.singularu {
+    background: url(../img/logo_singularu.png) no-repeat top left;
+    width: 180px;
+    height: 135px;
+  }
+
+a.vbote {
+    background: url(../img/vbote_logo.png) no-repeat top left;
+    width: 206px;
+    height: 80px;
+  }
+
+a.momentum {
+    background: url(../img/momentum_logo.png) no-repeat top left;
+    width: 300px;
+    height: 70px;
+  }
+
+
+
+a.camiseta {
+    background: url(../img/ymicamiseta_logo_150.png) no-repeat top left;
+    width: 150px;
+    height: 98px;
+  }
+
+a.camaloon {
+    background: url(../img/camaloon_logo.png) no-repeat top left;
+    width: 146px;
+    height: 200px;
+  }
+
+a.iti {
+    background: url(../img/iti_logo.png) no-repeat top left;
+    width: 368px;
+    height: 100px;
+  }
+
+
+/*== Open Space styles ==*/
+
+#main.openspace h2 { font-size: 48px; letter-spacing: 2px; }
+#main.openspace h2 span { display: block; font-size: 32px; letter-spacing: 1px;}
+#main.openspace h3 { font-size: 30px;}
+#main.openspace h4 { font-size: 22px; margin-bottom: 10px;}
+#main.openspace p { margin: 5px 0;}
+#main.openspace p, #main.openspace ol li { font-size: 20px;}
+.inscription_form {
+
+  margin: 0px;
+}
+
+.inscription_form input[type="text"] {
+  margin-bottom: 15px;
+  border: 1px solid #E4E4E4;
+  line-height: 18px;
+  height: 18px;
+  padding: 5px 5px 3px;
+  width: 300px;
+}
+
+.inscription_form input[type="image"] {
+
+
+}
+
+/* ===== media with different viewport classes ============================================ */
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
+
+/* ===== non-semantic helper classes ============================================ */
+.ir { background-color: transparent; border: 0; overflow: hidden; /* IE 6/7 fallback */ *text-indent: -9999px; }
+.ir:before { content: ""; display: block; width: 0; height: 150%; }
+.hidden { display: none !important; visibility: hidden; }
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+.invisible { visibility: hidden; }
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+.block {display: block;}
+
+.left {float: left;}
+.right {float: right;}
+.centered  { text-align: center; }
+.righted  { text-align: right; }
+
+.margin_top_0 { margin-top: 0;}
+.margin_top_20 { margin-top: 20px;}
+.margin_top_40 { margin-top: 40px;}
+.margin_top_80 { margin-top: 80px;}
+.margin_bottom_0 { margin-bottom: 0;}
+.margin_bottom_10 { margin-bottom: 10px;}
+.margin_bottom_20 { margin-bottom: 20px;}
+.margin_bottom_40 { margin-bottom: 40px;}
+.margin_bottom_80 { margin-bottom: 80px;}
+
+.margin_auto { margin-left: auto; margin-right: auto;}
+
+
+.max_width { max-width 100%; }
+
+.orange { color: #e67e22;}
+
+.undefined {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  }
+
+/* ===== media queries ========================================================== */
+
+
+/* Used to alter styles for screens at least 768px wide. */
+@media only screen and (min-width: 768px) {
+
+  header h1 {
+    text-align: center;
+    font-size: 72px;
+    line-height: 72px;
+    background: url(../img/frontenders_logo.png) top center no-repeat;
+    padding: 90px 0 0;
+    width: 460px;
+    margin: 10px auto 5px;
+
+  }
+
+    header h1 span{
+      font-size: 30px;
+      line-height: 30px;
+      text-align: right;
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: 400;
+      margin: 0 68px 0 0;
+      display: block;
+    }
+
+      header h2 {
+        font-size: 28px;
+        line-height: 30px;
+      }
+
+      header h2 span {
+        display: inline;
+      }
+
+      nav li a,
+      nav li a:visited {
+        font-size: 22px;
+        line-height: 28px;
+        padding: 5px 15px;
+      }
+
+
+      #main {
+        width: 714px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+    .eyelet { font-size: 20px; width: 740px; margin-left: auto; margin-right: auto; margin-bottom: 0;}
+    .eyelet b, .eyelet cite { display: inline; }
+
+
+    .scream { font-size: 34px;}
+    .scream span { display: inline;}
+    .scream span.block { display: block;}
+
+    .past { font-size: 32px;}
+
+
+    .paragraph { font-size: 18px; width: 740px;  margin-left: auto; margin-right: auto; }
+
+
+    #main section.content {
+      float: left;
+      width: 272px;
+      padding: 15px 20px;
+      border: 2px solid #fff;
+      margin: 0 20px 30px;
+      -moz-box-shadow: 0px 0px 3px rgba( 161, 161, 161, 0.5);
+      -webkit-box-shadow: 0px 0px 3px rgba( 161, 161, 161, 0.5);
+      box-shadow: 0px 0px 3px rgba( 161, 161, 161, 0.5);
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+    }
+
+    #main section.content.single_box {
+      width: 484px;
+      margin: 0 auto 30px;
+      float: none;
+    }
+
+    #main section.content_alone {
+      width: 314px;
+      padding: 15px 20px;
+      border: 2px solid #fff;
+      margin: 25px auto;
+      -moz-box-shadow: 0px 0px 3px rgba( 161, 161, 161, 0.5);
+      -webkit-box-shadow: 0px 0px 3px rgba( 161, 161, 161, 0.5);
+      box-shadow: 0px 0px 3px rgba( 161, 161, 161, 0.5);
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+    }
+
+    #main section.content h2 {
+      font-size: 24px;
+      font-weight: 400;
+      margin-top: 0;
+    }
+
+    #main section.content p {
+      font-size: 16px;
+    }
+
+    #main section.full_box {
+      width: 620px;
+      font-size: 18px;
+      padding: 10px 15px;
+    }
+
+    .small_caption { width: 250px; }
+
+    footer {
+      padding: 0 25px 20px 25px;
+      font-size: 16px;
+      width: 714px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+      footer section {
+        width: 238px;
+        margin: 0 0 20px;
+        float: left;
+      }
+
+        footer section h3 {
+          font-size: 22px;
+          margin: 0 0 3px 0;
+        }
+
+        footer section p{
+          margin: 0;
+        }
+
+        footer section.first {
+          text-align: left;
+        }
+
+        footer section.middle {
+          text-align: center;
+        }
+
+        footer section.middle a{
+          font-size: 20px;
+          margin-bottom: 6px;
+          display: block;
+        }
+
+        footer section.last {
+          text-align: right;
+        }
+
+        footer section.last h3 {
+          margin: 0 8px 5px 0;
+        }
+
+    a.geekshubs {
+      background: url(../img/geekshubs_logo_big.png) no-repeat top left;
+      width: 61px;
+      height: 80px;
+      margin: 0 13px 0 0;
+      float: right;
+    }
+
+    a.sponsor_image {
+      margin: 15px 5px 0 0;
+      float: left;
+    }
+
+    a.qikker {
+      background: url(../img/qikker_logo_big.png) no-repeat top left;
+      width: 130px;
+      height: 38px;
+    }
+
+    a.ombushop {
+      background: url(../img/ombushop_logo_big.png) no-repeat top left;
+      width: 130px;
+      height: 38px;
+    }
+
+
+} /* min-width: 768px */
+
+/* Used to alter styles for screens at least 960px wide. */
+@media only screen and (min-width: 1024px) {
+
+  #main, footer, hgroup {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 10px 20px;
+  }
+
+    header h1 {
+      margin: 10px 0 5px;
+      float: left;
+    }
+
+
+
+    header h2 {
+      width: 325px;
+      text-align: right;
+      font-size: 30px;
+      line-height: 34px;
+      margin: 15px 0 52px;
+      float: right;
+    }
+
+      header h2 span {
+        display: block;
+      }
+
+    nav {
+      margin: 0;
+    }
+
+    nav ul {
+
+      float: right;
+    }
+
+      nav li a,
+      nav li a:visited {
+        font-size: 22px;
+        line-height: 28px;
+        padding: 5px 15px;
+      }
+
+  #main {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .eyelet { font-size: 24px; width: 1000px; margin-left: 0; margin-right: 0; }
+
+  .scream { font-size: 36px;}
+  .past { font-size: 34px;}
+
+
+  .paragraph { font-size: 20px; width: 860px;  margin-left: auto; margin-right: auto; }
+
+    #main section.content {
+      width: 360px;
+      padding: 20px 25px;
+      border: 2px solid #fff;
+      margin: 0 35px 30px;
+    }
+
+      #main section.content.first_box { margin-left: 50px; }
+      #main section.content.second_box { margin-right: 50px; }
+      #main section.content.single_box { width: 720px; margin-left: 100px; }
+
+      #main section.content h2 {
+        font-size: 24px;
+        font-weight: 400;
+        margin-top: 0;
+      }
+
+      #main section.content p {
+        font-size: 18px;
+        line-height: 24px;
+      }
+
+    .small_caption { width: 200px; }
+
+
+  footer {
+    padding: 0 25px 20px;
+    font-size: 16px;
+  }
+
+    footer section {
+      width: 320px;
+      margin: 0;
+    }
+
+      footer section h3 {
+        margin: 0 0 5px 0;
+      }
+
+      footer section p{
+        margin: 0;
+      }
+
+    footer section.first p{
+      width: 260px;
+      margin: 0 20px 0 0;
+    }
+
+    footer section.middle {
+      width: 160px;
+      float: left;
+      margin: 0 100px 0;
+    }
+
+    footer section.middle a{
+      font-size: 20px;
+      margin-bottom: 6px;
+      display: block;
+    }
+
+    footer section.last {
+      float: right;
+      text-align: right;
+      width: 280px;
+    }
+
+    footer section.last h3 {
+      margin: 0 10px 5px 0;
+    }
+
+
+
+
+  a.geekshubs {
+    background: url(../img/geekshubs_logo_medium.png) no-repeat top left;
+    width: 61px;
+    height: 80px;
+    margin: 0 15px 0 0;
+    float: right;
+  }
+
+  a.sponsor_image {
+    margin: 25px 5px 0 0;
+    float: left;
+  }
+
+  a.qikker {
+    background: url(../img/qikker_logo_medium.png) no-repeat top left;
+    width: 155px;
+    height: 45px;
+  }
+
+  a.ombushop {
+    background: url(../img/ombushop_logo_medium.png) no-repeat top left;
+    width: 155px;
+    height: 45px;
+  }
+
+
+
+
+} /* min-width: 1024px */
+
+
+
+
+/* ===== print styles ========================================================== */
+@media print {
+  * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; }
+  a, a:visited { text-decoration: underline; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; }
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3 { page-break-after: avoid; }
+}

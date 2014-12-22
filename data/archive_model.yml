@@ -4,12 +4,12 @@
     type: double
     talks:
     - title: ""
-      text: 
+      text:
         - ""
       links:
       - url: ""
         label: "slides &raquo;"
-      author: 
+      author:
       - name: ""
         twitter: ""
         bio: ""
@@ -19,7 +19,7 @@
       links:
       - url: ""
         label: "slides &raquo;"
-      author: 
+      author:
       - name: ""
         twitter: ""
         bio: ""

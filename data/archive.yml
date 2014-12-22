@@ -1,6 +1,63 @@
 meetups:
 
 
+
+  - meetup:
+    date: "jueves 10 octubre 2013"
+    hangout_url: false
+    type: double
+    talks:
+    - title: "Responsive Images: problemas y soluciones actuales"
+      text:
+        - "Analizaremos los problemas actuales con las imágenes en nuestra web: velocidad de conexión, dispositivos con retina display y sus posibles soluciones - hasta que la W3C nos ofrezca una solución."
+      author:
+      - name: "Daniel Martínez"
+        twitter: "Wakkos"
+        bio: "es Consultor y Instructor Web alrededor del mundo."
+    - title: "Aprendiendo y experimentando para enderezar lo que se tuerce"
+      text:
+        - "Hablaremos de aprender a equivocarse y de cómo la verdad flota a partir de ejemplos de nuestra nueva web, de la experiencia de los 5 años de Estudio Menta y de cómo funcionamos como interfaz humana entre el front y el back, cómo desde un estudio de diseño gráfico llevamos el proceso de diseño sin perder de vista el desarrollo. Una charla interactiva que irá derivando según la participación de los asistentes."
+      links:
+      - url: "/slides/EstudioMentaFrontendersOct2013.pdf"
+        label: "slides &raquo;"
+      author:
+      - name: "Xavi Calvo y Raül Climent"
+        twitter: "estudioMenta"
+        bio: "son Diseñadores y Socios @ Estudio Menta"
+    sponsor:
+      name: "Onbile - Create your mobile website with premium templates."
+      url: "http://job-onbile.zeendo.com/"
+      image: "logo_onbile.png"
+
+  - meetup:
+    date: "12 septiembre 2013"
+    hangout_url: false
+    type: double
+    talks:
+    - title: "Diseño gráfico para no-diseñadores"
+      text:
+        - 'En algún momento de nuestras vidas todos hemos tenido que diseñar algo: un documento, unas transparencias, una tarjeta de felicitación, una página web... La reacción de un diseñador profesional suele <a href="http://i.imgur.com/71tEcdh.gif" target="_blank">ser algo así</a>.'
+        - 'En esta breve charla hablaremos de "Lo mínimo que todo el mundo debería saber sobre diseño gráfico"&#8482; y veremos recursos de diseño para principiantes. Todo esto con la sana intención de mejorar las relaciones bilaterales entre diseñadores y programadores.'
+      links:
+      - url: "http://www.slideshare.net/sezarg/charla-frontenders-diseno"
+        label: "slides &raquo;"
+      author:
+      - name: "César"
+        twitter: "interruptme"
+        bio: "es Chico de los Cafés @ robotito.es"
+    - title: "The mobile web - At a snail‘s pace"
+      text:
+        - "Let‘s face it, although we have widespread coverage of 3G in our cities, the mobile web still tends to be terribly slow sometimes. And we as website creators with our cutting edge responsive techniques in our toolbox think that we only have to add some media queries to make our sites mobile friendly. But that isn't the whole picture."
+        - "This presentation is going to reveal some of the most essential performance implications of the mobile web. Mastering these techniques and embracing the constraints of mobile can help today‘s webmakers to design more responsibly for devices with limited bandwidth, thus making the overall experience for people on-the-go faster. This results in happier end users, more customers and higher search rankings, which eventually leads to more money."
+        - "... does your mobile site still load at a snail‘s pace?"
+      links:
+      - url: "http://de.slideshare.net/MarcelKalveram/the-mobilewebatasnailspace"
+        label: "slides &raquo;"
+      author:
+      - name: "Marcel Kalveram"
+        twitter: "marcelkalveram"
+        bio: "is responsible for the technical side of things @ digital agency JUNGMUT from Cologne/Germany"
+
   - meetup:
     date: "13 junio 2013"
     hangout_url: false
@@ -32,7 +89,7 @@ meetups:
     sponsor:
       name: "Turia Marzen La auténtica cerveza de Valencia."
       url: "http://www.facebook.com/CervezaTuria"
-      image: "image.png"
+      image: "logo_turia.png"
 
   - meetup:
     date: "9 mayo 2013"
@@ -62,7 +119,7 @@ meetups:
     sponsor:
       name: "OmbuShop"
       url: "http://www.ombushop.com/partners?utm_source=frontenders"
-      image: "image.png"
+      image: "logo_ombushop.png"
 
   - meetup:
     date: "11 abril 2013"
@@ -92,4 +149,4 @@ meetups:
     sponsor:
       name: "Qikker Online"
       url: "http://www.qikkeronline.nl/searching-freelance-developers-valencia-spain/"
-      image: "qikker_logo.png"
+      image: "logo_qikker.png"
