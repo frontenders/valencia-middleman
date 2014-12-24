@@ -1,9 +1,262 @@
 meetups:
-
-
+  - meetup:
+    date: "13 noviembre 2014"
+    hangout_url: "https://plus.google.com/u/0/events/c43la6lak11lgpo6g7q6bgumfpc"
+    type: double
+    talks:
+    - title: "¿Comprar online es una experiencia? UX para ecommerce"
+      text:
+        - "El comercio online es un mercado durísimo donde las empresas invierten multitud de recursos para crear experiencias seductoras que les diferencien de la competencia."
+        - "En esta charla aprenderemos los secretos para crear experiencias enfocadas en el usuario de ecommerce, y sacarles provecho para convertirlas en propuestas de valor que ayuden a alcanzar el objetivo de cualquier negocio online: vender más."
+      links:
+      - url: "/slides/Dani_Frontenders_UX_ecommerce.pdf"
+        label: "slides &raquo;"
+      author:
+      - name: "Dani Catalan"
+        twitter: "dani_catalan"
+        bio: "es Desarrollador Frontend en @kuombo, agencia especializada en el desarrollo del negocio de tiendas online."
+    - title: "Maquetación con Flexbox"
+      text:
+        - 'CSS empezó con mal pie cuando nos dio el "float" como medio de distribución de elementos y luego lo intentó arreglar con "display: table".'
+        - 'Pero ahora tenemos el módulo de Flexbox, con el que podemos maquetar con propiedades simples e intuitivas (o no) alterando los espacios entre objetos y el tamaño de los objetos en si. Vamos a dar un paseo por sus posibilidades y sintaxis.'
+      links:
+      - url: "/slides/Wakkos_Frontenders_Flexbox.pdf"
+        label: "slides &raquo;"
+      author:
+      - name: "Daniel Martínez"
+        twitter: "Wakkos"
+        bio: "es Frontend y tutor/profesor de Arquitectura CSS y responsive design en @EscuelaIt y @vadeclases."
 
   - meetup:
-    date: "jueves 10 octubre 2013"
+    date: "11 septiembre 2014"
+    hangout_url: "https://plus.google.com/events/cp3jjqh3uo7a33e684u5938olik"
+    type: single
+    talks:
+    - title: "Angularjs y su magia"
+      text:
+        - "Esta charla va a contener dos partes enlazadas en las que explicaremos qué es Angularjs y cuáles son sus bases y principios sobre los que se apoya. La idea está especialmente recomendada a gente poca experiencia o que quiera comenzar en breve. Aquí aprenderemos tips & tricks sobre cómo funciona y cómo utilizarla mejor."
+        - "En la segunda parte subiremos un poco el nivel y la orientaremos más a gente con experiencia en angular, aunque los más neófitos podrán ver qué pueden conseguir. En ella entraremos a ver la potencia que proporciona Angularjs y mostraremos un ejemplo de una aplicación web empresarial con muy pocas líneas de javascript, ¿o conseguiremos no escribir ninguna? Todo un reto :-)"
+      links:
+      - url: "http://www.slideshare.net/pedrohurtadocandel/angularjs-36566730"
+        label: "slides &raquo;"
+      author:
+      - name: "Pedro Hurtado Candel"
+        twitter: "_PedroHurtado"
+        bio: "es un truhan y un señor. Trabaja en .Net y últimamente en JavaScript y Angularjs. Administrador del foro de c# de msdn."
+      - name: "Xavier Jorge Cerdá"
+        twitter: "XaviPaper"
+        bio: "es Ingeniero Informático por la UPV y  CTO de Ami2. Vinculado a proyectos de I+D+i con universidades, trabaja .Net y últimamente en Angularjs."
+    sponsor:
+      name: "http://allstartup.es/"
+      url: "ALL STARTUP | El evento de selección de emprendedores de momentum"
+      image: "logo_momentum.png"
+
+  - meetup:
+    date: "12 junio 2014, 19:00h"
+    hangout_url: "https://plus.google.com/u/0/events/cctu9mgtopkatcah0cskpe7l9i8"
+    type: double
+    talks:
+    - title: "Desarrollo de cuentos interactivos para tablets con Cordova"
+      text:
+        - "En la presentación veremos cómo comenzar a crear apps móviles con Cordova / Phonegap y lo sencillo que resulta para los frontenders."
+        - "También trataremos cómo Javi y Cris lo han utilizado en su proyecto paralelo Oniric.co para desarrollar cuentos infantiles interactivos y las diferencias de desarrollar este tipo de apps comparado con el desarrollo de webs tradicionales."
+      links:
+      - url: "http://jacarma.github.io/alicetutorial/#1"
+        label: "slides &raquo;"
+      author:
+      - name: "Cris y Javi"
+        twitter: "oniricco"
+        bio: "forman oniricco por puro placer"
+    - title: "Arquitectura front-end CSS para proyectos a gran escala"
+      text:
+        - "Los proyectos de gran envergadura tienen requisitos particulares: la prioridad en la facilidad de mantenimiento, la modularización de las partes del proyecto y la gestión de la especificidad de selectores."
+        - "Esta charla versará sobre cómo aplicar y combinar diferentes metodologías de desarrollo CSS en nuestro beneficio. Veremos cómo nombrar usando BEM, cómo crear módulos y aplicar herencia basada en SMACSS, cómo reutilizar nuestros componentes con OOCSS y cómo aplicar frameworks como inuitcss o suitcss a nuestros proyectos."
+      links:
+      - url: "http://www.slideshare.net/RobertoLuchaSedeo/arquitectura-frontend-con-bem-y-sass"
+        label: "slides &raquo;"
+      author:
+      - name: "Roberto Lucha Sedeño"
+        twitter: "rlucha"
+        bio: "es Front-End Developer en all4Business creando UX para ecommerces Magento, Prestashop y desarrollos internos."
+    sponsor:
+      name: "vBote, el centro de formación en tecnología móvil"
+      url: "http://www.vbote.com/"
+      image: "logo_vbote.png"
+
+  - meetup:
+    date: "8 mayo 2014, 19:00h"
+    hangout_url: "https://plus.google.com/u/2/events/cm3parlf18t379br8jp2m85hehc"
+    type: single
+    talks:
+    - title: "Workshop: Sublime Workflow"
+      text:
+        - "Sin duda Sublime Text es el editor de código más cool del momento y una de las herramientas más utilizadas para el desarrollo front-end. En este taller verás cómo configurar, personalizar y aprender a sacarle todo el partido a Sublime Text. En menos de una hora tendrás la información suficiente como para crear tu propio Sublime Workflow."
+        - "¿Qué necesitas?"
+        - "Un portátil (da igual el SO) con Sublime Text instalado. Hay repositorios y paquetes para todas las distribuciones mayoritarias de Linux, así como MacOS y Windows."
+      links:
+      - url: "https://app.simplenote.com/publish/mWKpZB"
+        label: "slides &raquo;"
+      author:
+      - name: "Juan Andrés Núñez"
+        twitter: "juanwmedia"
+        bio: "es Desarrollador Interactivo, colabora con varias agencias y estudios de la Comunidad Valenciana y le entusiasma estar siempre aprendiendo algo nuevo."
+
+  - meetup:
+    date: "10 abril 2014, 19:00h"
+    hangout_url: "https://plus.google.com/u/0/events/cr3ouutmmsm8k2fng3f7e666g70"
+    type: double
+    talks:
+    - title: "Cómo inspeccionar Sass en Chrome usando su Workspace"
+      text:
+        - "Veremos cómo usar el Workspace de Chrome Dev Tools para guardar al vuelo los cambios mientras inspeccionamos el DOM y para los que usamos un preoprocesador CSS, modificar el archivo fuente y guardar los cambios para refrescarlos en pantalla automáticamente."
+      links:
+      - url: "/slides/JoseViChromeSassApr2014.rar"
+        label: "slides &raquo;"
+      author:
+      - name: "Jose Vicente Belenguer"
+        twitter: "josevibp"
+        bio: "es Diseñador Web Freelance y colaborador en Artvisual.net como Front-End Developer."
+    - title: "CSS Técnicas avanzadas"
+      text:
+        - "Es una exposición de problemas de diseño que pueden resolverse fácilmente con CSS, sin uso de JS. Veremos ejemplos prácticos de menor a mayor complejidad, además de un repaso sobre cómo personalizar elementos de formulario."
+        - "Finalmente se hará un pequeño resumen sobre propiedades no muy conocidas de CSS."
+      links:
+      - url: "https://github.com/meetsapp/talks/"
+        label: "slides &raquo;"
+      author:
+      - name: "Ismael González"
+        twitter: "basiclines"
+        bio: "hace diseño y front-end en meets (@meetsapp)."
+    sponsor:
+      name: "Singularu :: Encarga Piezas Únicas A Los Mejores Artesanos De España"
+      url: "http://singularu.com/blog/developer-se-busca/"
+      image: "logo_singularu.png"
+
+  - meetup:
+    date: "13 marzo 2014"
+    hangout_url: "https://plus.google.com/u/0/events/c9m0s9v7jhj0of5v61bt54b8h6k"
+    type: double
+    talks:
+    - title: "Carruseles Animados con Caroufredsel"
+      text:
+        - "Write less, do more... escribir menos y hacer más... Eso es lo que logras cuando utilizas jQuery y sus extensiones."
+        - "Si te interesa aprender un poco sobre caroufredesel, cómo cofigurarlo y ver varias demostraciones en vivo, ésto es para ti!"
+      links:
+      - url: "http://luisarraez.com/frontenders/"
+        label: "slides &raquo;"
+      author:
+      - name: "Luis A. Arraez Dominguez"
+        twitter: "luisarraezd"
+        bio: "es Desarollador Web y Móvil."
+    - title: "Diseño en Wikipedia"
+      text:
+        - "Wikipedia es una referencia para millones de usuarios. Diseñar una solución usable para seleccionar entre sus más de 300 idiomas es todo un desafío."
+        - "Esta charla aborda el caso del selector de idiomas para ilustrar el proceso de diseño y presentar técnicas útiles para todo tipo de proyectos."
+      links:
+      - url: "https://speakerdeck.com/pauginer/diseno-en-wikipedia"
+        label: "slides &raquo;"
+      author:
+      - name: "Pau Giner"
+        twitter: "pauginer"
+        bio: "es UX Designer en la Wikimedia Foundation."
+
+  - meetup:
+    date: "13 febrero 2014"
+    hangout_url: false
+    type: double
+    talks:
+    - title: "Buscando la inspiración. La herramienta no es lo más importante."
+      text:
+        - 'Nos enseñan a "diseñar" usando una herramienta, pero ¿qué es realmente el diseño? y ¿cómo encontrar la inspiración?. A lo largo de esta charla veremos técnicas y otros trucos que nos ayudarán a conseguirlo.'
+      links:
+      - url: "/slides/EsterBuscandolainspiracionFrontendersFeb2014.pdf"
+        label: "slides &raquo;"
+      - url: "http://www.youtube.com/watch?v=i25Mm9bbsWE"
+        label: "video &raquo;"
+      author:
+      - name: "Ester Cañizares"
+        twitter: "EsterCanizares"
+        bio: "es UX and Designer."
+    - title: "Mudando a Ajax sin morir en el intento, un caso práctico."
+      text:
+        - "No siempre es fácil crear una nueva interfaz reutilizando un proyecto anterior totalmente estático, veremos un caso práctico, os explicaré algunas alternativas al flow tradicional de algunos frameworks mvc en javascript  y veremos cómo hacer webs dinámicas aptas para SEO sin complicaciones con esta metodología."
+      links:
+      - url: "http://www.slideshare.net/IvnGarcaVillar/mudate-a-ajax-sin-morir-en-el-intento"
+        label: "slides &raquo;"
+      author:
+      - name: "Iván García Villar"
+        twitter: "ivangvillar"
+        bio: "es Software developer @ Pickevent."
+
+  - meetup:
+    date: "12 diciembre 2013"
+    hangout_url: false
+    type: double
+    talks:
+    - title: "COMPASS, al rescate de CSS"
+      text:
+        - "Comenzaremos analizando los problemas que solemos encontrar en la maquetación de interfaces web con el uso de CSS, malas practicas u otras limitaciones. Y después veremos como mejorar nuestras prestaciones y productividad utilizando la herramienta COMPASS."
+        - "En resumen, una pequeña introducción para aquellos interesados en abandonar el spaghetti code y tomar el verdadero sendero hacia la iluminación."
+      links:
+      - url: "/slides/VicenteCompassDic2013.pdf"
+        label: "slides &raquo;"
+      - url: "/slides/VicenteCompassFrontendersDic2013.tar.gz"
+        label: "resources &raquo;"
+      author:
+      - name: "Vicente Pons"
+        twitter: "gponsu"
+        bio: "es Ing. Informático, especialmente interesado en la gestión de proyectos y el desarrollo de interfaces web."
+    - title: "Prototipos interactivos con FramerJS"
+      text:
+        - "Cada vez es más necesario poder crear prototipos navegables para móvil que nos ayuden a validar y testear las decisiones que tomamos cuando elegimos una interacción o animación concreta. Para ello explicaremos cómo usar FramerJS y qué ventajas nos aporta, aprenderemos a crear un prototipo básico y veremos el ejemplo de alguno más avanzado."
+        - "No es necesario conocer profundamente JS, con tener algunas nociones básicas es suficiente. Incluso si no sabes usar JS, esta charla ayudará a conocer los aspectos básicos."
+      links:
+      - url: "http://meetsapp.com/talks/framerjs/talk.zip"
+        label: "slides &raquo;"
+      author:
+      - name: "Ismael González"
+        twitter: "basiclines"
+        bio: "hace diseño y front-end en meets (@meetsapp) start-up acelerada por @PlugandPlayES"
+    sponsor:
+      name: "Emergia - desarrollamos comunidades y redes sociales verticales"
+      url: "http://www.emergia.net/ofertas"
+      image: "logo_emergia.png"
+
+  - meetup:
+    date: "14 noviembre 2013"
+    hangout_url: false
+    type: double
+    talks:
+    - title: "UX en 30 minutos"
+      text:
+        - "Un viaje rápido por el mundo del UX. Todos sabemos qué significa User Experience, pero ¿de verdad sabemos qué quiere decir UX a la hora de crear un proyecto?"
+        - "Intentaremos explicar la esencia, algunas técnicas aplicadas al diseño/estructura (cosas que se mueven y hacen cosas... para no aburrirnos) y cómo presentar un proyecto que haga uso de UX."
+      links:
+      - url: "http://andreo.li/download/FRONTENDERSNOV2013.pdf"
+        label: "slides &raquo;"
+      author:
+      - name: "Stefano Andreoli"
+        twitter: "helloandreoli"
+        bio: "es Creative Director @ Andreo.li Interactive Design Studio"
+    - title: "Lean Design"
+      text:
+        - "En esta charla empezaremos a definir el perfil de diseñador dentro del mundo de las Startups tecnológicas, cual es su papel y sus objetivos."
+        - "Después nos centraremos en metodología de trabajo a la hora de afrontar un proyecto interactivo. Planteando las fases y procesos que intervienen desde la definición de la idea hasta su lanzamiento, y poniendo hincapié en los planteamientos, la organización y la experiencia de usuario."
+        - "Todo ello introduciendo algunas bases de la metodología Lean Startup aplicadas al diseño, que nos permitirán validar nuestro proyecto y asegurar la acogida y posible éxito del producto final."
+      links:
+      - url: "/slides/FlanFrontendersNov2013.pdf"
+        label: "slides &raquo;"
+      author:
+      - name: "Flan"
+        twitter: "flanlog"
+        bio: "es Director Creativo en weplaysweet y Advisor/Mentor especializado en diseño y UX en momentum.do."
+    sponsor:
+      name: "Valencia Startups"
+      url: "http://www.meetup.com/Valencia-Startups/"
+      image: "logo_valenciastartups.png"
+
+  - meetup:
+    date: "10 octubre 2013"
     hangout_url: false
     type: double
     talks:

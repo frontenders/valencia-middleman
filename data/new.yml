@@ -2,26 +2,25 @@ meetup:
   date: "8 enero 2015"
   type: "double"
   eventbrite: http://frontenders-nov-2014.eventbrite.es
-  talks: 
-  - title: Diseña y venderás.
+  talks:
+  - title: "Generando sitios web estáticos con Middleman"
     text:
-      - ¿Por qué un usuario entra a mi web y no sabe a donde ir? ¿Cómo consigo dar confianza a mis usuarios en una compra online? ¿Como escribo un texto persuasivo?
-      - Un buen diseño puede ser la clave para conseguir tu objetivo en Internet, pero no la única. Hoy hablaremos de diseño, pero también de usabilidad, de marketing y de experiencias, para responder a estas preguntas.
+      - "Frontenders tiene casi dos años, ¡y también su web!. Ha llegado el momento de pasar de una Web estática a algo más ágil para actualizar la información (en casa del herrero...)."
+      - "Para ello vamos a hacer uso de “Middleman”, un generador de sitios estáticos. Hablaremos del proceso de migración y las ventajas de usar este tipos de herramientas."
     author:
-    - name: Juanma Martínez
-      twitter: juanmamartinez
-      bio: es Web Designer & UX en @Increnta, agencia especializada en Inbound Marketing y Marketing Digital.
-
-  - title: Middleman
+    - name: "Tony Camaiani"
+      twitter: "tonycamaiani"
+      bio: "es Frontender en @peerTransfer & coorganizador de @frontendersVLC."
+  - title: "Diseña y venderás"
     text:
-      - ¿Tienes algo interesante que contar sobre temas de desarrollo frontend, diseño web, UI y UX y te gustaría compartirlo con nosotros?</p>
-      - Envíanos un correo a <a href="mailto:frontendersvalencia@gmail.com">frontendersvalencia@gmail.com</a> o contáctanos por <a target="_blank" href="https://twitter.com/frontendersVLC">twitter</a>
+      - "¿Por qué un usuario entra a mi web y no sabe a donde ir? ¿Cómo consigo dar confianza a mis usuarios en una compra online? ¿Como escribo un texto persuasivo?"
+      - "Un buen diseño puede ser la clave para conseguir tu objetivo en Internet, pero no la única. Hoy hablaremos de diseño, pero también de usabilidad, de marketing y de experiencias, para responder a estas preguntas."
     author:
-    - name: Tony Camaiani
-      twitter: tonycamaiani
-      bio: es Frontend Developer en @peerTransfer
+    - name: "Juanma Martínez"
+      twitter: "juanmamartinez"
+      bio: "es Web Designer & UX en @Increnta, agencia especializada en Inbound Marketing y Marketing Digital."
   sponsor:
-    name: Kuombo
-    url: http://tony.camaiani.me
-    image: image.jpg
+    name: "Kuombo - Consultoría y desarrollo de comercio electrónico"
+    url: "http://kuombo.com/"
+    image: "logo_kuombo.png"
 

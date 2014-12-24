@@ -42,7 +42,7 @@ ready: true
     - if homepage.sponsor
       %div
         %h3 Patrocinador
-        = link_to image_tag(homepage.sponsor[:image]), homepage.sponsor[:url], :title => homepage.sponsor[:name], :target => "_blank"
+        = link_to image_tag("sponsors/"+homepage.sponsor[:image]), homepage.sponsor[:url], :title => homepage.sponsor[:name], :target => "_blank"
 
     - if active
       %div
