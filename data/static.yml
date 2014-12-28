@@ -1,0 +1,46 @@
+# Header
+h1_title: "Frontenders Valencia"
+h1_city: "Valencia"
+h2_scream_line_1: "a meetup for"
+h2_scream_line_2: "Frontend & UI Developers,"
+h2_scream_line_3: "UX & Web Designers"
+nav_page_1: "¿Que es?"
+nav_page_1_title: "¿Que es Frontenders?"
+nav_page_2: "Anteriores"
+nav_page_2_title: "Los eventos anteriores"
+
+# Footer
+participate: "Participa"
+participate_how: "¿Quieres participar en una de las próximas reuniones? Escribe a"
+participate_email: "frontendersvalencia@gmail.com"
+follow: "Síguenos"
+partner: "Partner"
+partner_name: "GeeksHubs"
+partner_url: "http://geekshubs.com/es/?utm_source=comunidades&utm_medium=web&utm_campaign=frontenders"
+partner_url_title: "Comunidad Geek y Emprendedores techies"
+
+# Index
+main_paragraph_text_1: "Frontenders es una reunión mensual centrada en temas de desarrollo frontend, diseño web, UI y UX. Nos encontramos regularmente el segundo jueves de cada mes en el espacio de coworking"
+main_paragraph_text_2: ", en Avenida Cataluña, 11 (Valencia)."
+main_paragraph_link_text: "¿Quieres saber más?"
+next_meetup: "Próximo meetup:"
+week_day: "jueves"
+day_hour: ", 19:00h"
+sponsor: "Patrocinador"
+attend_text: "Asistiré al Frontenders Valencia"
+attend_subtext: "Por cuestiones de aforo nos gustaría saber el numero de asistentes."
+
+# What is
+frontenders_title: "¿Qué es Frontenders Valencia?"
+frontenders_def_text_1: "“The front end is an interface"
+frontenders_def_text_2: "between the user and the back end.”"
+frontenders_def_source_text: "Wikipedia"
+frontenders_def_source_url: "http://en.wikipedia.org/wiki/Front_and_back_ends"
+frontenders_text_1: "Esta definición resume en muy pocas palabras lo que entendemos por <em>frontender</em> la persona que se ocupa de la interfaz, en nuestro caso, de aplicaciones web."
+frontenders_text_2: "En Frontenders Valencia trataremos temas en los que arte, diseño, interacción, programación y análisis del comportamiento y de las prestaciones confluyen."
+frontenders_text_3: "Dos charlas de aproximadamente media hora, donde alguien presenta un tema, por conocimiento o por experiencia, y los demás intervienen con sus consejos o preguntas, ya que las reuniones pretenden ser diálogos donde todos puedan aportar y aprender."
+frontenders_text_4: "Por eso, pedimos a todos los interesados que propongan nuevas charlas y participen activamente en los próximos meetups. Si eres desarollador frontend, experto en UI y UX, o diseñador web y quieres colaborar con nosotros escríbenos a"
+back: "&laquo volver"
+
+# Past
+past_title: "Meetups anteriores"

@@ -14,16 +14,17 @@ ready: true
 
 %main{:role => "main"}
   %p.main_paragraph
-    Frontenders es una reunión mensual centrada en temas de desarrollo frontend, diseño web, UI y UX.
-    Nos encontramos regularmente el segundo jueves de cada mes en el espacio de coworking
-    = link_to "GeeksHubs", "http://geekshubs.com/es/?utm_source=comunidades&utm_medium=web&utm_campaign=frontenders", :title => "Comunidad Geek y Emprendedores techies", :target=> "_blank"
-    , en Avenida Cataluña, 11 (Valencia).
-    = link_to "¿Quieres saber más?", "frontenders.html"
+    = data.static[:main_paragraph_text_1]
+    = link_to data.static[:partner_name], data.static[:partner_url], :title => data.static[:partner_url_title], :target => "_blank"
+    = data.static[:main_paragraph_text_2]
+    = link_to data.static[:main_paragraph_link_text], "frontenders.html"
 
   %h2.title
-    Próximo meetup:
+    = data.static[:next_meetup]
     %time
-      jueves #{date}, 19:00h
+      = data.static[:week_day]
+      #{date}
+      = data.static[:day_hour]
 
   %section{:id => "#{type}"}
 
@@ -41,10 +42,10 @@ ready: true
 
     - if homepage.sponsor
       %div
-        %h3 Patrocinador
+        %h3= data.static[:sponsor]
         = link_to image_tag("sponsors/"+homepage.sponsor[:image]), homepage.sponsor[:url], :title => homepage.sponsor[:name], :target => "_blank"
 
     - if active
       %div
-        = link_to "Asistiré al Frontenders Valencia", homepage[:eventbrite], :class => "button", :target => "_blank"
-        %small.caption Por cuestiones de aforo nos gustaría saber el numero de asistentes.
+        = link_to data.static[:attend_text], homepage[:eventbrite], :class => "button", :target => "_blank"
+        %small.caption= data.static[:attend_subtext]

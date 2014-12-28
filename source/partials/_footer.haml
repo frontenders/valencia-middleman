@@ -1,17 +1,17 @@
 %footer
   .first
-    %h3 Participa
+    %h3= data.static[:participate]
     %p
-      ¿Quieres participar en una de las próximas reuniones? Escribe a
-      = link_to "frontendersvalencia@gmail.com", "mailto:frontendersvalencia@gmail.com"
+      =data.static[:participate_how]
+      =mail_to data.static[:participate_email], data.static[:participate_email]
 
   .middle
-    %h3 Síguenos
+    %h3= data.static[:follow]
     %p
       = link_to "@frontendersVLC", "https://twitter.com/frontendersVLC", :title => "@frontendersVLC on Twitter", :target => "_blank"
-      = link_to "#frontendersVLC", "https://twitter.com/search?q=%23frontendersVLC", :title => "Hashtag #frontendersVLC", :target => "_blank"      
+      = link_to "#frontendersVLC", "https://twitter.com/search?q=%23frontendersVLC", :title => "Hashtag #frontendersVLC", :target => "_blank"
 
   .last
-    %h3 Partner
+    %h3= data.static[:partner]
     %p
-      = link_to "GeeksHubs", "http://geekshubs.com/es/?utm_source=comunidades&utm_medium=web&utm_campaign=frontenders", :title => "Comunidad Geek y Emprendedores techies", :target => "_blank"
+      = link_to data.static[:partner_name], data.static[:partner_url], :title => data.static[:partner_url_title], :target => "_blank"
