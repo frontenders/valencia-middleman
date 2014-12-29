@@ -26,7 +26,7 @@ ready: true
       #{date}
       = data.static[:day_hour]
 
-  %section{:id => "#{type}"}
+  %section{:class => "#{type}"}
 
     - homepage.talks.each do |f|
       %article
