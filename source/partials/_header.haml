@@ -1,17 +1,18 @@
 %header
-  %h1
-    = link_to "&lt;frontenders/&gt;", "/", :title => data.static[:h1_title]
-    %span= data.static[:h1_city]
+  %hgroup
+    %h1
+      = link_to "&lt;frontenders/&gt;", "/", :title => data.static[:h1_title]
+      %span= data.static[:h1_city]
 
-  %h2
-    = data.static[:h2_scream_line_1]
-    %span= data.static[:h2_scream_line_2]
-    %span= data.static[:h2_scream_line_3]
+    %h2
+      = data.static[:h2_scream_line_1]
+      %span= data.static[:h2_scream_line_2]
+      %span= data.static[:h2_scream_line_3]
 
-  %nav
-    %ul
-      %li
-        = link_to data.static[:nav_page_1], "/frontenders.html", :title => data.static[:nav_page_1_title], :class => is_page_selected("/frontenders/")
-      %li
-        = link_to data.static[:nav_page_2], "/past.html", :title => data.static[:nav_page_2_title], :class => is_page_selected("/past/")
+    %nav
+      %ul
+        %li
+          = link_to data.static[:nav_page_1], "/frontenders.html", :title => data.static[:nav_page_1_title], :class => is_page_selected("/frontenders/")
+        %li
+          = link_to data.static[:nav_page_2], "/past.html", :title => data.static[:nav_page_2_title], :class => is_page_selected("/past/")
 
