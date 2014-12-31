@@ -2,26 +2,32 @@
 
 //// Basic Colors
 
-  $white: #fff;
+    $white: #fff;
 
-  $gray: #53585e; /* text */
-  $gray_light: #f5f5f5; /* background */
-  $gray_lighter: rgba(161, 161, 161, 0.5);
+    $gray: #53585e; /* text */
+    $gray_light: #f5f5f5; /* background */
+    $gray_lighter: rgba(161, 161, 161, 0.5);
 
-  $orange: rgb(230, 126, 34);
-  $orange_light: rgb(243, 156, 18);
-  $orange_dark: rgba(211, 84, 0, 0.5);
-  $orange_darker: rgb(220, 105, 17);
+    $orange: rgb(230, 126, 34);
+    $orange_light: rgb(243, 156, 18);
+    $orange_dark: rgba(211, 84, 0, 0.5);
+    $orange_darker: rgb(220, 105, 17);
 
-  $blue: #1ea0ce;
-  $blue_light: #339ACC;
+    $blue: #1ea0ce;
+    $blue_light: #339ACC;
 
   //// Background Colors
 
-    $body_background: $gray_light;
-    $header_background: $orange;
-    $button_background: $orange_light;
-    $button_hover_background: $orange_dark;
+    $background_color_body: $gray_light;
+    $background_color_header: $orange;
+    $background_color_button: $orange_light;
+    $background_color_button_hover: $orange_dark;
+
+    $shadow_color_header: $gray_lighter;
+    $shadow_color_article: $gray_lighter;
+
+    $border_color_article: $white;
+
 
   //// Text Colors
 

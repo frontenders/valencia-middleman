@@ -1,14 +1,13 @@
 @import 'normalize';
 @import 'variables';
 @import 'mixins';
-
 @charset "utf-8";
 
 //// General styles
 
 body {
 	font-family: $font_family;
-	background: $body_background;
+	background: $background_color_body;
 	font-size: 1em;
 	line-height: 1.4;
   }
@@ -35,16 +34,16 @@ img { vertical-align: middle; }
 main, footer, header { padding: 10px 20px; }
 
 header {
-  background: $header_background;
+  background: $background_color_header;
   padding-bottom: 5px;
-  @include box-shadow(0px, 2px, 10px, $gray_lighter);
+  @include box-shadow(0px, 2px, 10px, $shadow_color_header);
 
   h1 {
 	  width: 300px;
 	  line-height: 46px;
 	  color: $text_header_color;
 	  margin: 10px auto 5px;
-	  background: url(/images/frontenders_logo_small.png) top center no-repeat;
+	  background: url(/images/logo_small.png) top center no-repeat;
 	  padding: 56px 0 0;
 
     a, a:hover, a:visited { color: $text_header_color; text-decoration: none; }
@@ -83,8 +82,8 @@ header {
 
         a,
         a:visited {
-          color: $text_header_color;
-          background-color: $button_background;
+          color: $text_button_color;
+          background-color: $background_color_button;
           font-size: 18px;
           letter-spacing: 1px;
           line-height: 26px;
@@ -92,8 +91,8 @@ header {
           @include rounded(5px);
 
           &:hover, &.selected {
-            color: $text_header_color;
-            background-color: $button_hover_background;
+            color: $text_button_color;
+            background-color: $background_color_button_hover;
             text-decoration: none;
           }
         } // a
@@ -123,9 +122,9 @@ main {
 
   article {
     padding: 10px 15px;
-    border: 2px solid #fff;
+    border: 2px solid $border_color_article;
     margin: 0 auto 30px;
-    @include box-shadow (0px, 0px, 3px, $gray_lighter);
+    @include box-shadow (0px, 0px, 3px, $shadow_color_article);
     @include rounded(10px);
 
     h3 { margin-top: 0; }
@@ -141,7 +140,7 @@ main {
   a.button,
   a.button:visited {
     font-size: 18px;
-    color: #fff;
+    color: $text_button_color;
     height: 26px;
     line-height: 26px;
     padding: 5px 12px;
@@ -152,7 +151,7 @@ main {
     @include rounded(5px);
 
     &:hover {
-      color: #fff;
+      color: $text_button_color;
       background-color: $text_button_background;;
       text-decoration: none;
     }
@@ -194,23 +193,17 @@ a.partner {
 
   header {
     h1 {
-      text-align: center;
+      width: 460px;
       font-size: 72px;
       line-height: 72px;
-      background: url(/images/frontenders_logo.png) top center no-repeat;
+      background: url(/images/logo.png) top center no-repeat;
       padding: 90px 0 0;
-      width: 460px;
-      margin: 10px auto 5px;
 
       span {
         font-size: 30px;
         line-height: 30px;
         text-align: right;
-        color: #fff;
-        text-transform: uppercase;
-        font-weight: 400;
         margin: 0 68px 0 0;
-        display: block;
       }
     } // h1
 
@@ -316,6 +309,8 @@ a.partner {
       span { display: block; }
     } // h2
   } // header
+
+
 
   nav {
     ul {
