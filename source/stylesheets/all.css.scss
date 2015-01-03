@@ -120,6 +120,8 @@ main {
     cite { font-size: 16px; display: block; }
   }
 
+  section { margin-bottom: 60px; }
+
   article {
     padding: 10px 15px;
     border: 2px solid $border_color_article;
@@ -134,7 +136,8 @@ main {
   div {
     text-align: center;
     font-size: 15px;
-    padding: 10px 15px;
+    padding: 0 15px 15px;
+    h3 { margin-top: 0;}
   }
 
   a.button,
@@ -166,7 +169,7 @@ footer {
   font-size: 16px;
 
   div {
-    margin: 0 0 25px;
+    margin: 0 0 50px;
     text-align: center;
 
     h3 { margin: 0 0 3px 0; }
@@ -181,12 +184,23 @@ a.partner {
     margin: 0 auto;
   }
 
-.ir {
+.hangout {
+    background: url(/images/ico_hangout.png) no-repeat top left;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: text-top;
+}
+
+.ico, .ir {
   border: 0;
   font: 0/0 a;
   text-shadow: none;
   color: transparent;
 }
+
+
 
 
 @media only screen and (min-width: 768px) {
@@ -255,7 +269,6 @@ a.partner {
       flex-basis: 0;
 
       &.first { text-align: left;}
-      &.middle a { display: inline-block; }
       &.last { text-align: right;}
 
     } // div
@@ -309,8 +322,6 @@ a.partner {
       span { display: block; }
     } // h2
   } // header
-
-
 
   nav {
     ul {
