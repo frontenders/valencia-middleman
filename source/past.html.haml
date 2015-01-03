@@ -6,7 +6,7 @@ title: Los eventos anteriores
   %h2.title= data.static[:past_title]
 
   - data.archive.meetups.each do |m|
-    %h2
+    %h2.section_title
       = data.static[:week_day]
       = m[:date]
 

@@ -46,6 +46,6 @@ ready: true
         = link_to image_tag("sponsors/"+homepage.sponsor[:image]), homepage.sponsor[:url], :title => homepage.sponsor[:name], :target => "_blank"
 
     - if active
-      %div
+      .call_to_action
         = link_to data.static[:attend_text], homepage[:eventbrite], :class => "button", :target => "_blank"
         %small.caption= data.static[:attend_subtext]

@@ -113,6 +113,11 @@ main {
     time { display: block;}
   } // title
 
+  .section_title {
+    font-size: 24px;
+    color: $text_heading_color;
+  } // section_title
+
   .main_paragraph {
     font-size: 18px;
 
@@ -138,6 +143,7 @@ main {
     font-size: 15px;
     padding: 0 15px 15px;
     h3 { margin-top: 0;}
+    &.call_to_action { margin-top: 40px;}
   }
 
   a.button,
@@ -171,8 +177,9 @@ footer {
   div {
     margin: 0 0 50px;
     text-align: center;
-
+    &.last { margin: 0; }
     h3 { margin: 0 0 3px 0; }
+
   } // div
 } // footer
 
@@ -247,10 +254,14 @@ a.partner {
     } // title
 
   main {
-      .title {
+    .title {
       font-size: 35px;
       time { display: inline-block;}
     } // title
+
+    .section_title {
+      font-size: 28px;
+    } // section_title
 
 
     .main_paragraph {
@@ -265,6 +276,7 @@ a.partner {
     justify-content: center;
 
     div {
+      margin: 0;
       flex-grow: 1;
       flex-basis: 0;
 
