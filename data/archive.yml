@@ -52,7 +52,7 @@ meetups:
       image: "logo_momentum.png"
 
   - meetup:
-    date: "12 junio 2014, 19:00h"
+    date: "12 junio 2014"
     hangout_url: "https://plus.google.com/u/0/events/cctu9mgtopkatcah0cskpe7l9i8"
     type: double
     talks:
@@ -84,7 +84,7 @@ meetups:
       image: "logo_vbote.png"
 
   - meetup:
-    date: "8 mayo 2014, 19:00h"
+    date: "8 mayo 2014"
     hangout_url: "https://plus.google.com/u/2/events/cm3parlf18t379br8jp2m85hehc"
     type: single
     talks:
@@ -102,7 +102,7 @@ meetups:
         bio: "es Desarrollador Interactivo, colabora con varias agencias y estudios de la Comunidad Valenciana y le entusiasma estar siempre aprendiendo algo nuevo."
 
   - meetup:
-    date: "10 abril 2014, 19:00h"
+    date: "10 abril 2014"
     hangout_url: "https://plus.google.com/u/0/events/cr3ouutmmsm8k2fng3f7e666g70"
     type: double
     talks:
