@@ -1,14 +1,12 @@
 Frontenders Valencia
 =========
 
-Frontenders Valencia web site made with Middleman
+Frontenders Valencia web site built with Middleman
+by Tony Camaiani http://tony.camaiani.me/
 
+Still work in progress
 
-todo list:
+Nice to have:
+- social icon font
+- svg images
 
-- Move data from past_list.html.erb to archive.yml
-- Continue style pattern lab and apply to pages
-
-Nice to have
-- svg images?
-- flexbox
