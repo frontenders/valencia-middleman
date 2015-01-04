@@ -1,18 +1,19 @@
 %footer
-  .first
-    %h3= data.static[:participate]
-    %p
-      =data.static[:participate_how]
-      =mail_to data.static[:participate_email], data.static[:participate_email]
+  .fgroup
+    .first
+      %h3= data.static[:participate]
+      %p
+        =data.static[:participate_how]
+        =mail_to data.static[:participate_email], data.static[:participate_email]
 
-  .middle
-    %h3= data.static[:follow]
-    %p
-      = link_to "@frontendersVLC", "https://twitter.com/frontendersVLC", :title => "@frontendersVLC on Twitter", :target => "_blank"
-    %p
-      = link_to "#frontendersVLC", "https://twitter.com/search?q=%23frontendersVLC", :title => "Hashtag #frontendersVLC", :target => "_blank"
+    .middle
+      %h3= data.static[:follow]
+      %p
+        = link_to "@frontendersVLC", "https://twitter.com/frontendersVLC", :title => "@frontendersVLC on Twitter", :target => "_blank"
+      %p
+        = link_to "#frontendersVLC", "https://twitter.com/search?q=%23frontendersVLC", :title => "Hashtag #frontendersVLC", :target => "_blank"
 
-  .last
-    %h3= data.static[:partner]
-    %p
-      = link_to data.static[:partner_name], data.static[:partner_url], :title => data.static[:partner_url_title], :class => "partner ir", :target => "_blank"
+    .last
+      %h3= data.static[:partner]
+      %p
+        = link_to data.static[:partner_name], data.static[:partner_url], :title => data.static[:partner_url_title], :class => "partner ir", :target => "_blank"

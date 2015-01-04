@@ -30,7 +30,7 @@ img { vertical-align: middle; }
 
 //// Frontenders Theme
 
-main, footer, hgroup { padding: 10px 20px; }
+main, .fgroup, hgroup { padding: 10px 20px; }
 
 header {
   background: $background_color_header;
@@ -137,6 +137,7 @@ main {
 
     h3 { margin-top: 0; }
     p { font-size: 16px; }
+    p.links { margin: 0}
   } // article
 
   div {
@@ -170,19 +171,23 @@ main {
 
 } // main
 
-
 footer {
-  padding: 25px;
-  font-size: 16px;
+  border-top: 2px solid $border_color_article;
+  @include box-shadow(0px, 2px, 10px, $shadow_color_header);
 
-  div {
-    margin: 0 0 40px;
-    text-align: center;
-    p { margin: 5px 0; }
-    &.last { margin: 0; }
-    h3 { font-weight: 600; margin: 0 0 8px 0; }
+  .fgroup {
+    padding: 25px;
+    font-size: 16px;
 
-  } // div
+    div {
+      margin: 0 0 40px;
+      text-align: center;
+      p { margin: 5px 0; }
+      &.last { margin: 0; }
+      h3 { font-weight: 600; margin: 0 0 8px 0; }
+
+    } // div
+  } // fgroup
 } // footer
 
 a.partner {
@@ -208,9 +213,6 @@ a.partner {
   text-shadow: none;
   color: transparent;
 }
-
-
-
 
 @media only screen and (min-width: 768px) {
 
@@ -246,14 +248,14 @@ a.partner {
 
   } // header
 
-    h2 { text-align: center; }
+  h2 { text-align: center; }
 
-    .title {
-      font-size: 26px;
-      color: $text_heading_color;
+  .title {
+    font-size: 26px;
+    color: $text_heading_color;
 
-      time { display: block;}
-    } // title
+    time { display: block;}
+  } // title
 
   main {
     .title {
@@ -274,18 +276,20 @@ a.partner {
   } // main
 
   footer {
-    display: flex;
-    justify-content: center;
+    .fgroup {
+      display: flex;
+      justify-content: center;
 
-    div {
-      margin: 0;
-      flex-grow: 1;
-      flex-basis: 0;
+      div {
+        margin: 0;
+        flex-grow: 1;
+        flex-basis: 0;
 
-      &.first { text-align: left;}
-      &.last { text-align: right;}
+        &.first { text-align: left;}
+        &.last { text-align: right;}
 
-    } // div
+      } // div
+    } // .fgroup
   } // footer
 
   a.partner { margin: 0; float: right; }
@@ -294,37 +298,37 @@ a.partner {
 
 @media only screen and (min-width: 896px) {
 
+  main {
+    section {
+      article {
+        margin: 0 2% 30px;
+      } // article
 
-  section {
-    article {
-      margin: 0 2% 30px;
-    } // article
+      &.double {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
 
-    &.double {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+      article {
+        flex-grow: 1;
+        flex-basis: 0;
+      }
 
-    article {
-      flex-grow: 1;
-      flex-basis: 0;
-    }
-
-    div { flex: 1 100%; }
-    } // section.double
-  } // section
+      div { flex: 1 100%; }
+      } // section.double
+    } // section
+  } // main
 
 } // @media min-width: 1024px
 
 @media only screen and (min-width: 1024px) {
 
-  main, footer, hgroup {
+  main, .fgroup, hgroup {
     width: 1000px;
     margin: 0 auto;
   }
 
   header {
-
     h1 {
         margin: 10px 0 5px;
         float: left;
