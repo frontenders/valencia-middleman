@@ -3,21 +3,19 @@ title: ¿Que es? Frontenders
 ---
 
 %main{:role => "main"}
-  %h2.title= data.static[:frontenders_title]
-  %p
-    %b= data.static[:frontenders_def_text_1]
-    = data.static[:frontenders_def_text_2]
-    %cite
-      =link_to data.static[:frontenders_def_source_text], data.static[:frontenders_def_source_url], :target => "_blank"
+  %section
+    %h2.title= data.static[:frontenders_title]
+    %p
+      %b= data.static[:frontenders_def_text_1]
+      = data.static[:frontenders_def_text_2]
+      %cite
+        =link_to data.static[:frontenders_def_source_text], data.static[:frontenders_def_source_url], :target => "_blank"
 
-  %p= data.static[:frontenders_text_1]
-  %p= data.static[:frontenders_text_2]
-  %p= data.static[:frontenders_text_3]
+    %p= data.static[:frontenders_text_1]
+    %p= data.static[:frontenders_text_2]
+    %p= data.static[:frontenders_text_3]
 
-  %p
-    = data.static[:frontenders_text_4]
-    = succeed '.' do
-      =mail_to data.static[:participate_email], data.static[:participate_email]
-
-  %p
-    = link_to data.static[:back], "/"
+    %p
+      = data.static[:frontenders_text_4]
+      = succeed '.' do
+        =mail_to data.static[:participate_email], data.static[:participate_email]
