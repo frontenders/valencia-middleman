@@ -173,7 +173,6 @@ main {
 
 footer {
   border-top: 2px solid $border_color_article;
-  @include box-shadow(0px, 2px, 10px, $shadow_color_header);
 
   .fgroup {
     padding: 25px;
