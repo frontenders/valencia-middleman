@@ -1,7 +1,7 @@
 meetup:
   date: "8 enero 2015"
   type: "double"
-  eventbrite: http://frontenders-nov-2014.eventbrite.es
+  eventbrite: https://frontenders-enero-2015.eventbrite.es
   talks:
   - title: "Generando sitios web estáticos con Middleman"
     text:
