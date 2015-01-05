@@ -1,0 +1,12 @@
+/* TEAM - change this with your data */
+  Web Developer : Tony Camaiani
+  Site: http://tony.camaiani.me
+  Twitter: https://twitter.com/tonycamaiani
+  Location: Valencia (Spain)
+
+/* THANKS */
+  Names (& URL):
+
+/* SITE */
+  Standards: HTML5 (HAML), CSS3 (SASS)
+  Components: Middleman, Modernizr, normalize.css
