@@ -1,12 +1,22 @@
-Frontenders Valencia
-=========
+## Frontenders Valencia Middleman
 
-Frontenders Valencia web site built with Middleman
-by Tony Camaiani http://tony.camaiani.me/
+### Website of the meetup Frontenders Valencia made with Middleman
+### http://valencia.frontenders.me/
 
-Still work in progress
+Resources:
+- Middleman https://middlemanapp.com/
+- Normalize http://necolas.github.io/normalize.css/
+- Modernizr http://modernizr.com/
 
-Nice to have:
-- social icon font
-- svg images
+Author:
+Tony Camaiani http://tony.camaiani.me/
+
+Contributors:
+you?
+
+Todo list:
+- SVG images
+- Social Icons Font
+- Generalize number of talk
+- ...suggestions?
 
