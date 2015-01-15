@@ -25,6 +25,9 @@ Todo list:
 
 Presentation of this project @ Frontenders Valencia January, 18th 2015 
 
-video (in spanish) https://plus.google.com/u/1/b/109508156212487113138/events/ctbik4gild1d54l6hsde5o302k4
+Whole meetup (in spanish) https://plus.google.com/u/1/b/109508156212487113138/events/ctbik4gild1d54l6hsde5o302k4
+Only this talk (in spanish) https://www.youtube.com/watch?v=8XbqViCImek
 
-slides http://tony.camaiani.me/frontenders-middleman-talk/
+Slides http://tony.camaiani.me/frontenders-middleman-talk/
+Slideshare http://www.slideshare.net/TonyCamaiani/generating-static-web-sites-with-middleman-by-tony-camaiani-tonycamaiani
+
