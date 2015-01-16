@@ -1,5 +1,40 @@
 meetups:
   - meetup:
+    date: "8 enero 2015"
+    type: "double"
+    hangout_url: "https://plus.google.com/u/1/b/109508156212487113138/events/ctbik4gild1d54l6hsde5o302k4"
+    talks:
+    - title: "Generando sitios web estáticos con Middleman"
+      text:
+        - "Frontenders tiene casi dos años, ¡y también su web!. Ha llegado el momento de pasar de una Web estática a algo más ágil para actualizar la información (en casa del herrero...)."
+        - "Para ello vamos a hacer uso de “Middleman”, un generador de sitios estáticos. Hablaremos del proceso de migración y las ventajas de usar este tipos de herramientas."
+      links:
+      - url: "https://github.com/frontenders/valencia-middleman"
+        label: "repo &raquo;"
+      - url: "http://tony.camaiani.me/frontenders-middleman-talk/#/"
+        label: "slides &raquo;"
+      author:
+      - name: "Tony Camaiani"
+        twitter: "tonycamaiani"
+        bio: "es Frontender en @peerTransfer & coorganizador de @frontendersVLC."
+    - title: "Diseña y venderás"
+      text:
+        - "¿Por qué un usuario entra a mi web y no sabe a donde ir? ¿Cómo consigo dar confianza a mis usuarios en una compra online? ¿Como escribo un texto persuasivo?"
+        - "Un buen diseño puede ser la clave para conseguir tu objetivo en Internet, pero no la única. Hoy hablaremos de diseño, pero también de usabilidad, de marketing y de experiencias, para responder a estas preguntas."
+      links:
+      - url: "/slides/Jmartinez_frontenders_design.pdf"
+        label: "slides &raquo;"
+      author:
+      - name: "Juanma Martínez"
+        twitter: "juanmamartinez"
+        bio: "es Web Designer & UX en @Increnta, agencia especializada en Inbound Marketing y Marketing Digital."
+    sponsor:
+      name: "Kuombo - Consultoría y desarrollo de comercio electrónico"
+      url: "http://kuombo.com/"
+      image: "logo_kuombo.png"
+
+
+  - meetup:
     date: "13 noviembre 2014"
     hangout_url: "https://plus.google.com/u/0/events/c43la6lak11lgpo6g7q6bgumfpc"
     type: double
