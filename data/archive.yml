@@ -11,10 +11,8 @@ meetups:
       links:
       - url: "https://github.com/frontenders/valencia-middleman"
         label: "repo &raquo;"
-      links:
       - url: "http://tony.camaiani.me/frontenders-middleman-talk/#/"
         label: "slides &raquo;"
-
       author:
       - name: "Tony Camaiani"
         twitter: "tonycamaiani"
@@ -23,6 +21,9 @@ meetups:
       text:
         - "¿Por qué un usuario entra a mi web y no sabe a donde ir? ¿Cómo consigo dar confianza a mis usuarios en una compra online? ¿Como escribo un texto persuasivo?"
         - "Un buen diseño puede ser la clave para conseguir tu objetivo en Internet, pero no la única. Hoy hablaremos de diseño, pero también de usabilidad, de marketing y de experiencias, para responder a estas preguntas."
+      links:
+      - url: "/slides/Jmartinez_frontenders_design.pdf"
+        label: "slides &raquo;"
       author:
       - name: "Juanma Martínez"
         twitter: "juanmamartinez"

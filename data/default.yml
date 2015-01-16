@@ -1,7 +1,7 @@
 meetup:
-  date: "8 enero 2015"
+  date: "12 febrero 2015"
   type: "double"
-  talks: 
+  talks:
   - title: Espacio libre
     text:
       - ¿Tienes algo interesante que contar sobre temas de desarrollo frontend, diseño web, UI y UX y te gustaría compartirlo con nosotros?</p>
