@@ -1,0 +1,21 @@
+---
+title: ¿Que es? Frontenders
+---
+
+%main{:role => "main"}
+  %section
+    %h2.title= data.static[:event_title]
+    %p
+      %b= data.static[:event_def_text_1]
+      = data.static[:event_def_text_2]
+      %cite
+        =link_to data.static[:event_def_source_text], data.static[:event_def_source_url], :target => "_blank"
+
+    %p= data.static[:event_text_1]
+    %p= data.static[:event_text_2]
+    %p= data.static[:event_text_3]
+
+    %p
+      = data.static[:event_text_4]
+      = succeed '.' do
+        =mail_to data.static[:participate_email], data.static[:participate_email]

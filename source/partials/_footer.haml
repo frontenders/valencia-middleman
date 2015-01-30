@@ -9,9 +9,9 @@
     .middle
       %h3= data.static[:follow]
       %p
-        = link_to "@frontendersVLC", "https://twitter.com/frontendersVLC", :title => "@frontendersVLC on Twitter", :target => "_blank"
+        = link_to data.static[:twitter_account], data.static[:twitter_url], :title => data.static[:twitter_account] + " on Twitter", :target => "_blank"
       %p
-        = link_to "#frontendersVLC", "https://twitter.com/search?q=%23frontendersVLC", :title => "Hashtag #frontendersVLC", :target => "_blank"
+        = link_to "#" + data.static[:twitter_hashtag], "https://twitter.com/search?q=%23" + data.static[:twitter_hashtag], :title => "Hashtag #" + data.static[:twitter_hashtag], :target => "_blank"
 
     .last
       %h3= data.static[:partner]

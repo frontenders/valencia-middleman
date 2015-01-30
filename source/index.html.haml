@@ -1,8 +1,7 @@
 ---
 title: a meetup for Frontend  UI Developers, UX  Web Designers
-ready: true
 ---
-- active = current_page.data.ready
+- active = data.static[:ready]
 
 - if active
   - homepage = data.new.meetup
@@ -17,7 +16,7 @@ ready: true
     = data.static[:main_paragraph_text_1]
     = link_to data.static[:partner_name], data.static[:partner_url], :title => data.static[:partner_url_title], :target => "_blank"
     = data.static[:main_paragraph_text_2]
-    = link_to data.static[:main_paragraph_link_text], "frontenders.html"
+    = link_to data.static[:main_paragraph_link_text], "event.html"
 
   %h2.title
     = data.static[:next_meetup]

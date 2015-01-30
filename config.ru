@@ -30,7 +30,7 @@ map "/" do
   }
 end
 
-map "/frontenders.html" do
+map "/event.html" do
   run lambda { |env|
     [
       200,
@@ -38,7 +38,7 @@ map "/frontenders.html" do
         'Content-Type'  => 'text/html',
         'Cache-Control' => 'public, max-age=86400'
       },
-      File.open('build/frontenders.html', File::RDONLY)
+      File.open('build/event.html', File::RDONLY)
     ]
   }
 end

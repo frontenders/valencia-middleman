@@ -15,13 +15,13 @@
 
     $blue: #1ea0ce;
     $blue_light: #339ACC;
-
+    $blue_dark:#0040FF;
   //// Background Colors
 
     $background_color_body: $gray_light;
-    $background_color_header: $orange;
-    $background_color_button: $orange_light;
-    $background_color_button_hover: $orange_dark;
+    $background_color_header: $blue;
+    $background_color_button: $blue_light;
+    $background_color_button_hover: $blue_dark;
 
     $shadow_color_header: $gray_lighter;
     $shadow_color_article: $gray_lighter;

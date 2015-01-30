@@ -1,12 +1,8 @@
 meetup:
-  date: "8 enero 2015"
-  type: "double"
-  talks: 
+  date: "2015"
+  type: "simple"
+  talks:
   - title: Espacio libre
     text:
-      - ¿Tienes algo interesante que contar sobre temas de desarrollo frontend, diseño web, UI y UX y te gustaría compartirlo con nosotros?</p>
-      - Envíanos un correo a <a href="mailto:frontendersvalencia@gmail.com">frontendersvalencia@gmail.com</a> o contáctanos por <a target="_blank" href="https://twitter.com/frontendersVLC">twitter</a>
-  - title: Espacio libre
-    text:
-      - ¿Tienes algo interesante que contar sobre temas de desarrollo frontend, diseño web, UI y UX y te gustaría compartirlo con nosotros?</p>
-      - Envíanos un correo a <a href="mailto:frontendersvalencia@gmail.com">frontendersvalencia@gmail.com</a> o contáctanos por <a target="_blank" href="https://twitter.com/frontendersVLC">twitter</a>
+      - ¿Tienes algo interesante que contar sobre temas de operaciones, desarrollo, infraestrucutura y administración de sistemas y te gustaría compartirlo con nosotros?</p>
+      - Envíanos un correo a <a href="mailto:valenciadevops@gmail.com">valenciadevops@gmail.com</a> o contáctanos por <a target="_blank" href="https://twitter.com/valenciadevops">twitter</a>
