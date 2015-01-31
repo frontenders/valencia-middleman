@@ -1,12 +1,12 @@
 meetup:
-  date: "8 enero 2015"
+  date: "12 febrero 2015"
   type: "double"
-  eventbrite: https://frontenders-enero-2015.eventbrite.es
+  eventbrite: "https://www.eventbrite.es/e/entradas-frontenders-valencia-15582784528"
   talks:
   - title: "Picnic CSS, explorando los límites de CSS3"
     text:
-      - "Picnic CSS es una librería muy ligera y personalizada. Sigue la separación de conceptos y una metodología DRY más estricta, al contrario que otras librerías similares como Pure CSS o Bootstrap. Cuando empecé a utilizar estas me pregunté, ¿por qué hace falta decirles a los botones que son de tipo, ehm, botón? ¿No sería más fácil si ya lo supieran? También descubrí Tympanus por la época y me encantó."
-      - "Después de implementar los button y select - algo que casi ninguna librería hace - decidí hacer el resto de elementos de los formularios, y de paso las tablas y un sistema de grids por curiosidad. Lo metí todo en una misma hoja de estilos con el nombre picnic.css y lo publiqué en Hacker News, llegando a la frontpage y consiguiendo más de 20.000 visitas en las primeras 24 horas. Gracias a todos los consejos y pull requests ahora es un proyecto bastante robusto."
+      - "En la charla explicaré cómo hice y lancé Picnic CSS, una librería de CSS muy ligera para acelerar la creación de páginas webs. Tuvo una gran acogida, llegando al segundo puesto de Hacker News con más de 20.000 visitas en las primeras 24 horas."
+      - "La idea surgió al no estar contento con las alternativas actuales, ya sea por el peso en kb o por la complejidad de las mismas. También me sirvió para poder explorar algunos casos que normalmente no se exploran y me parecían interesantes."
     author:
     - name: "Francisco Presencia Fandos"
       twitter: "FPresencia"
@@ -18,5 +18,5 @@ meetup:
     author:
     - name: "Salva Ferrando"
       twitter: "salvafc"
-      bio: "es diseñador gráfico en @peerTransfer y Sketch-lover."
+      bio: "es interface designer en @peerTransfer & Sketch-lover."
 
