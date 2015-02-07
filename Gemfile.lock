@@ -1,5 +1,5 @@
 GEM
-  remote: http://rubygems.org/
+  remote: https://rubygems.org/
   specs:
     activesupport (3.2.21)
       i18n (~> 0.6, >= 0.6.4)
@@ -108,4 +108,3 @@ DEPENDENCIES
   middleman-livereload (~> 3.1.0)
   puma
   rack-contrib
-  wdm (~> 0.1.0)
