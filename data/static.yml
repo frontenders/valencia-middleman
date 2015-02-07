@@ -41,10 +41,10 @@ event_def_text_1: "“DevOps”"
 event_def_text_2: "is a software development method that stresses communication, collaboration, and integration between software developers and Information Technology (IT) professionals"
 event_def_source_text: "Wikipedia"
 event_def_source_url: "http://en.wikipedia.org/wiki/DevOps"
-event_text_1: "Esta definición resume en muy pocas palabras lo que entendemos por <em>DevOps</em> una filosofía de trabajo entre los departamentos de desarollo, sistemas y operaciones."
+event_text_1: "Esta definición resume en muy pocas palabras lo que entendemos por <em>DevOps</em>, una filosofía de trabajo entre los departamentos de desarollo, sistemas y operaciones."
 event_text_2: "En DevOps Valencia trataremos temas relacionados con herramientas y flujos de desarollo, desde el comienzo hasta la puesta en producción de la aplicación."
-event_text_3: "En cada reunion comenzaremos con una charla tematica de aproximadamente cuarenta y cinco minutos, y los demás asistentes podran intervenir aportando sus experiecias o preguntas. El objetivo es que las charlas sean lo más dinámicas e interactivas posible."
-event_text_4: "Por eso, pedimos a todos los interesados que propongan nuevas charlas y participen activamente en los próximos meetups. Si eres desarollador, administrador de sistemas o te dedicas a las operaciones y quieres colaborar con nosotros escríbenos a"
+event_text_3: "En cada reunión comenzaremos con una charla temática de aproximadamente cuarenta y cinco minutos, y los demás asistentes podrán intervenir aportando sus experiecias o preguntas. El objetivo es que las charlas sean lo más dinámicas e interactivas posible."
+event_text_4: "Por eso, pedimos a todos los interesados que propongan nuevas charlas y participen activamente en los próximos meetups. Si eres desarollador, administrador de sistemas o te dedicas a las operaciones y quieres colaborar con nosotros, escríbenos a"
 
 # Past
 past_title: "Meetups anteriores"
