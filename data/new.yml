@@ -1,7 +1,7 @@
 meetup:
   date: "18 de febrero de 2015"
   type: "simple"
-  eventbrite: https://XXX.eventbrite.es
+  eventbrite: https://www.eventbrite.es/e/entradas-devops-valencia-15679074534
   talks:
   - title: "Empezando con Docker"
     text:
