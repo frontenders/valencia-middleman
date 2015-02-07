@@ -5,7 +5,7 @@ meetup:
   talks:
   - title: "Empezando con Docker"
     text:
-      - "En este Meetup repasaremos los sistemas de contenedores existentes y nos introduciremos en el ecosistema Docker."
+      - "En este meetup repasaremos los sistemas de contenedores existentes y nos introduciremos en el ecosistema Docker."
       - "La charla correrá a cargo de Omar López."
     author:
     - name: "Omar López"
