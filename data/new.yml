@@ -1,13 +1,12 @@
 meetup:
-  date: "8 enero 2015"
+  date: "18 de febrero de 2015"
   type: "simple"
   eventbrite: https://XXX.eventbrite.es
   talks:
   - title: "Empezando con Docker"
     text:
-      - "FIXME"
-      - "FIXME"
+      - "En este Meetup repasaremos los sistemas de contenedores existentes y nos introduciremos en el ecosistema Docker."
     author:
     - name: "Omar López"
       twitter: "olopez"
-      bio: "es sysadmin en Valenciaportpcs"
+      bio: "Es sysadmin en Valenciaportpcs una plataforma de mensajería del sector portuario. Es especialista en alta disponibilidad y escalabilidad."
