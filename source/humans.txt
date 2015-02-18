@@ -1,11 +1,12 @@
 /* TEAM - change this with your data */
-  Web Developer : Tony Camaiani
-  Site: http://tony.camaiani.me
-  Twitter: https://twitter.com/tonycamaiani
+  Jose Luis Salas - http://twitter.com/josacar
+  Omar Lopez - https://twitter.com/olopez
   Location: Valencia (Spain)
 
 /* THANKS */
-  Names (& URL):
+  Original author : Tony Camaiani - http://tony.camaiani.me
+  Original site : Frontenders - http://valencia.frontenders.me
+  Support & Ideas : A-sys list members
 
 /* SITE */
   Standards: HTML5 (HAML), CSS3 (SASS)
