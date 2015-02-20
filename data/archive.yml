@@ -6,12 +6,14 @@ meetups:
     talks:
     - title: "Empezando con Docker"
       text:
-        - "Introducción a Docker con un breve repaso de las tecnologías de contenedores anteriores a docker"
-        - ""
+        - "Introducción a Docker con un breve repaso de las tecnologías de contenedores anteriores a Docker"
+        - "Se realizo una demo en la que se desplego un contenedor NGINX"
       links:
       - url: "https://github.com/valenciadevops/meetups/tree/master/Slides/Docker"
         label: "Slides Docker"
+      - url: "https://github.com/valenciadevops/meetups/tree/master/Snippets/Docker"
+        label: "Snippets Docker"
       author:
       - name: "Omar López Limonta"
-        twitter: "@olopez"
+        twitter: "olopez"
         bio: "Administrador de sistemas en Valenciaportpcs.net"
