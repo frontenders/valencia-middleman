@@ -1,17 +1,17 @@
 meetups:
   - meetup:
     date: ""
-    hangout_url: "https://plus.google.com/u/0/events/c43la6lak11lgpo6g7q6bgumfpc"
+    hangout_url: "https://www.youtube.com/watch?v=OBgCBkP8QWA"
     type: double
     talks:
-    - title: "El primer meetup se celebrará el día 18 de febrero de 2015"
+    - title: "Empezando con Docker"
       text:
-        - ""
+        - "Introducción a Docker con un breve repaso de las tecnologías de contenedores anteriores a docker"
         - ""
       links:
-      - url: ""
-        label: ""
+      - url: "https://github.com/valenciadevops/meetups/tree/master/Slides/Docker"
+        label: "Slides Docker"
       author:
-      - name: ""
-        twitter: ""
-        bio: ""
+      - name: "Omar López Limonta"
+        twitter: "@olopez"
+        bio: "Administrador de sistemas en Valenciaportpcs.net"
