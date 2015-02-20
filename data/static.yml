@@ -28,12 +28,12 @@ main_paragraph_text_1: "En DevOps Valencia nos reunimos cada mes para compartir 
 main_paragraph_text_2: ", en Avenida Cataluña, 11 (Valencia)."
 main_paragraph_link_text: "¿Quieres saber más?"
 next_meetup: "Próximo meetup:"
-week_day: "miércoles"
+week_day: "miércoles 18 Marzo"
 day_hour: ", 19:00h"
 sponsor: "Patrocinador"
 attend_text: "Asistiré al DevOps Valencia"
 attend_subtext: "Por cuestiones de aforo nos gustaría saber el número de asistentes."
-ready: true
+ready: false
 
 # What is
 event_title: "¿Qué es DevOps Valencia?"
