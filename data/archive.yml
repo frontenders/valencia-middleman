@@ -1,5 +1,34 @@
 meetups:
   - meetup:
+    date: "12 febrero 2015"
+    type: "double"
+    hangout_url: "https://plus.google.com/u/2/b/109508156212487113138/events/c236bac6lb8tndnn3r2hjb4evo8"
+    talks:
+    - title: "Picnic CSS, explorando los límites de CSS3"
+      text:
+        - "En la charla explicaré cómo hice y lancé Picnic CSS, una librería de CSS muy ligera para acelerar la creación de páginas webs. Tuvo una gran acogida, llegando al segundo puesto de Hacker News con más de 20.000 visitas en las primeras 24 horas."
+        - "La idea surgió al no estar contento con las alternativas actuales, ya sea por el peso en kb o por la complejidad de las mismas. También me sirvió para poder explorar algunos casos que normalmente no se exploran y me parecían interesantes."
+      author:
+      - name: "Francisco Presencia Fandos"
+        twitter: "FPresencia"
+        bio: "es estudiante de Ingeniería Industrial."
+    - title: "Why I Love Sketch"
+      text:
+        - "En esta charla vamos a conocer Sketch. Un programa de edición vectorial que en muy poco tiempo se ha hecho un hueco entre los programas convencionales de diseño y que multitud de diseñadores web/interfaces han empezado a adoptar progresivamente en su trabajo diario."
+        - "Daremos un repaso a sus características más importantes desde un enfoque práctico para poder conocer todo lo que puede ofrecernos como diseñadores y hablaremos también por supuesto de sus debilidades."
+      links:
+      - url: "http://www.slideshare.net/salvafc/why-i-love-sketch"
+        label: "slides &raquo;"
+      author:
+      - name: "Salva Ferrando"
+        twitter: "salvafc"
+        bio: "es interface designer en @peerTransfer & Sketch-lover."
+    sponsor:
+      name: "SmileHunter"
+      url: "http://www.smilehunter.es/"
+      image: "logo_smilehunter.png"
+
+  - meetup:
     date: "8 enero 2015"
     type: "double"
     hangout_url: "https://plus.google.com/u/1/b/109508156212487113138/events/ctbik4gild1d54l6hsde5o302k4"
