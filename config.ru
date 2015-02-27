@@ -4,6 +4,10 @@ require "rack"
 require "middleman/rack"
 require "rack/contrib/try_static"
 
+Rollbar.configure do |config|
+  config.access_token = ENV['ROLLBAR_ACCESS_TOKEN']
+end
+
 # Build the static site when the app boots
 `bundle exec middleman build`
 

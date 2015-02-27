@@ -9,3 +9,4 @@ gem 'middleman-livereload', '~> 3.1.0', group: 'development'
 
 gem 'rack-contrib'
 gem 'puma'
+gem 'rollbar', '~> 1.4.4'
