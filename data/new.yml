@@ -1,22 +1,13 @@
 meetup:
-  date: "12 febrero 2015"
-  type: "double"
-  eventbrite: "https://www.eventbrite.es/e/entradas-frontenders-valencia-15582784528"
+  date: "12 marzo 2015"
+  type: "single"
+  eventbrite: "http://frontenders-marzo-2015.eventbrite.es"
   talks:
-  - title: "Picnic CSS, explorando los límites de CSS3"
+  - title: "Arquitectura en 3 capas y modelos ricos en AngularJS"
     text:
-      - "En la charla explicaré cómo hice y lancé Picnic CSS, una librería de CSS muy ligera para acelerar la creación de páginas webs. Tuvo una gran acogida, llegando al segundo puesto de Hacker News con más de 20.000 visitas en las primeras 24 horas."
-      - "La idea surgió al no estar contento con las alternativas actuales, ya sea por el peso en kb o por la complejidad de las mismas. También me sirvió para poder explorar algunos casos que normalmente no se exploran y me parecían interesantes."
+      - "AngularJS está de moda y todo el mundo ahora quiere hacer sus aplicaciones con él. Sin embargo debido a su corta trayectoria (aunque ya tiene 5 años)  hay una sensación de falta de ejemplos de arquitectura o patrones."
+      - "En esta charla vamos a ver la clásica arquitectura en 3 capas del backend pero aplicada al frontend con AngularJS. Además veremos como enriquecer los objetos JSON que vienen desde el servidor para así tener verdaderos modelos de negocio en el cliente."
     author:
-    - name: "Francisco Presencia Fandos"
-      twitter: "FPresencia"
-      bio: "es estudiante de Ingeniería Industrial."
-  - title: "Why I Love Sketch"
-    text:
-      - "En esta charla vamos a conocer Sketch. Un programa de edición vectorial que en muy poco tiempo se ha hecho un hueco entre los programas convencionales de diseño y que multitud de diseñadores web/interfaces han empezado a adoptar progresivamente en su trabajo diario."
-      - "Daremos un repaso a sus características más importantes desde un enfoque práctico para poder conocer todo lo que puede ofrecernos como diseñadores y hablaremos también por supuesto de sus debilidades."
-    author:
-    - name: "Salva Ferrando"
-      twitter: "salvafc"
-      bio: "es interface designer en @peerTransfer & Sketch-lover."
-
+    - name: "Lorenzo González"
+      twitter: "logongas"
+      bio: "es profesor en @CIPFPMislata con AngularJS , Spring e Hibernate."
