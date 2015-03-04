@@ -5,8 +5,8 @@ meetup:
   talks:
   - title: "Arquitectura en 3 capas y modelos ricos en AngularJS"
     text:
-      - "AngularJS está de moda y todo el mundo ahora quiere hacer sus aplicaciones con él. Sin embargo debido a su corta trayectoria (aunque ya tiene 5 años)  hay una sensación de falta de ejemplos de arquitectura o patrones."
-      - "En esta charla vamos a ver la clásica arquitectura en 3 capas del backend pero aplicada al frontend con AngularJS. Además veremos como enriquecer los objetos JSON que vienen desde el servidor para así tener verdaderos modelos de negocio en el cliente."
+      - "AngularJS está de moda y ahora todo el mundo quiere hacer sus aplicaciones con él. Sin embargo debido a su corta trayectoria (aunque ya tiene 5 años)  hay una sensación de falta de ejemplos de arquitectura o patrones."
+      - "En esta charla vamos a ver la clásica arquitectura en 3 capas del backend pero aplicada al frontend con AngularJS. Además veremos cómo enriquecer los objetos JSON que vienen desde el servidor para así tener verdaderos modelos de negocio en el cliente."
     author:
     - name: "Lorenzo González"
       twitter: "logongas"
