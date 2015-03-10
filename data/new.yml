@@ -11,3 +11,7 @@ meetup:
     - name: "Lorenzo González"
       twitter: "logongas"
       bio: "es profesor en @CIPFPMislata con AngularJS , Spring e Hibernate."
+  sponsor:
+    name: "Mindrop"
+    url: "http://careers.mindrop.com"
+    image: "logo_mindrop.png"
