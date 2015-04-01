@@ -1,5 +1,22 @@
 meetups:
   - meetup:
+    date: "12 marzo 2015"
+    type: "single"
+    hangout_url: "https://www.youtube.com/watch?v=s_m1eMOgF0U"
+    talks:
+    - title: "Arquitectura en 3 capas y modelos ricos en AngularJS"
+      text:
+        - "AngularJS está de moda y ahora todo el mundo quiere hacer sus aplicaciones con él. Sin embargo debido a su corta trayectoria (aunque ya tiene 5 años)  hay una sensación de falta de ejemplos de arquitectura o patrones."
+        - "En esta charla vamos a ver la clásica arquitectura en 3 capas del backend pero aplicada al frontend con AngularJS. Además veremos cómo enriquecer los objetos JSON que vienen desde el servidor para así tener verdaderos modelos de negocio en el cliente."
+      author:
+      - name: "Lorenzo González"
+        twitter: "logongas"
+        bio: "es profesor en @CIPFPMislata con AngularJS , Spring e Hibernate."
+    sponsor:
+      name: "Mindrop"
+      url: "http://careers.mindrop.com"
+      image: "logo_mindrop.png"
+  - meetup:
     date: "12 febrero 2015"
     type: "double"
     hangout_url: "https://plus.google.com/u/2/b/109508156212487113138/events/c236bac6lb8tndnn3r2hjb4evo8"
