@@ -8,6 +8,9 @@ meetups:
       text:
         - "AngularJS está de moda y ahora todo el mundo quiere hacer sus aplicaciones con él. Sin embargo debido a su corta trayectoria (aunque ya tiene 5 años)  hay una sensación de falta de ejemplos de arquitectura o patrones."
         - "En esta charla vamos a ver la clásica arquitectura en 3 capas del backend pero aplicada al frontend con AngularJS. Además veremos cómo enriquecer los objetos JSON que vienen desde el servidor para así tener verdaderos modelos de negocio en el cliente."
+      links:
+      - url: "http://slides.com/logongas/arquitectura-3-capas-modelos-ricos#/"
+        label: "slides &raquo;"
       author:
       - name: "Lorenzo González"
         twitter: "logongas"
