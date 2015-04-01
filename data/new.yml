@@ -1,17 +1,17 @@
 meetup:
-  date: "12 marzo 2015"
+  date: "9 abril 2015"
   type: "single"
-  eventbrite: "http://frontenders-marzo-2015.eventbrite.es"
+  eventbrite: "http://frontenders-abril-2015.eventbrite.es"
   talks:
-  - title: "Arquitectura en 3 capas y modelos ricos en AngularJS"
+  - title: "Testing en AngularJS"
     text:
-      - "AngularJS está de moda y ahora todo el mundo quiere hacer sus aplicaciones con él. Sin embargo debido a su corta trayectoria (aunque ya tiene 5 años)  hay una sensación de falta de ejemplos de arquitectura o patrones."
-      - "En esta charla vamos a ver la clásica arquitectura en 3 capas del backend pero aplicada al frontend con AngularJS. Además veremos cómo enriquecer los objetos JSON que vienen desde el servidor para así tener verdaderos modelos de negocio en el cliente."
+      - "Si AngularJS está de moda, testear también. Hablaremos de test unitarios y end-to-end(e2e) en nuestro framework de front más popular."
+      - "Veremos ejemplos para controladores, servicios, filtros, directivas... y compartiremos experiencias entre los asistentes."
     author:
-    - name: "Lorenzo González"
-      twitter: "logongas"
-      bio: "es profesor en @CIPFPMislata con AngularJS , Spring e Hibernate."
+    - name: "Tony Morellá Llácer"
+      twitter: "hynnot"
+      bio: "es Test Drive Developer en @onestic."
   sponsor:
-    name: "Mindrop"
-    url: "http://careers.mindrop.com"
-    image: "logo_mindrop.png"
+    name: ""
+    url: ""
+    image: ""
