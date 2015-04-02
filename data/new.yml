@@ -11,7 +11,7 @@ meetup:
     - name: "Tony Morellá Llácer"
       twitter: "hynnot"
       bio: "es Test Drive Developer en @onestic."
-  sponsor:
-    name: ""
-    url: ""
-    image: ""
+#  sponsor:
+#    name: ""
+#    url: ""
+#    image: ""
