@@ -1,13 +1,13 @@
 meetup:
-  date: "18 de febrero de 2015"
+  date: "15 de abril de 2015"
   type: "simple"
-  eventbrite: https://www.eventbrite.es/e/entradas-devops-valencia-15679074534
+  eventbrite: https://www.eventbrite.es/e/entradas-valencia-devops-abril-2015-16490188598
   talks:
-  - title: "Empezando con Docker"
+  - title: "ChatOps: Operations meet chat"
     text:
-      - "En este meetup repasaremos los sistemas de contenedores existentes y nos introduciremos en el ecosistema Docker."
-      - "La charla correrá a cargo de Omar López."
+      - "ChatOps es una forma de hacer operaciones en la cultura DevOps via cualquier herramienta de chat."
+      - "La charla correrá a cargo de José Luis Salas."
     author:
-    - name: "Omar López"
-      twitter: "olopez"
-      bio: "es Sysadmin en Valenciaportpcs, una plataforma de mensajería clave para el sector portuario en Valencia. Trabaja como especialista en alta disponibilidad y escalabilidad en el departamento de operaciones."
+    - name: "Jose Luis Salas"
+      twitter: "josacar"
+      bio: "es SRE en peerTransfer, un servicio que facilita el pago de matrículas de estudiantes internacionales en universidades de todo el mundo. Se encarga de la gestión de configuración, capacidad y disponibilidad de la infrastructura, además de proporcionar herramientas durante todo el ciclo de vida en el desarrollo del software."
