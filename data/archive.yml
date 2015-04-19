@@ -1,5 +1,23 @@
 meetups:
   - meetup:
+    date: "9 abril 2015"
+    type: "single"
+    hangout_url: "https://www.youtube.com/watch?v=J3yRuN0gdTU"
+    talks:
+    - title: "Testing en AngularJS"
+      text:
+        - "Si AngularJS está de moda, testear también. Hablaremos de test unitarios y end-to-end(e2e) en nuestro framework de front más popular."
+        - "Veremos ejemplos para controladores, servicios, filtros, directivas... y compartiremos experiencias entre los asistentes."
+      author:
+      - name: "Tony Morellá Llácer"
+        twitter: "hynnot"
+        bio: "es Test Drive Developer en @onestic."
+    sponsor:
+      name: "Artvisual"
+      url: "http://artvisual.net"
+      image: "logo_artvisual.png"
+
+  - meetup:
     date: "12 marzo 2015"
     type: "single"
     hangout_url: "https://www.youtube.com/watch?v=s_m1eMOgF0U"
