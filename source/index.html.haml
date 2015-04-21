@@ -22,9 +22,9 @@ ready: false
   %h2.title
     = data.static[:next_meetup]
     %time
-      = data.static[:week_day]
+      //= data.static[:week_day]
       #{date}
-      = data.static[:day_hour]
+      //= data.static[:day_hour]
 
   %section{:class => "#{type}"}
 
