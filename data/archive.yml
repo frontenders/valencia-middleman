@@ -1,5 +1,20 @@
 meetups:
   - meetup:
+    date: "15 de Abril de 2015"
+    hangout_url: "https://www.youtube.com/watch?v=Quzky823bvE"
+    type: "double"
+    talks:
+    - title: "ChatOps: Operations meet chat"
+      text:
+        - "ChatOps es una forma de hacer operaciones en la cultura DevOps via cualquier herramienta de chat."
+      links:
+      - url: "https://github.com/josacar/chatops-talk-april-15"
+        label: "Slides + sample code"
+      author:
+      - name: "Jose Luis Salas"
+        twitter: "josacar"
+        bio: "es SRE en peerTransfer, contribuidor en OSS"
+  - meetup:
     date: "18 de Febrero de 2014"
     hangout_url: "https://www.youtube.com/watch?v=OBgCBkP8QWA"
     type: double
