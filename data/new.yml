@@ -1,13 +1,13 @@
 meetup:
-  date: "20 de mayo de 2015"
+  date: "26 de mayo de 2015"
   type: "simple"
-  eventbrite: ""
+  eventbrite: "https://plus.google.com/events/ce34p5krp5332gv0gbvqt43qvt4"
   talks:
   - title: "HangOps: Monitorización"
     text:
       - "HangOps es una forma de hacer mesas redondas via Google Hangouts."
       - "Los HangOps facilitan la participación, la grabación y la publicación de la mesa redonda."
-      - "Este mes proponemos hacer un HangOps al que podréis acceder <a href='https://plus.google.com/events/cgfhtr3o12qqvksp14hnbtfoqm4'>aquí</a>"
+      - "Este mes proponemos hacer un HangOps al que podréis participar en <a href='https://plus.google.com/events/ce34p5krp5332gv0gbvqt43qvt4'>aquí</a> y ver <a href='http://youtu.be/Gs8YP7r81zM'>aquí</a>"
       - "En el HangOps discutiremos sobre los sistemas actuales de monitorización y cómo los aplicamos en nuestro entorno"
     author:
     - name: "Más info en"
