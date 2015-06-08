@@ -1,5 +1,32 @@
 meetups:
   - meetup:
+    date: "26 de mayo de 2015"
+    hangout_url: "https://www.youtube.com/watch?v=Gs8YP7r81zM"
+    type: "simple"
+    talks:
+    - title: "HangOps: Monitorización"
+      text:
+        - "HangOps es una forma de hacer mesas redondas via Google Hangouts."
+        - "Los HangOps facilitan la participación, la grabación y la publicación de la mesa redonda."
+        - "En el HangOps discutiremos sobre los sistemas actuales de monitorización y cómo los aplicamos en nuestro entorno"
+      author:
+        - name: "Jose Luis Salas"
+          twitter: "josacar"
+        - name: "Omar Lopez"
+          twitter: "olopez"
+        - name: "Vicente Dominguez"
+          twitter: "vicendominguez"
+        - name: "Francisco Lozano"
+          twitter: "flozano"
+        - name: "Javier Vela"
+          twitter: "jvdiago"
+        - name: "Pedro Raja"
+          twitter: "liric_o"
+        - name: "Jose Vicente Martinez"
+          twitter: "drowcito"
+        - name: "Cesar Saez"
+          twitter: "krizio"
+  - meetup:
     date: "15 de Abril de 2015"
     hangout_url: "https://www.youtube.com/watch?v=Quzky823bvE"
     type: "double"

@@ -1,15 +1,12 @@
 meetup:
-  date: "26 de mayo de 2015"
+  date: "17 de junio de 2015"
   type: "simple"
-  eventbrite: "https://plus.google.com/hangouts/_/hoaevent/AP36tYcMynQmYb-uSqAt19FwRZBvPfnAv3H7QwXhSohTLH6V_G0xfQ"
+  eventbrite: "https://www.eventbrite.es/e/entradas-valencia-devops-junio-2015-17304501229"
   talks:
-  - title: "HangOps: Monitorización"
+  - title: "Foreman"
     text:
-      - "HangOps es una forma de hacer mesas redondas via Google Hangouts."
-      - "Los HangOps facilitan la participación, la grabación y la publicación de la mesa redonda."
-      - "Este mes proponemos hacer un HangOps al que podréis participar en <a href='https://plus.google.com/hangouts/_/hoaevent/AP36tYcMynQmYb-uSqAt19FwRZBvPfnAv3H7QwXhSohTLH6V_G0xfQ'>aquí</a> y ver <a href='http://youtu.be/Gs8YP7r81zM'>aquí</a>"
-      - "En el HangOps discutiremos sobre los sistemas actuales de monitorización y cómo los aplicamos en nuestro entorno"
+      - "Introduction to Foreman, an application to manage the servers lifecycle, from provisioning to configuration and in the end, decommission."
     author:
-    - name: "Más info en"
-      twitter: "valenciadevops"
-      bio: ""
+    - name: "Javier Vela"
+      twitter: "jvdiago"
+      bio: "works as Linux Administrator @ UNICC"
