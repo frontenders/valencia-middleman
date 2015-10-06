@@ -5,7 +5,7 @@ meetup:
   talks:
   - title: "Monitoring 101"
     text:
-      - "Introduction to monitoring and best practices"
+      - "Introduction to monitoring theory and best practices"
     author:
     - name: "Omar Lopez"
       twitter: "olopez"
