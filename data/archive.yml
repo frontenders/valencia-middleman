@@ -1,5 +1,16 @@
 meetups:
   - meetup:
+    date: "17 de Junio de 2015"
+    hangout_url: "https://www.youtube.com/watch?v=vuQUGsVhvpU"
+    type: "simple"
+    talks:
+    - title: "Foreman"
+      text:
+        - "Introduction to Foreman, an application to manage the servers lifecycle, from provisioning to configuration and in the end, decommission."
+      author:
+        - name: "Javier Vela"
+          twitter: "jvdiago"
+  - meetup:
     date: "26 de mayo de 2015"
     hangout_url: "https://www.youtube.com/watch?v=Gs8YP7r81zM"
     type: "simple"

@@ -1,12 +1,12 @@
 meetup:
-  date: "17 de junio de 2015"
+  date: "Miércoles 14 de octubre"
   type: "simple"
-  eventbrite: "https://www.eventbrite.es/e/entradas-valencia-devops-junio-2015-17304501229"
+  eventbrite: "https://www.eventbrite.es/e/entradas-valencia-devops-octubre-2015-18951970855"
   talks:
-  - title: "Foreman"
+  - title: "Monitoring 101"
     text:
-      - "Introduction to Foreman, an application to manage the servers lifecycle, from provisioning to configuration and in the end, decommission."
+      - "Introduction to monitoring and best practices"
     author:
-    - name: "Javier Vela"
-      twitter: "jvdiago"
-      bio: "works as Linux Administrator @ UNICC"
+    - name: "Omar Lopez"
+      twitter: "olopez"
+      bio: "Works as SRE in FlyWire formely Peertransfer"
