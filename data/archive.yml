@@ -1,5 +1,16 @@
 meetups:
   - meetup:
+    date: "14 de octubre de 2015"
+    hangout_url: "https://www.youtube.com/watch?v=Ge53xxcjmgE"
+    type: "simple"
+    talks:
+    - title: "Monitoring 101"
+      text:
+        - "Introduction to monitoring principles"
+      author:
+        - name: "Javier Vela"
+          twitter: "jvdiago"
+  - meetup:
     date: "17 de Junio de 2015"
     hangout_url: "https://www.youtube.com/watch?v=vuQUGsVhvpU"
     type: "simple"

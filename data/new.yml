@@ -1,12 +1,12 @@
 meetup:
-  date: "Miércoles 14 de octubre"
+  date: "30 de noviembre"
   type: "simple"
-  eventbrite: "https://www.eventbrite.es/e/entradas-valencia-devops-octubre-2015-18951970855"
+  eventbrite: "https://www.eventbrite.es/e/entradas-valencia-devops-noviembre-2015-19572455742"
   talks:
-  - title: "Monitoring 101"
+  - title: "SSL/TLS and digital certificates"
     text:
-      - "Introduction to monitoring theory and best practices"
+      - "En esta charla,  se repasarán los principios básicos de una PKI , conceptos relacionados con certificados digitales y usos prácticos."
     author:
-    - name: "Omar Lopez"
-      twitter: "olopez"
-      bio: "Works as SRE in FlyWire formerly Peertransfer"
+    - name: "Cesar Saez"
+      twitter: ""
+      bio: "Sysadmin"
