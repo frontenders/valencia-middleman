@@ -8,8 +8,8 @@ meetups:
       text:
         - "Introduction to monitoring principles"
       author:
-        - name: "Javier Vela"
-          twitter: "jvdiago"
+        - name: "Omar Lopez"
+          twitter: "olopez"
   - meetup:
     date: "17 de Junio de 2015"
     hangout_url: "https://www.youtube.com/watch?v=vuQUGsVhvpU"
