@@ -1,3 +1,17 @@
+  - meetup:
+    date: "30 de Noviembre de 2015"
+    hangout_url: "https://www.youtube.com/watch?v=xxxxxx"
+    type: "double"
+    talks:
+    - title: "SSL/TLS and digital certificates"
+      text:
+        - "Repaso a conceptos básicos de una PKI y conceptos relacionados con certificados digitales y usos prácticos."
+      links:
+      - url: "https://github.com/cesarsaez/meetups/blob/master/Slides/certificates/digital_certificantes_SSL_TLS.pdf"
+        label: "Slides"
+      author:
+      - name: "Cesar Saez"
+        twitter: "krizio"
 meetups:
   - meetup:
     date: "14 de octubre de 2015"
