@@ -1,3 +1,4 @@
+meetups:
   - meetup:
     date: "30 de Noviembre de 2015"
     hangout_url: "https://youtu.be/xkipgsvlb68"
@@ -12,7 +13,6 @@
       author:
       - name: "Cesar Saez"
         twitter: "krizio"
-meetups:
   - meetup:
     date: "14 de octubre de 2015"
     hangout_url: "https://www.youtube.com/watch?v=Ge53xxcjmgE"
