@@ -1,7 +1,7 @@
 meetup:
   date: "19 de Abril de 2016"
   type: "simple"
-  eventbrite: "https://www.eventbrite.es/e/entradas-valencia-devops-noviembre-2015-19572455742"
+  eventbrite: "https://www.eventbrite.es/e/entradas-valencia-devops-abril-2015-24396470500?ref=estw"
   talks:
   - title: "Consul, introduccion al descubrimiento de servicios"
     text:
