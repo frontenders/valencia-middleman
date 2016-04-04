@@ -1,12 +1,12 @@
 meetup:
-  date: "30 de noviembre"
+  date: "19 de Abril de 2016"
   type: "simple"
   eventbrite: "https://www.eventbrite.es/e/entradas-valencia-devops-noviembre-2015-19572455742"
   talks:
-  - title: "SSL/TLS and digital certificates"
+  - title: "Consul, introduccion al descubrimiento de servicios"
     text:
-      - "En esta charla,  se repasarán los principios básicos de una PKI , conceptos relacionados con certificados digitales y usos prácticos."
+      - "En esta charla/workshop, daremos un breve repaso al descurbirmiento de servicios en un sistema distribuido, mediante el software de Hashicorp Consul. Posteriormente intentaremos plasmar lo aprendido, para ello, lo mejor es que traigas tu PC y una cuenta de Digital Ocean con saldo suficiente para arrancar una instancia de Docker por un par de horas."
     author:
-    - name: "Cesar Saez"
-      twitter: ""
-      bio: "Sysadmin"
+    - name: "Omar Lopez"
+      twitter: "olopez"
+      bio: "SRE Flywire"
