@@ -1,5 +1,19 @@
 meetups:
   - meetup:
+    date: "19 de Abril de 2016"
+    hangout_url: "https://www.youtube.com/watch?v=fucVZVeqx3U"
+    type: "double"
+    talks:
+    - title: "Consul, introduccion al descubrimiento de servicios"
+      text:
+        - "En esta charla/workshop, daremos un breve repaso al descurbirmiento de servicios en un sistema distribuido, mediante el software de Hashicorp Consul. Posteriormente intentaremos plasmar lo aprendido, para ello, lo mejor es que traigas tu PC y una cuenta de Digital Ocean con saldo suficiente para arrancar una instancia de Docker por un par de horas"
+      links:
+      - url: "https://github.com/cesarsaez/meetups/blob/master/Slides/certificates/digital_certificantes_SSL_TLS.pdf"
+        label: "Slides"
+      author:
+      - name: "Omar Lopez"
+        twitter: "olopez"
+  - meetup:
     date: "30 de Noviembre de 2015"
     hangout_url: "https://youtu.be/xkipgsvlb68"
     type: "double"

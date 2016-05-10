@@ -1,12 +1,12 @@
 meetup:
-  date: "19 de Abril de 2016"
+  date: "18 de Mayo de 2016"
   type: "simple"
-  eventbrite: "https://www.eventbrite.es/e/entradas-valencia-devops-abril-2015-24396470500?ref=estw"
+  eventbrite: "https://www.eventbrite.es/e/entradas-valencia-devops-mayo-2016-25346026648"
   talks:
-  - title: "Consul, introduccion al descubrimiento de servicios"
+  - title: "Simple CI/CD with Strider"
     text:
-      - "En esta charla/workshop, daremos un breve repaso al descurbirmiento de servicios en un sistema distribuido, mediante el software de Hashicorp Consul. Posteriormente intentaremos plasmar lo aprendido, para ello, lo mejor es que traigas tu PC y una cuenta de Digital Ocean con saldo suficiente para arrancar una instancia de Docker por un par de horas."
+      - "Strider-CD is a CD/CI platform based on node.js and MongoDB and we are going to walk trough all it's functionalities by doing an installation from scratch. As use example, we will build and test some Opensource projects"
     author:
-    - name: "Omar Lopez"
-      twitter: "olopez"
-      bio: "SRE Flywire"
+    - name: "David Lluna"
+      twitter: "llunatweets"
+      bio: "CTO en Hiphunters, Maker y aprendiz de padre."
