@@ -1,5 +1,5 @@
 /* TEAM - change this with your data */
-  Jose Luis Salas - http://twitter.com/josacar
+  Jose Luis Salas - https://twitter.com/josacar
   Omar Lopez - https://twitter.com/olopez
   Location: Valencia (Spain)
 
