@@ -3,11 +3,11 @@ meetup:
   type: "simple"
   eventbrite: "https://www.meetup.com/Valencia-DevOps/events/231740104/"
   talks:
-  - title: "Desplegando con Saltstack"
-    text:
-      - "Esta edición del evento la celebremos en las oficinas de Onestic. Más información en la página del meetup"
-      - "Contaremos nuestra experiencia creando un cloud público totalmente automatizado para Cofares, donde ellos gestionan el ciclo completo de vida de los servidores. Desde la creación, despliegue de código y cargas de datos, pasando por el mantenimiento y finalizando con la destrucción. Todo ello orquestado usando Saltstack y salt cloud."
-    author:
-    - name: "José Vicente Blasco"
-      twitter: "onestic"
-      bio: "es Sysadmin en Onestic"
+    - title: "Desplegando con <a href='https://saltstack.com/' target='_blank'>Saltstack</a>"
+      text:
+        - "Esta edición del evento la celebremos en las oficinas de Onestic. Más información en la página del meetup"
+        - "Contaremos nuestra experiencia creando un cloud público totalmente automatizado para Cofares, donde ellos gestionan el ciclo completo de vida de los servidores. Desde la creación, despliegue de código y cargas de datos, pasando por el mantenimiento y finalizando con la destrucción. Todo ello orquestado usando Saltstack y salt cloud."
+      author:
+      - name: "José Vicente Blasco"
+        twitter: "onestic"
+        bio: "es Sysadmin en Onestic"
