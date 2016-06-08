@@ -1,12 +1,13 @@
 meetup:
-  date: "18 de Mayo de 2016"
+  date: "16 de Junio de 2016"
   type: "simple"
-  eventbrite: "https://www.eventbrite.es/e/entradas-valencia-devops-mayo-2016-25346026648"
+  eventbrite: "https://www.meetup.com/Valencia-DevOps/events/231740104/"
   talks:
-  - title: "Simple CI/CD with Strider"
+  - title: "Desplegando con Saltstack"
     text:
-      - "Strider-CD is a CD/CI platform based on node.js and MongoDB and we are going to walk trough all it's functionalities by doing an installation from scratch. As use example, we will build and test some Opensource projects"
+      - "Esta edición del evento la celebremos en las oficinas de Onestic. Más información en la página del meetup"
+      - "Contaremos nuestra experiencia creando un cloud público totalmente automatizado para Cofares, donde ellos gestionan el ciclo completo de vida de los servidores. Desde la creación, despliegue de código y cargas de datos, pasando por el mantenimiento y finalizando con la destrucción. Todo ello orquestado usando Saltstack y salt cloud."
     author:
-    - name: "David Lluna"
-      twitter: "llunatweets"
-      bio: "CTO en Hiphunters, Maker y aprendiz de padre."
+    - name: "José Vicente Blasco"
+      twitter: "onestic"
+      bio: "es Sysadmin en Onestic"

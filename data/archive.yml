@@ -1,5 +1,17 @@
 meetups:
   - meetup:
+    date: "18 de Mayo de 2016"
+    hangout_url: "https://www.youtube.com/watch?v=-fpB6NjSjyU"
+    type: "double"
+    talks:
+    - title: "Simple CI/CD with Strider"
+      text:
+        - "Strider-CD is a CD/CI platform based on node.js and MongoDB and we are going to walk trough all it's functionalities by doing an installation from scratch. As use example, we will build and test some Opensource projects"
+      author:
+      - name: "David Lluna"
+        twitter: "llunatweets"
+        bio: "CTO en Hiphunters, Maker y aprendiz de padre."
+  - meetup:
     date: "19 de Abril de 2016"
     hangout_url: "https://www.youtube.com/watch?v=fucVZVeqx3U"
     type: "double"
