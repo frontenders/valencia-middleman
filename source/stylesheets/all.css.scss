@@ -183,18 +183,19 @@ footer {
       text-align: center;
       p { margin: 5px 0; }
       &.last { margin: 0; }
-      h3 { font-weight: 600; margin: 0 0 8px 0; }
+      h3 { font-weight: 400; margin: 0 0 10px 0; }
 
     } // div
   } // fgroup
 } // footer
 
 a.partner {
-    background: url(/images/partners/logo_geekshubs.png) no-repeat top left;
-    width: 61px;
-    height: 80px;
+    background: url(/images/partners/logo_flywire.png) no-repeat top left;
+    width: 98px;
+    height: 36px;
     display: block;
     margin: 0 auto;
+		background-size: 98px 36px;
   }
 
 .hangout {

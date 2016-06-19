@@ -1,17 +1,20 @@
 meetup:
-  date: "9 abril 2015"
+  date: "22 de junio de 2016"
   type: "single"
-  eventbrite: "http://frontenders-abril-2015.eventbrite.es"
+  eventbrite: "http://www.meetup.com/es-ES/UX-Academy-Valencia/events/231617263/"
   talks:
-  - title: "Testing en AngularJS"
+  - title: "Diseñando para millones de usuarios"
     text:
-      - "Si AngularJS está de moda, testear también. Hablaremos de test unitarios y end-to-end(e2e) en nuestro framework de front más popular."
-      - "Veremos ejemplos para controladores, servicios, filtros, directivas... y compartiremos experiencias entre los asistentes."
+      - Gracias al éxito del anterior MeetUp, Frontenders Valencia y <a target="_blank" href="http://www.meetup.com/es-ES/UX-Academy-Valencia/events/231617263/">UX Academy</a> nos volvemos a unir para presentar a <strong>Pau Giner, diseñador UX en Wikipedia</strong>.
+      - El <strong>proceso de diseño</strong> nos permite encontrar soluciones que respondan a la necesidades de nuestros usuarios.
+      - Proyectos como <strong>Wikipedia</strong> se desarrollan en un entorno abierto y alcanzan millones de usuarios en distintos contextos.
+      - Esto <strong>supone un desafío a la hora de integrar en nuestros diseños</strong> los comportamientos observados, metricas, diversidad de puntos de vista y otras formas de feedback.
+      - Tras aplicar el proceso de diseño en distintas <strong>herramientas de Wikipedia</strong>, pretendemos discutir las buenas prácticas y lecciones aprendidas. Compartiremos perspectivas que <strong>nos ayudarán a diseñar mejores productos ya sean destinados a unos pocos o millones de usuarios</strong>.
     author:
-    - name: "Tony Morellá Llácer"
-      twitter: "hynnot"
-      bio: "es Test Drive Developer en @onestic."
+    - name: "Pau Giner"
+      twitter: "pauginer"
+      bio: "es UX Designer en la Wikimedia Foundation."
   sponsor:
-    name: "Artvisual"
-    url: "http://artvisual.net"
-    image: "logo_artvisual.png"
+    name: "Flywire"
+    url: "http://flywire.com"
+    image: "logo_flywire.png"
