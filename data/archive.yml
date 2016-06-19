@@ -1,5 +1,26 @@
 meetups:
   - meetup:
+    date: "1 de junio de 2016"
+    type: "single"
+    hangout_url: "https://youtu.be/1buuHofF7Eo"
+    talks:
+    - title: "¿Eres Peter Parker o Spiderman?"
+      text:
+        - "Taller co-organizado con <a href='http://www.meetup.com/es-ES/UX-Academy-Valencia/'>UX Academy Valencia</a> en el cual <strong>Raquel Gálvez</strong> y <strong>Cristina Serrano</strong>, fundadoras y parte del equipo de <strong>YADEMAS Thinking Mates</strong>, nos invitan a imaginar la mejor experiencia de usuario en un Meetup de UX."
+        - "Más información y fotos en la <a href='http://www.meetup.com/es-ES/UX-Academy-Valencia/events/231331633/'>página del evento de UX Academy</a>."
+      author:
+      - name: "Raquel Gálvez"
+        twitter: "RaquelGalvezO"
+        bio: "es Cofounder y directora de proyectos en @yademasthinking."
+      - name: "Cristina Serrano"
+        twitter: "LaOtra_Cristina"
+        bio: "es Cofounder y CEO en @yademasthinking."
+    sponsor:
+      name: "YADEMAS Thinking Mates"
+      url: "http://yademas.com/"
+      image: "logo_yademas.png"
+
+  - meetup:
     date: "9 abril 2015"
     type: "single"
     hangout_url: "https://www.youtube.com/watch?v=J3yRuN0gdTU"
