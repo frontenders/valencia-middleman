@@ -1,13 +1,12 @@
 meetup:
-  date: "16 de Junio de 2016"
+  date: "14 de Diciembre de 2016"
   type: "simple"
-  eventbrite: "https://www.meetup.com/Valencia-DevOps/events/231740104/"
+  eventbrite: "http://meetu.ps/33gXd1"
   talks:
-    - title: "Desplegando con <a href='https://saltstack.com/' target='_blank'>Saltstack</a>"
+    - title: "The state of the (cloud native application) industry and what VMware is doing in the space”"
       text:
-        - "Esta edición del evento la celebremos en las oficinas de Onestic. Más información en la página del meetup"
-        - "Contaremos nuestra experiencia creando un cloud público totalmente automatizado para Cofares, donde ellos gestionan el ciclo completo de vida de los servidores. Desde la creación, despliegue de código y cargas de datos, pasando por el mantenimiento y finalizando con la destrucción. Todo ello orquestado usando Saltstack y salt cloud."
+        - "We will start talking about the state of the cloud native applications industry (vendors, projects, frictions etc) and we will then dive a little bit deeper into what projects Vmware is working on to solve problems in that space. Most if not all of the projects presented are open source and already available for people to play with. The projects we will cover (with various degrees of details) are: vSphere Integrated Containers, Harbor and Admiral, Photon Platform. "
       author:
-      - name: "David Bolufer & José Vicente Blasco"
-        twitter: "onestic"
-        bio: "son Sysadmin en Onestic"
+      - name: "Massimo Re Ferre "
+        twitter: "mreferre"
+        bio: "Massimo is a Staff SE with VMware. He is a Technical Product Manager working in the Cloud Native Applications Business Unit. For about 20 years, he specialized on the x86 ecosystems starting with Operating Systems, Virtualization technologies and lately he has been head down learning about Cloud and how application architectures are evolving in that space."
