@@ -299,12 +299,12 @@ footer {
 // footer
 
 a.partner {
-	background: url("/images/partners/logo_flywire.png") no-repeat top left;
+	background: url("/images/sponsors/flywire-logo.svg") no-repeat top left;
 	width: 98px;
 	height: 36px;
 	display: block;
 	margin: 0 auto;
-	background-size: 98px 36px;
+	background-size: contain;
 }
 
 .hangout {
