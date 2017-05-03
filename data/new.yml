@@ -3,9 +3,11 @@ meetup:
   type: "single"
   eventbrite: "https://www.eventbrite.es/e/entradas-frontenders-valencia-mayo-css-grid-34118431146"
   talks:
-  - title: "CSS Grid"
+  - title: "CSS Grid: Lo que debes saber"
     text:
-      - CSS Grid ya está aquí, descubre cómo crear tus layouts de la mano de Juan Andrés Núñez, @juanwmedia en twitter.
+      - GRID Layout es la nueva especificación CSS y supone una vuelta de tuerca a la manera de representar y configurar layouts en la Web.
+      - Con GRID podemos crear rejillas en el pripio CSS y redefinir completamente su estructura y composición con un simple Media Query, adaptándose a cualquier contexto.
+      - Como cualquier tecnología nueva, GRID puede parecer confuso e intimidante al principio, por eso en esta charla voy a recorrer los aspectos clave para que tu, como profesional interactivo, salgas sabiendo todo lo que debes saber sobre CSS GRID.
     author:
     - name: "Juan Andrés Núñez"
       twitter: "juanwmedia"
