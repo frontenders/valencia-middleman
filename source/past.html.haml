@@ -32,4 +32,4 @@ title: Los eventos anteriores
       - if m.sponsor
         %div
           %h3= data.static[:sponsor]
-          = link_to image_tag("sponsors/"+m.sponsor[:image]), m.sponsor[:url], :title => m.sponsor[:name], :target=> "_blank"
+          = link_to image_tag("sponsors/"+m.sponsor[:image], :width => 160, :height => 'auto', :alt => m.sponsor[:name]), m.sponsor[:url], :title => m.sponsor[:name], :target=> "_blank"

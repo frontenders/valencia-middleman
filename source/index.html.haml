@@ -37,7 +37,7 @@ ready: true
           - f.author.each do |t|
             %p.speaker
               - if t[:image]
-                = image_tag("speakers/"+t[:image], :class => 'speaker-image')
+                = image_tag("speakers/"+t[:image], :class => 'speaker-image', :width => 40, :height => 'auto')
               %span
                 = t[:name]
                 = twitter_url(t[:twitter])
@@ -46,7 +46,7 @@ ready: true
     - if homepage.sponsor
       %div
         %h3= data.static[:sponsor]
-        = link_to image_tag("sponsors/"+homepage.sponsor[:image], :width => 120), homepage.sponsor[:url], :title => homepage.sponsor[:name], :target => "_blank"
+        = link_to image_tag("sponsors/"+homepage.sponsor[:image], :width => 160, :height => 'auto'), homepage.sponsor[:url], :title => homepage.sponsor[:name], :target => "_blank"
 
     - if active
       .call_to_action
