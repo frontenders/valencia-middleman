@@ -1,12 +1,10 @@
 source 'https://rubygems.org'
 
-ruby '2.3.3'
+ruby '2.4.1'
 
-gem 'middleman', '~>3.2.2'
-
+gem 'middleman', '~> 4.2.1'
 # Live-reloading plugin
-gem 'middleman-livereload', '~> 3.1.0', group: 'development'
-
-gem 'rack-contrib'
+# gem 'middleman-livereload', '~> 3.1.0', group: 'development'
 gem 'puma'
+gem 'rack-contrib'
 gem 'rollbar'

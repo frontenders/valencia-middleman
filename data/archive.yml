@@ -1,5 +1,19 @@
 meetups:
   - meetup:
+    date: "19 de Abril de 2017"
+    type: "simple"
+    eventbrite: "http://meetu.ps/38l6yP"
+    talks:
+      - title: "Kubernetes Immersion"
+        text:
+          - "Kubernetes seems to be the biggest buzz word currently in the DevOps world. The Google designed container orchestrator based in their 10+ years of experience running production applications using containers seems to have positioned as the market leader.
+  Open source, available in both Google Cloud and Azure container platforms or as a custom installation, it is ready to receive production loads.
+  During this talk we will discover how does Kubernetes works, its architecture, what components compose a Kubernetes cluster. We will also learn what objects can a developer use to deploy its applications on a Kubernetes cluster. We will see a live demo where we will deploy an application and then introduce changes to it without any downtime."
+        author:
+        - name: "Juan Larriba"
+          twitter: "compilemymind"
+          bio: "He is working as a DevOps engineer in everis innovation lab, where he struggles to improve software development methodology using containers and orchestrators."
+  - meetup:
     date: "14 de Diciembre de 2016"
     type: "simple"
     eventbrite: ""
