@@ -1,6 +1,22 @@
 meetups:
   - meetup:
+    date: "13 de Junio de 2017"
+    hangout_url: "https://youtu.be/p0mQuWtJkBE"
+    type: "simple"
+    eventbrite: "http://meetu.ps/39cwzr"
+    talks:
+      - title: "Prometheus is good for your small startup"
+        text:
+          - "ShuttleCloud is a small startup specialized in email and contacts migrations. We developed a reliable migration platform in high availability used by clients like Gmail, GContacts and Comcast. For example, Gmail alone has imported data for 3 million users with our API and we process hundreds of terabytes every month."
+          - "In this talk we’ll explain our journey from having near-zero monitoring to having all of our infrastructure monitored with the necessary metrics and alerts. We will share with the audience some of the mistakes we did and what lessons we have learned. We currently have around 200 instances monitored with a comfortable cost-effective in-house monitoring stack based on Prometheus."
+          - "We want to demonstrate that you don’t need to have a big fleet to embrace Prometheus and that it is a non-expensive solution for monitoring."
+        author:
+        - name: "Nacho Pérez Carretero"
+          twitter: "carretops"
+          bio: "He is working as a software engineer in ShuttleCloud."
+  - meetup:
     date: "19 de Abril de 2017"
+    hangout_url: "https://youtu.be/069LkKL93U4"
     type: "simple"
     eventbrite: "http://meetu.ps/38l6yP"
     talks:
@@ -15,6 +31,7 @@ meetups:
           bio: "He is working as a DevOps engineer in everis innovation lab, where he struggles to improve software development methodology using containers and orchestrators."
   - meetup:
     date: "14 de Diciembre de 2016"
+    hangout_url: "https://youtu.be/kzW-PnrKPCA"
     type: "simple"
     eventbrite: ""
     talks:
