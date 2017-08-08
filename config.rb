@@ -79,4 +79,7 @@ configure :build do
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
+
+  # Use custom assets host to point to CDN or S3
+  activate :asset_host, host: "//#{ENV['ASSET_HOST']}" if ENV['ASSET_HOST']
 end
