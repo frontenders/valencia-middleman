@@ -1,0 +1,6 @@
+/javascripts/*
+  Cache-Control: public, must-revalidate
+/images/*
+  Cache-Control: public, must-revalidate
+/stylesheets/*
+  Cache-Control: public, must-revalidate
