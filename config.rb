@@ -82,4 +82,5 @@ configure :build do
 
   # Use custom assets host to point to CDN or S3
   activate :asset_host, host: "//#{ENV['ASSET_HOST']}" if ENV['ASSET_HOST']
+  activate :gzip
 end
