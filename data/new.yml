@@ -1,14 +1,14 @@
 meetup:
-  date: "13 de Junio de 2017"
+  date: "13 de Septiembre de 2017"
   type: "simple"
-  eventbrite: "http://meetu.ps/39cwzr"
+  eventbrite: "https://www.meetup.com/Valencia-DevOps/events/242760836/"
   talks:
-    - title: "Prometheus is good for your small startup"
+    - title: "Desarrollo de aplicaciones con Openshift"
       text:
-        - "ShuttleCloud is a small startup specialized in email and contacts migrations. We developed a reliable migration platform in high availability used by clients like Gmail, GContacts and Comcast. For example, Gmail alone has imported data for 3 million users with our API and we process hundreds of terabytes every month."
-        - "In this talk we’ll explain our journey from having near-zero monitoring to having all of our infrastructure monitored with the necessary metrics and alerts. We will share with the audience some of the mistakes we did and what lessons we have learned. We currently have around 200 instances monitored with a comfortable cost-effective in-house monitoring stack based on Prometheus."
-        - "We want to demonstrate that you don’t need to have a big fleet to embrace Prometheus and that it is a non-expensive solution for monitoring."
+        - "La charla pretende mostrar el uso de la plataforma como servicio (PaaS)  Openshift Origin desde el punto de vista de un desarrollador."
+        - "Se mostrará cómo realizar la instalación de un entorno local de desarrollo bajo Openshift, en el que se partirá de una aplicación existente a la que se le harán modificaciones y se desplegará en contendores."
+        - "Además, se mostrará como desplegar esa aplicación en otro cluster diferente, donde se realizará la promoción automática (o no) entre entornos hasta su despliegue final en producción. Este despliegue se mostrará usando distintos métodos: A/B, Blue-Green y Canary."
       author:
-      - name: "Nacho Pérez Carretero"
-        twitter: "carretops"
-        bio: "He is working as a software engineer in ShuttleCloud."
+      - name: "Sergio Garcia"
+        twitter: "Soukron"
+        bio: "Sergio trabaja actualmente como cloud architect en Red Hat"
