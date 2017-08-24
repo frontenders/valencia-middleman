@@ -1,5 +1,20 @@
 meetups:
   - meetup:
+    date: "12 de Septiembre de 2017"
+    hangout_url: "https://youtu.be/p9rdVKJd85w"
+    type: "simple"
+    eventbrite: "https://www.meetup.com/Valencia-DevOps/events/242760836/"
+    talks:
+      - title: "Desarrollo de aplicaciones con Openshift"
+        text:
+          - "La charla pretende mostrar el uso de la plataforma como servicio (PaaS)  Openshift Origin desde el punto de vista de un desarrollador."
+          - "Se mostrará cómo realizar la instalación de un entorno local de desarrollo bajo Openshift, en el que se partirá de una aplicación existente a la que se le harán modificaciones y se desplegará en contendores."
+          - "Además, se mostrará como desplegar esa aplicación en otro cluster diferente, donde se realizará la promoción automática (o no) entre entornos hasta su despliegue final en producción. Este despliegue se mostrará usando distintos métodos: A/B, Blue-Green y Canary."
+        author:
+        - name: "Sergio Garcia"
+          twitter: "Soukron"
+          bio: "Sergio trabaja actualmente como cloud architect en Red Hat"
+  - meetup:
     date: "13 de Junio de 2017"
     hangout_url: "https://youtu.be/p0mQuWtJkBE"
     type: "simple"
