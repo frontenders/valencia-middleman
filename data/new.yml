@@ -1,14 +1,14 @@
 meetup:
-  date: "12 de Septiembre de 2017"
+  date: "24 de Octubre de 2017"
   type: "simple"
-  eventbrite: "https://www.meetup.com/Valencia-DevOps/events/242760836/"
+  eventbrite: "https://www.meetup.com/preview/Valencia-DevOps/events/243513619/"
   talks:
-    - title: "Desarrollo de aplicaciones con Openshift"
+    - title: "Terraform, gestiona tu infraestructura como código"
       text:
-        - "La charla pretende mostrar el uso de la plataforma como servicio (PaaS)  Openshift Origin desde el punto de vista de un desarrollador."
-        - "Se mostrará cómo realizar la instalación de un entorno local de desarrollo bajo Openshift, en el que se partirá de una aplicación existente a la que se le harán modificaciones y se desplegará en contendores."
-        - "Además, se mostrará como desplegar esa aplicación en otro cluster diferente, donde se realizará la promoción automática (o no) entre entornos hasta su despliegue final en producción. Este despliegue se mostrará usando distintos métodos: A/B, Blue-Green y Canary."
+        - "Infraestructura como código (IaC) es una de las prácticas esenciales promovidas por la cultura DevOps."
+        - "En esta charla veremos una introducción a Terraform, una herramienta que proporciona una capa de abastraccion flexible sobre multiples proveedores y servicios ( AWS, Google Cloud, Azure, etc ... )"
+        - "Mostraremos algunos ejemplos prácticos de cómo se está usando Terraform para gestionar infraestructura"
+
       author:
-      - name: "Sergio Garcia"
-        twitter: "Soukron"
-        bio: "Sergio trabaja actualmente como cloud architect en Red Hat"
+      - name: "Paco Sánchez & David Lluna"
+        bio: "Paco y David trabajan actualmente como SRE en Flywire"
