@@ -10,5 +10,9 @@ meetup:
         - "Mostraremos algunos ejemplos prácticos de cómo se está usando Terraform para gestionar infraestructura"
 
       author:
-      - name: "Paco Sánchez & David Lluna"
-        bio: "Paco y David trabajan actualmente como SRE en Flywire"
+      - name: "Paco Sánchez"
+        twitter: "Paco_S"
+        bio: "Paco trabaja actualmente como SRE en Flywire"
+      - name: "David Lluna"
+        twitter: "llunatweets"
+        bio: "David trabaja actualmente como SRE en Flywire"
