@@ -33,7 +33,7 @@ day_hour: ", 19:00h"
 sponsor: "Flywire"
 attend_text: "Asistiré al DevOps Valencia"
 attend_subtext: "Por cuestiones de aforo nos gustaría saber el número de asistentes."
-ready: false
+ready: true
 
 # What is
 event_title: "¿Qué es DevOps Valencia?"
