@@ -15,3 +15,7 @@ Authors:
 Contributors:
 - Salva Ferrando
 - Cesar Saez
+
+#### Developing
+
+`NO_CONTRACTS=true bundle exec middleman serve`
