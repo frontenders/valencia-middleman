@@ -1,5 +1,21 @@
 meetups:
   - meetup:
+    date: "20 de Febrero de 2019"
+    hangout_url: "https://youtu.be/9PA5AvL7bBo"
+    type: "simple"
+    eventbrite: "https://www.meetup.com/Valencia-DevOps/events/258935632/"
+    talks:
+      - title: "DevOps, una visión amplia"
+        text:
+          - "En esta ocasión contaremos con Jacobo García, fundador de la primera comunidad DevOps en España, cuenta con 12 años de experiencia trabajando en departamentos de operaciones en empresas como Cabify, BeBanjo o DNSimple."
+          - "En esta charla nos explicara su vision personal del concepto DevOPS."
+          - "Jacobo ha creado un curso donde en 16 semanas detalla que es DevOPS. Flywire concederá una beca para este curso entre los miembros de la comunidad."
+
+        author:
+        - name: "Jacobo García López de Araujo"
+          twitter: "quantum_flexor"
+          bio: ""
+  - meetup:
     date: "20 de Marzo de 2018"
     hangout_url: "http://youtu.be/hh7_RZtqrrU"
     type: "simple"
