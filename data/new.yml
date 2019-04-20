@@ -1,17 +1,14 @@
 meetup:
-  date: "20 de Marzo de 2018"
+  date: "16 de Mayo de 2019"
   type: "simple"
-  eventbrite: "https://www.meetup.com/Valencia-DevOps/events/247865159/"
+  eventbrite: "http://meetu.ps/e/GFHhL/t4kZZ/f"
   talks:
-    - title: "2gether - A modern architecture to replace the traditional banking system"
+    - title: "Running containers in the cloud without Kubernetes"
       text:
-        - "2gether es una plataforma basada en Big Data, Inteligencia Artificial, Machine Learning y Blockchain que pretende reemplazar la estructura bancaria tradicional. Permite a los usuarios y empresas administrar automáticamente su economía personal utilizando una interfaz de usuario única y acceder a un mercado de productos y servicios financieros proporcionados por Fintech y bancos de todo el mundo."
-        - "Tecnologías como Ethereum, Docker, Kubernetes, Spring Cloud, Spark y un largo etc.. han sido usadas para construirlo."
-        - "En este Meetup explicaremos como hemos usados estas herramientas y qué decisiones hemos debido tomar para crear una plataforma tan ambiciosa como es 2gether."
+        - "Why running containers in the cloud without Kubernetes? Kubernetes as any distributed system is complex and it has an operational costs. Can we save that complexity and operational cost with smaller or managed alternatives? Can cloud providers manage that complexity for us? Omar will talk about Fargate and Cloud Run as alternatives to Kubernetes to handle container workload in production."
+        - "Session will be in Spanish"
 
       author:
-      - name: "Rafael Ríos Moya"
-        twitter: "ganchix"
-        bio: "Arquitecto de software apasionado por el impacto de la tecnología en el mundo. Ha trabajado en varios proyectos que involucran la creación de un producto. Debido a esta amplia experiencia tiene conocimientos en arquitecturas basadas en microservicios, arquitecturas orientadas a servicios, arquitecturas distribuidas y gestión de infraestructura."
-      - name: "Víctor Dertiano"
-        bio: "Víctor arrastra una una trayectoria de más de 10 años de experiencia en el sector del Business Intelligence, habiendo vivido la transición tecnológica desde sus primeros planteamientos hasta la llegada de las nuevas tecnologías BigData. Apasionado por los nuevos paradigmas tecnológicos, se encuentra inmerso en 2getherbank."
+      - name: "Omar Lopez"
+        twitter: "olopez"
+        bio: "SRE at Flywire"
